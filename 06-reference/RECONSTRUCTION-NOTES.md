@@ -1,6 +1,6 @@
 # Reconstruction notes
 
-Reference: AndHub Engineering Brand Identity Board.png, supplied by the user.
+Reference: [AndHub Engineering Brand Identity Board.png](../docs/AndHub%20Engineering%20Brand%20Identity%20Board.png), supplied by the user. The [asset-pack source copy](Supplied-Brand-Identity-Board.png) is retained here. A [companion concept board](../docs/ANDHUB%20Engineering%20Logo%20Concept%20Board.png) and [the full proposed guide](../docs/guidelines.html) are linked from the [documentation index](../docs/index.html).
 
 ## Preserved
 - Angular, three-part symbol with a split blue left face, central ribbon and green right face.
@@ -20,6 +20,6 @@ Reference: AndHub Engineering Brand Identity Board.png, supplied by the user.
 - Spacing, divider treatment and artboards are internally consistent proposed standards, not recovered original construction measurements.
 
 ## Quality checks
-The build checks SVG syntax, missing external dependencies, outlined text, raster dimensions/alpha, each ICO's embedded sizes and internal HTML references. Representative large, small, light, dark and monochrome variants are also visually inspected. Web media-query and app-icon compatibility still need verification in the actual deployment environment.
+The original asset-pack review reported checks of SVG syntax, external dependencies, outlined text, raster dimensions/alpha and ICO sizes. Its historical result is retained in [the QA report](QA-REPORT.json). The current static-site check validates links, anchors, document discovery, manifest paths and the SHA-256 hashes and sizes of all 494 indexed artwork files. It does not repeat the original raster/ICO visual or structural audit. Representative website behavior is reviewed separately; platform-specific app-icon behavior still needs verification in its actual target environment.
 
 RGB artwork only; no CMYK or spot-color conversion is represented. No font files are distributed.

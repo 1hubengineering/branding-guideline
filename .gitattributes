@@ -1,0 +1,2 @@
+# Preserve byte-exact SVG artwork for asset-manifest.json checksum validation.
+*.svg -text

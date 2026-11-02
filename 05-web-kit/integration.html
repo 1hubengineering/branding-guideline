@@ -18,7 +18,7 @@
 <p>ANDHUB ENGINEERING PLC / WEB ASSETS</p><h1>One logo. Light and dark surfaces.</h1>
 <p>This example uses fixed-theme assets with CSS switching, including an explicit theme override. It has no external dependencies.</p>
 <div class="buttons"><button type="button" onclick="document.documentElement.removeAttribute('data-theme')">System theme</button><button type="button" onclick="document.documentElement.dataset.theme='light'">Light</button><button type="button" onclick="document.documentElement.dataset.theme='dark'">Dark</button></div>
-<div class="sample"><a href="#" aria-label="AndHub Engineering PLC home">
+<div class="sample"><a href="../index.html" aria-label="AndHub Engineering PLC brand guidelines home">
 <img class="ah-brand-logo ah-logo-light" src="../01-svg/horizontal/andhub-horizontal-gradient-light.svg" width="1096" height="338" alt="AndHub Engineering PLC">
 <img class="ah-brand-logo ah-logo-dark" src="../01-svg/horizontal/andhub-horizontal-gradient-dark.svg" width="1096" height="338" alt="AndHub Engineering PLC">
 </a></div>
@@ -26,8 +26,9 @@
 <div class="sample"><img class="ah-brand-logo ah-logo-light" src="../01-svg/compact/andhub-compact-gradient-light.svg" width="825" height="240" alt="AndHub Engineering PLC"><img class="ah-brand-logo ah-logo-dark" src="../01-svg/compact/andhub-compact-gradient-dark.svg" width="825" height="240" alt="AndHub Engineering PLC"></div>
 <h2>Automatic SVG alternative</h2><p>The files in <code>auto-theme/</code> use an internal <code>prefers-color-scheme</code> media query. Use fixed-theme files for print, email, or applications that do not support SVG media queries. For a website-controlled theme, the explicit CSS method above is preferable.</p>
 <h2>Before deploying</h2><p>Update asset paths and the manifest's <code>id</code>, <code>start_url</code>, and <code>scope</code> to match your site. This manifest supplies icon metadata; it is not a complete installable application or service worker. Preview the actual site in target browsers and operating systems.</p>
-<pre>&lt;link rel="icon" href="/brand/favicon.ico" sizes="any"&gt;
-&lt;link rel="icon" href="/brand/favicon.svg" type="image/svg+xml"&gt;
-&lt;link rel="apple-touch-icon" href="/brand/apple-touch-icon.png"&gt;
-&lt;link rel="manifest" href="/brand/site.webmanifest"&gt;</pre>
-<p><a href="../index.html">Return to the asset gallery</a></p></body></html>
+<pre>&lt;!-- From the project root; retain relative paths on GitHub Pages. --&gt;
+&lt;link rel="icon" href="05-web-kit/favicon.ico" sizes="any"&gt;
+&lt;link rel="icon" href="05-web-kit/favicon.svg" type="image/svg+xml"&gt;
+&lt;link rel="apple-touch-icon" href="05-web-kit/apple-touch-icon.png"&gt;
+&lt;link rel="manifest" href="05-web-kit/site.webmanifest"&gt;</pre>
+<p><a href="../index.html">Return to the brand guidelines</a> · <a href="../assets.html">Logo asset gallery</a> · <a href="../docs/index.html">Documentation</a></p></body></html>

@@ -1,9 +1,62 @@
-# AndHub Engineering PLC — Logo Asset Pack v1
+# AndHub Engineering PLC — Brand Guidelines & Asset Library
+
+[**Live brand guide**](https://1hubengineering.github.io/branding-guideline/) · [Complete web edition](docs/guidelines.html) · [Documentation index](docs/index.html) · [Logo library](assets.html)
+
+The static website brings the proposed brand standards, original guideline documents, reconstructed logo pack, reference boards and motion assets into one browsable library. All site paths are relative so it works at the GitHub Pages project URL and on a local server. No runtime framework, external fonts, analytics or backend is required.
+
+## Read and download
+
+| Resource | Link |
+|---|---|
+| Brand guide home | [index.html](index.html) |
+| Full guide, including illustrations and references | [Web edition](docs/guidelines.html) |
+| Original guide | [PDF](docs/AndHub_Engineering_Brand_Guidelines_v1.pdf) · [Editable DOCX](docs/AndHub_Engineering_Brand_Guidelines_v1.docx) |
+| Implementation tokens | [Brand starter CSS](docs/AndHub_Brand_Tokens_v1.css) |
+| Source references | [Identity board](docs/AndHub%20Engineering%20Brand%20Identity%20Board.png) · [Concept board](docs/ANDHUB%20Engineering%20Logo%20Concept%20Board.png) |
+| Motion assets | [Video downloads](docs/index.html#videos) |
+| Logo and icon downloads | [Asset gallery](assets.html) · [CSV inventory](asset-manifest.csv) · [JSON inventory](asset-manifest.json) |
+| Production context | [Reconstruction notes](06-reference/RECONSTRUCTION-NOTES.md) · [QA report](06-reference/QA-REPORT.json) |
+
+The original PDF and DOCX predate the reconstructed asset pack. Their references to vector masters describe the requirements at that time. The web edition retains the source text and explains that reconstructed masters now exist and still require brand-owner approval. This website does not change the proposed status of the brand standards.
+
+## Develop and validate
+
+Use Node.js 22 or newer. No dependency installation is needed.
+
+```powershell
+npm run build
+npm run preview
+```
+
+Open `http://127.0.0.1:4173/branding-guideline/`. The preview serves the packaged `_site/` directory under the same project path as GitHub Pages. Rebuild after edits.
+
+`npm run check` verifies local links and anchors, filename case, CSS imports, web manifest paths, image alternatives, document discoverability, JSON/CSV inventory agreement, and all 494 artwork SHA-256 hashes. It fails on missing downloads or project-breaking root-relative links. External source URLs are listed but not network-checked by this command.
+
+To refresh the full web guide after editing the DOCX, run the converter in PowerShell, then review its output and rebuild:
+
+```powershell
+pwsh -File scripts/export-guidelines.ps1
+npm run build
+```
+
+The converter preserves the document's text, tables, illustrations and external hyperlinks. Generated `docs/guidelines.html` and `docs/guide-images/` are tracked so normal builds work on any platform without PowerShell. Keep the original PDF in step with approved document changes. Update the home-page summary and token CSS when standards change.
+
+## GitHub Pages
+
+The repository is [1hubengineering/branding-guideline](https://github.com/1hubengineering/branding-guideline). Pages publishes directly from **`main` / repository root**. The root `.nojekyll` file enables ordinary static-file hosting. GitHub republishes the site after pushes to `main`; run `npm run check` before pushing because branch publishing does not run the local validator.
+
+The authenticated GitHub CLI token has `repo` access but lacks the `workflow` scope required to upload active Actions workflows. Branch publishing works with its existing access. An inactive [Actions workflow example](https://github.com/1hubengineering/branding-guideline/blob/main/.github/pages-workflow.example.yml) is retained for a future switch: with an appropriately scoped credential, move it into `.github/workflows/pages.yml` and set the Pages publishing source to GitHub Actions. That alternative validates pull requests and deploys the explicit public-file bundle defined in [the build script](https://github.com/1hubengineering/branding-guideline/blob/main/scripts/build-site.mjs). `_site/` is a local preview/package directory and is ignored by Git.
+
+Site URL: [https://1hubengineering.github.io/branding-guideline/](https://1hubengineering.github.io/branding-guideline/).
+
+The web manifest resolves `id`, `start_url` and `scope` from `05-web-kit/` to the project root using `../`. Copying the web kit into another project requires reviewing these paths, icon locations and site metadata. See [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Logo Asset Pack v1
 
 Reconstructed from the supplied brand identity board · 2 November 2026
 
 ## Start here
-Open **index.html** in a browser to view and download individual assets. It works locally with no external services. The preview sheet is in **06-reference/AndHub_Asset_Preview.png**. Ready-to-use default files are in **00-start-here/**.
+Open the [brand guide](index.html) or go directly to the [asset gallery](assets.html) to view and download individual assets. Both work locally with no external services. The [preview sheet](06-reference/AndHub_Asset_Preview.png) provides an overview. Ready-to-use default files are in **00-start-here/**.
 
 This is a clean vector reconstruction, not the recovery of the original designer's vector file. The primary symbol and custom ANDHUB lettering were manually rebuilt from the board. Supporting text was rebuilt with outlined Inter Display lettering. Curves, spacing, gradients, and alternate layouts were normalized to make a consistent asset family. Review these details before adopting the reconstruction as the approved master.
 
@@ -18,6 +71,8 @@ This is a clean vector reconstruction, not the recovery of the original designer
 | 04-icons | Transparent icons, multi-size ICO and ICNS files, square app icons and avatars |
 | 05-web-kit | Auto-theme SVGs, favicon files, Apple touch icon, manifest template and integration example |
 | 06-reference | Preview sheet, source board and reconstruction notes |
+| docs | Full web guide, original PDF/DOCX, CSS tokens, identity boards and brand videos |
+| site | Shared website styling and progressive interactions |
 | asset-manifest.csv / .json | Machine-readable list of generated artwork files and dimensions |
 | brand-spec.json | Palette, layouts, theme definitions and export conventions |
 
@@ -72,7 +127,7 @@ At 16 px the narrow negative spaces are necessarily delicate. Review the tiny ve
 
 ## Web integration and theme support
 
-Open **05-web-kit/integration.html** for a working theme-switching demo. It uses fixed-theme SVGs with CSS and an explicit light/dark override.
+Open the [web integration demo](05-web-kit/integration.html) for working theme switching. It uses fixed-theme SVGs with CSS and an explicit light/dark override.
 
 The **auto-theme/** SVGs use an internal prefers-color-scheme media query. They default to light-surface artwork when the renderer does not support that feature. Use fixed-theme files in design applications, office documents, email and print. Automatic theme selection alone cannot infer the actual background of every component; ensure the surrounding surface matches the chosen artwork.
 

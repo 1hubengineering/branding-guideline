@@ -1,0 +1,11 @@
+{
+  "name": "andhub-brand-guidelines",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-site.mjs",
+    "build": "node scripts/check-site.mjs && node scripts/build-site.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,25 +1,60 @@
 {
   "status": "PASS",
+  "review_date": "2026-11-02",
   "indexed_artwork_files": 494,
-  "all_file_extensions": {
-    ".json": 3,
-    ".csv": 1,
-    ".md": 2,
-    ".html": 2,
-    ".svg": 86,
-    ".png": 333,
-    ".ico": 13,
-    ".webmanifest": 1,
-    ".css": 1,
-    ".jpg": 60,
-    ".icns": 4
+  "original_asset_pack_report": {
+    "status": "PASS",
+    "indexed_artwork_files": 494,
+    "all_file_extensions": {
+      ".json": 3,
+      ".csv": 1,
+      ".md": 2,
+      ".html": 2,
+      ".svg": 86,
+      ".png": 333,
+      ".ico": 13,
+      ".webmanifest": 1,
+      ".css": 1,
+      ".jpg": 60,
+      ".icns": 4
+    },
+    "errors": [],
+    "warnings": [],
+    "visual_review": "Representative primary, horizontal, monochrome, app-icon and 16 px exports inspected separately.",
+    "not_verified": [
+      "Brand-owner approval of the reconstruction",
+      "All target browser and app-store behavior",
+      "Press-specific print separations and proofs"
+    ]
   },
-  "errors": [],
-  "warnings": [],
-  "visual_review": "Representative primary, horizontal, monochrome, app-icon and 16 px exports inspected separately.",
+  "static_site_validation": {
+    "status": "PASS",
+    "public_files": 530,
+    "html_pages": 5,
+    "local_references_checked": 906,
+    "artwork_hashes_verified": 494,
+    "external_links_listed": 10,
+    "errors": []
+  },
+  "browser_review": {
+    "status": "PASS",
+    "browser": "Chromium 1248",
+    "checks": [
+      "Logo surfaces switch all four previews and matching SVG downloads",
+      "Palette copy writes the exact HEX value and announces feedback",
+      "Home has no horizontal overflow at 320, 390, 768, 1024 and 1440 CSS px",
+      "Mobile navigation deep-links, closes after selection, restores visible focus and supports Escape",
+      "Gallery filters from 56 configurations to eight matching themes and resets",
+      "Full DOCX transcription contains 17 chapters plus cover, 34 tables, eight illustrations and four external source links",
+      "Integration demo supports explicit light/dark overrides and system dark mode",
+      "PDF is served as application/pdf and video supports byte-range playback"
+    ],
+    "errors": []
+  },
   "not_verified": [
-    "Brand-owner approval of the reconstruction",
-    "All target browser and app-store behavior",
+    "Brand-owner approval of the reconstruction and proposed standards",
+    "Every browser, operating system, assistive technology and app-store behavior",
     "Press-specific print separations and proofs"
-  ]
+  ],
+  "maintenance": "Run npm run check for current automated results. Original asset review and browser review are dated snapshots, not assertions that later changes were reviewed."
 }
