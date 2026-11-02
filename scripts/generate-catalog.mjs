@@ -61,6 +61,16 @@ for (const artwork of registry.assets) {
   await addFile(resource, path, label, artwork);
 }
 
+const legacy = JSON.parse(await readFile('assets/legacy/legacy-assets.json', 'utf8'));
+for (const input of legacy.resources) {
+  const resource = { ...input, files: [] };
+  resources.push(resource);
+  for (const file of input.files) await addFile(resource, file.path, file.label);
+}
+const archiveGuide = group('legacy-archive-guide', { name: 'Legacy / Archive guide & original-file inventory', category: 'documents', status: 'legacy', recommended: false,
+  description: 'Historical asset notes, original filenames and checksums. Current logo masters and company details take precedence.', preview: null, tags: ['legacy', 'old', 'archive', 'inventory'] });
+for (const path of ['assets/legacy/README.md','assets/legacy/legacy-assets.json']) await addFile(archiveGuide, path, basename(path));
+
 for (const folder of ['assets/images', 'assets/reference', 'assets/documents', 'assets/web-kit', 'assets/fonts', 'assets/videos']) {
   for (const path of await walk(folder)) {
     if (included.has(path)) continue;
@@ -118,7 +128,7 @@ for (const path of await walk('assets/ai')) {
   await addFile(resource, path, basename(path));
 }
 const order = ['logos', 'icons', 'images', 'fonts', 'videos', 'documents', 'templates', 'qr', 'ai'];
-resources.sort((a, b) => order.indexOf(a.category) - order.indexOf(b.category) || Number(!!b.recommended) - Number(!!a.recommended) || a.name.localeCompare(b.name));
+resources.sort((a, b) => order.indexOf(a.category) - order.indexOf(b.category) || Number(a.status==='legacy') - Number(b.status==='legacy') || Number(!!b.recommended) - Number(!!a.recommended) || a.name.localeCompare(b.name));
 const resourceIndex = { version: 2, brand: brand.name, resources: resources.map(({ id, name, category, description, preview, status, recommended, files }) => ({ id, name, category, description, preview, ...(status ? { status, recommended } : {}), files: files.map(({ path, format, label }) => ({ path, format, label })) })) };
 await writeFile('assets/ai/resource-index.json', JSON.stringify(resourceIndex, null, 2) + '\n');
 const indexResource = resources.find(resource => resource.files.some(file => file.path === 'assets/ai/resource-index.json'));
@@ -138,6 +148,11 @@ for (const category of order) {
   await writeFile(path, bytes);
   bundles.push({ category, path, label: `Download ${category} ZIP`, bytes: bytes.length, file_count: contents.length, sha256: createHash('sha256').update(bytes).digest('hex') });
 }
+const archivePaths = resources.filter(resource=>resource.status==='legacy').flatMap(resource=>resource.files.map(file=>file.path));
+const archiveContents = await Promise.all([...new Set(archivePaths)].map(async path=>({name:path,data:await readFile(path)})));
+const archiveBytes=zip(archiveContents),archivePath='assets/downloads/legacy.zip';
+await writeFile(archivePath,archiveBytes);
+bundles.push({category:'legacy',path:archivePath,label:'Download legacy archive ZIP',bytes:archiveBytes.length,file_count:archiveContents.length,sha256:createHash('sha256').update(archiveBytes).digest('hex')});
 const catalog = { version: 2, brand: brand.name, generated_from: 'scripts/generate-catalog.mjs', resources, bundles,
   total_files: resources.reduce((sum, item) => sum + item.files.length, 0), contact: brand };
 await writeFile('assets/catalog.json', JSON.stringify(catalog, null, 2) + '\n');

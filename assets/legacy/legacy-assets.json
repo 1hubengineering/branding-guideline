@@ -1,0 +1,268 @@
+{
+  "status": "legacy",
+  "source_folder": "assets/images/reference/temp",
+  "resources": [
+    {
+      "id": "legacy-metallic-logo",
+      "name": "Legacy / Metallic logo on navy",
+      "category": "logos",
+      "description": "Old raster logo with a metallic finish and navy background. Historical reference, not the current logo master.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "old logo",
+        "metallic",
+        "navy"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/logos/metallic-logo-navy.jpg",
+          "format": "jpg",
+          "label": "Old logo / JPG",
+          "original_file": "assets/images/reference/temp/5992331663100285680.jpg",
+          "bytes": 95913,
+          "sha256": "6e17ea330e46e64ef0f1d3059a2777fdead468e484652f31b395760b0faba44f"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/logos/metallic-logo-navy.jpg"
+    },
+    {
+      "id": "legacy-card-angular",
+      "name": "Legacy / Angular business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "angular",
+        "blue"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-angular-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252751.jpg",
+          "bytes": 66599,
+          "sha256": "1ba68f6b058225cb8def2a923dc25bf04f3042a2844a89125736f18428098ed6"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-angular-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252752.jpg",
+          "bytes": 59220,
+          "sha256": "720440456723971d0beed09f5dc570f45a5ace447ff4dbba65d5859ed790a88a"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-angular-front.jpg"
+    },
+    {
+      "id": "legacy-card-ribbon",
+      "name": "Legacy / Light ribbon business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "ribbon",
+        "light"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252754.jpg",
+          "bytes": 58036,
+          "sha256": "b7a09f22b64bbfdfad573c83db4848fa80850de84b040e57bbe78e5c420871d8"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252753.jpg",
+          "bytes": 51749,
+          "sha256": "07fc9216dee33b090cb0298752df1e73448cfea8f022b8ef84b436cdfd9afa51"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-ribbon-front.jpg"
+    },
+    {
+      "id": "legacy-card-circuit",
+      "name": "Legacy / Circuit business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "circuit",
+        "blue"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-circuit-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252770.jpg",
+          "bytes": 78660,
+          "sha256": "13430ccb6263d454fd7f673dee15b037b7ec0f462e12a419c965b2dec95e1bcf"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-circuit-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252772.jpg",
+          "bytes": 89091,
+          "sha256": "72e4258b9889d884604f863d51477b8b59c229ef915b62d9aa2224b40deae2a4"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-circuit-front.jpg"
+    },
+    {
+      "id": "legacy-card-rounded",
+      "name": "Legacy / Rounded business-card mockup",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "rounded",
+        "mockup"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-rounded-front.jpg",
+          "format": "jpg",
+          "label": "Front mockup / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252775.jpg",
+          "bytes": 122496,
+          "sha256": "7047cbe0cb181ae46d3ea6f7d43a5069400e4990a3faa7ec2b30ced7e3e0ce70"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-rounded-back.jpg",
+          "format": "jpg",
+          "label": "Back mockup / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252774.jpg",
+          "bytes": 109401,
+          "sha256": "d3266aa1640a45095eec129e8c69d772e303f6eb734070f68ceddadcb1fdd1e6"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-rounded-front.jpg"
+    },
+    {
+      "id": "legacy-brochure",
+      "name": "Legacy / Three-panel brochure",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "brochure",
+        "three-panel",
+        "trifold"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/brochure-outside.jpg",
+          "format": "jpg",
+          "label": "Outside / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252859.jpg",
+          "bytes": 223643,
+          "sha256": "1fd5550b1b050f7c7261611d25a4f71d008364aba4df1647fbad781255f9dd9e"
+        },
+        {
+          "path": "assets/legacy/templates/brochure-inside.jpg",
+          "format": "jpg",
+          "label": "Inside / JPG",
+          "original_file": "assets/images/reference/temp/5996771095916252858.jpg",
+          "bytes": 218078,
+          "sha256": "719968acea8b2423edad1764d9d5b6d3fc62db72277753427e50fd928ead1dfc"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/brochure-outside.jpg"
+    },
+    {
+      "id": "legacy-identity-board",
+      "name": "Legacy / Brand identity mockup board",
+      "category": "images",
+      "description": "Historical identity board showing an earlier logo, color treatments and application mockups. Reference image, not a production master.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "identity board",
+        "logo concepts"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/boards/brand-identity-mockup.png",
+          "format": "png",
+          "label": "Identity mockup board / PNG",
+          "original_file": "assets/images/reference/temp/ANDHUB Engineering Brand Identity Mockup.png",
+          "bytes": 1257267,
+          "sha256": "8b095f17017755769ac11c1638aad517b178e2aeeb61ab379e428c321cd168f9"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/boards/brand-identity-mockup.png"
+    },
+    {
+      "id": "legacy-concept-board",
+      "name": "Legacy / Logo concept exploration board",
+      "category": "images",
+      "description": "Historical exploration board with multiple logo directions and application ideas. Reference image, not a set of approved logo masters.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "concept board",
+        "logo concepts"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/boards/logo-concept-board.png",
+          "format": "png",
+          "label": "Logo concept board / PNG",
+          "original_file": "assets/images/reference/temp/AndHub Engineering Logo Concept Board.png",
+          "bytes": 1664002,
+          "sha256": "fe86191800af887c159ec875c9c3b46f43af84ab0ffd6b6b8e1ffd19c6e206cb"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/boards/logo-concept-board.png"
+    }
+  ]
+}

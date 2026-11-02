@@ -2274,6 +2274,22 @@
       ]
     },
     {
+      "id": "legacy-metallic-logo",
+      "name": "Legacy / Metallic logo on navy",
+      "category": "logos",
+      "description": "Old raster logo with a metallic finish and navy background. Historical reference, not the current logo master.",
+      "preview": "assets/legacy/logos/metallic-logo-navy.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/logos/metallic-logo-navy.jpg",
+          "format": "jpg",
+          "label": "Old logo / JPG"
+        }
+      ]
+    },
+    {
       "id": "icons-app-black",
       "name": "App icon & avatar / Black",
       "category": "icons",
@@ -3353,6 +3369,38 @@
       ]
     },
     {
+      "id": "legacy-identity-board",
+      "name": "Legacy / Brand identity mockup board",
+      "category": "images",
+      "description": "Historical identity board showing an earlier logo, color treatments and application mockups. Reference image, not a production master.",
+      "preview": "assets/legacy/boards/brand-identity-mockup.png",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/boards/brand-identity-mockup.png",
+          "format": "png",
+          "label": "Identity mockup board / PNG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-concept-board",
+      "name": "Legacy / Logo concept exploration board",
+      "category": "images",
+      "description": "Historical exploration board with multiple logo directions and application ideas. Reference image, not a set of approved logo masters.",
+      "preview": "assets/legacy/boards/logo-concept-board.png",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/boards/logo-concept-board.png",
+          "format": "png",
+          "label": "Logo concept board / PNG"
+        }
+      ]
+    },
+    {
       "id": "fonts-inter",
       "name": "Inter variable font family",
       "category": "fonts",
@@ -3796,6 +3844,27 @@
       ]
     },
     {
+      "id": "legacy-archive-guide",
+      "name": "Legacy / Archive guide & original-file inventory",
+      "category": "documents",
+      "description": "Historical asset notes, original filenames and checksums. Current logo masters and company details take precedence.",
+      "preview": null,
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/README.md",
+          "format": "md",
+          "label": "README.md"
+        },
+        {
+          "path": "assets/legacy/legacy-assets.json",
+          "format": "json",
+          "label": "legacy-assets.json"
+        }
+      ]
+    },
+    {
       "id": "business-card-rehoboth",
       "name": "Business card / Dr. Rehoboth Bekele",
       "category": "templates",
@@ -4148,6 +4217,111 @@
           "path": "assets/templates/web-banner.jpg",
           "format": "jpg",
           "label": "JPG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-card-angular",
+      "name": "Legacy / Angular business card",
+      "category": "templates",
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-angular-front.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-angular-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-angular-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-card-circuit",
+      "name": "Legacy / Circuit business card",
+      "category": "templates",
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-circuit-front.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-circuit-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-circuit-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-card-ribbon",
+      "name": "Legacy / Light ribbon business card",
+      "category": "templates",
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-ribbon-front.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-card-rounded",
+      "name": "Legacy / Rounded business-card mockup",
+      "category": "templates",
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-rounded-front.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-rounded-front.jpg",
+          "format": "jpg",
+          "label": "Front mockup / JPG"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-rounded-back.jpg",
+          "format": "jpg",
+          "label": "Back mockup / JPG"
+        }
+      ]
+    },
+    {
+      "id": "legacy-brochure",
+      "name": "Legacy / Three-panel brochure",
+      "category": "templates",
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/brochure-outside.jpg",
+      "status": "legacy",
+      "recommended": false,
+      "files": [
+        {
+          "path": "assets/legacy/templates/brochure-outside.jpg",
+          "format": "jpg",
+          "label": "Outside / JPG"
+        },
+        {
+          "path": "assets/legacy/templates/brochure-inside.jpg",
+          "format": "jpg",
+          "label": "Inside / JPG"
         }
       ]
     },

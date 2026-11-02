@@ -29,13 +29,13 @@
   },
   "static_site_validation": {
     "status": "PASS",
-    "public_files": 681,
+    "public_files": 698,
     "html_pages": 16,
-    "local_references_checked": 1571,
+    "local_references_checked": 1605,
     "artwork_hashes_verified": 494,
-    "catalog_resources": 149,
-    "catalog_files_verified": 649,
-    "category_zip_bundles": 9,
+    "catalog_resources": 158,
+    "catalog_files_verified": 664,
+    "category_zip_bundles": 10,
     "external_links_listed": 38,
     "errors": []
   },
@@ -305,5 +305,19 @@
       "experimental": 12
     },
     "ai_context": "Primary animation and experimental status verified in structured context and MCP results"
+  },
+  "legacy_review": {
+    "status": "PASS",
+    "original_files": 13,
+    "resource_families": 8,
+    "archive_zip_entries": 15,
+    "checks": [
+      "Original SHA-256 hashes preserved after descriptive renaming",
+      "Every original extracted from the ZIP hashes to its source inventory record",
+      "Gallery previews and front/back downloads work",
+      "Current resources appear before legacy resources",
+      "Legacy gallery fits 320, 390 and 1440 CSS px",
+      "Original filenames and historical limitations are documented"
+    ]
   }
 }

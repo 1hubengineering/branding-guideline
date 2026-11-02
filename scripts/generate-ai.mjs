@@ -80,6 +80,7 @@ const context = {
     layouts: Object.entries(spec.layouts).map(([id, details]) => ({ id, ...details })),
     treatments: Object.entries(spec.themes).map(([id, details]) => ({ id, ...details })),
     usage: [
+      'Resources marked legacy are old logos, raster mockups or historical boards. Use current masters and company data for new work; use legacy resources when historical material is requested.',
       'Use the supplied logo artwork. Keep its proportions, color order and internal negative spaces intact.',
       'Choose light/dark artwork for the actual surrounding surface; use a mono treatment for true one-color output.',
       'Clear space of one quarter of the visible symbol height is a proposed starting standard; verify the chosen reconstructed master.',

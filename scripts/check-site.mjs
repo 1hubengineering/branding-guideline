@@ -92,7 +92,7 @@ for (const bundle of catalog.bundles) {
   const bytes = await readFile(join(root, bundle.path));
   if (bytes.length !== bundle.bytes || createHash('sha256').update(bytes).digest('hex') !== bundle.sha256) errors.push(`Stale ZIP bundle: ${bundle.path}`);
 }
-for (const resourceFolder of ['documents', 'images', 'videos', 'fonts', 'logos', 'icons', 'web-kit', 'reference', 'templates', 'qr', 'ai']) {
+for (const resourceFolder of ['documents', 'images', 'videos', 'fonts', 'logos', 'icons', 'web-kit', 'reference', 'templates', 'qr', 'ai', 'legacy']) {
   for (const file of await walk(join(root, 'assets', resourceFolder))) {
     const path = relative(root, file).replaceAll('\\', '/');
     if (!catalogPaths.has(path) && !/\/(?:templates|qr-codes)\.json$/.test(path)) errors.push(`Resource missing from gallery: ${path}`);

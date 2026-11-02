@@ -4159,6 +4159,33 @@
       ]
     },
     {
+      "id": "legacy-metallic-logo",
+      "name": "Legacy / Metallic logo on navy",
+      "category": "logos",
+      "description": "Old raster logo with a metallic finish and navy background. Historical reference, not the current logo master.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "old logo",
+        "metallic",
+        "navy"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/logos/metallic-logo-navy.jpg",
+          "format": "jpg",
+          "label": "Old logo / JPG",
+          "bytes": 95913,
+          "sha256": "6e17ea330e46e64ef0f1d3059a2777fdead468e484652f31b395760b0faba44f"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/logos/metallic-logo-navy.jpg"
+    },
+    {
       "id": "icons-app-black",
       "name": "App icon & avatar / Black",
       "category": "icons",
@@ -6034,6 +6061,58 @@
       ]
     },
     {
+      "id": "legacy-identity-board",
+      "name": "Legacy / Brand identity mockup board",
+      "category": "images",
+      "description": "Historical identity board showing an earlier logo, color treatments and application mockups. Reference image, not a production master.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "identity board",
+        "logo concepts"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/boards/brand-identity-mockup.png",
+          "format": "png",
+          "label": "Identity mockup board / PNG",
+          "bytes": 1257267,
+          "sha256": "8b095f17017755769ac11c1638aad517b178e2aeeb61ab379e428c321cd168f9"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/boards/brand-identity-mockup.png"
+    },
+    {
+      "id": "legacy-concept-board",
+      "name": "Legacy / Logo concept exploration board",
+      "category": "images",
+      "description": "Historical exploration board with multiple logo directions and application ideas. Reference image, not a set of approved logo masters.",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "concept board",
+        "logo concepts"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/boards/logo-concept-board.png",
+          "format": "png",
+          "label": "Logo concept board / PNG",
+          "bytes": 1664002,
+          "sha256": "fe86191800af887c159ec875c9c3b46f43af84ab0ffd6b6b8e1ffd19c6e206cb"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "preview": "assets/legacy/boards/logo-concept-board.png"
+    },
+    {
       "id": "fonts-inter",
       "name": "Inter variable font family",
       "category": "fonts",
@@ -6574,8 +6653,8 @@
           "path": "assets/reference/QA-REPORT.json",
           "format": "json",
           "label": "QA-REPORT.json",
-          "bytes": 8417,
-          "sha256": "17c4b194ee716cc6289c91252dcb888de87d2c3d7b3e92417494291ba29c3757"
+          "bytes": 8965,
+          "sha256": "268903b1f9726897f0853204a5ced4e39971ff0911b5849d9c1c7e463afea0d4"
         }
       ]
     },
@@ -6696,6 +6775,37 @@
           "label": "site.webmanifest",
           "bytes": 797,
           "sha256": "d64491efe10972e5976f667fe94ea7cb780585332b03108dafa391b392014fb4"
+        }
+      ]
+    },
+    {
+      "id": "legacy-archive-guide",
+      "name": "Legacy / Archive guide & original-file inventory",
+      "category": "documents",
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical asset notes, original filenames and checksums. Current logo masters and company details take precedence.",
+      "preview": null,
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "inventory"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/README.md",
+          "format": "md",
+          "label": "README.md",
+          "bytes": 848,
+          "sha256": "164d253607fc10b2e42f5796e67172d4e8b5b26bb4959548dca3ec964416bad9"
+        },
+        {
+          "path": "assets/legacy/legacy-assets.json",
+          "format": "json",
+          "label": "legacy-assets.json",
+          "bytes": 9786,
+          "sha256": "866faa635a9cf46a437434dbaea7db91eaf51a06c89b5033aa1174fe535990be"
         }
       ]
     },
@@ -7270,6 +7380,176 @@
         "mmWidth": 508,
         "mmHeight": 169.333
       }
+    },
+    {
+      "id": "legacy-card-angular",
+      "name": "Legacy / Angular business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "angular",
+        "blue"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-angular-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "bytes": 66599,
+          "sha256": "1ba68f6b058225cb8def2a923dc25bf04f3042a2844a89125736f18428098ed6"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-angular-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "bytes": 59220,
+          "sha256": "720440456723971d0beed09f5dc570f45a5ace447ff4dbba65d5859ed790a88a"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-angular-front.jpg"
+    },
+    {
+      "id": "legacy-card-circuit",
+      "name": "Legacy / Circuit business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "circuit",
+        "blue"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-circuit-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "bytes": 78660,
+          "sha256": "13430ccb6263d454fd7f673dee15b037b7ec0f462e12a419c965b2dec95e1bcf"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-circuit-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "bytes": 89091,
+          "sha256": "72e4258b9889d884604f863d51477b8b59c229ef915b62d9aa2224b40deae2a4"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-circuit-front.jpg"
+    },
+    {
+      "id": "legacy-card-ribbon",
+      "name": "Legacy / Light ribbon business card",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "ribbon",
+        "light"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-front.jpg",
+          "format": "jpg",
+          "label": "Front / JPG",
+          "bytes": 58036,
+          "sha256": "b7a09f22b64bbfdfad573c83db4848fa80850de84b040e57bbe78e5c420871d8"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-ribbon-back.jpg",
+          "format": "jpg",
+          "label": "Back / JPG",
+          "bytes": 51749,
+          "sha256": "07fc9216dee33b090cb0298752df1e73448cfea8f022b8ef84b436cdfd9afa51"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-ribbon-front.jpg"
+    },
+    {
+      "id": "legacy-card-rounded",
+      "name": "Legacy / Rounded business-card mockup",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "business card",
+        "rounded",
+        "mockup"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/business-card-rounded-front.jpg",
+          "format": "jpg",
+          "label": "Front mockup / JPG",
+          "bytes": 122496,
+          "sha256": "7047cbe0cb181ae46d3ea6f7d43a5069400e4990a3faa7ec2b30ced7e3e0ce70"
+        },
+        {
+          "path": "assets/legacy/templates/business-card-rounded-back.jpg",
+          "format": "jpg",
+          "label": "Back mockup / JPG",
+          "bytes": 109401,
+          "sha256": "d3266aa1640a45095eec129e8c69d772e303f6eb734070f68ceddadcb1fdd1e6"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/business-card-rounded-front.jpg"
+    },
+    {
+      "id": "legacy-brochure",
+      "name": "Legacy / Three-panel brochure",
+      "category": "templates",
+      "tags": [
+        "legacy",
+        "old",
+        "archive",
+        "historical",
+        "brochure",
+        "three-panel",
+        "trifold"
+      ],
+      "files": [
+        {
+          "path": "assets/legacy/templates/brochure-outside.jpg",
+          "format": "jpg",
+          "label": "Outside / JPG",
+          "bytes": 223643,
+          "sha256": "1fd5550b1b050f7c7261611d25a4f71d008364aba4df1647fbad781255f9dd9e"
+        },
+        {
+          "path": "assets/legacy/templates/brochure-inside.jpg",
+          "format": "jpg",
+          "label": "Inside / JPG",
+          "bytes": 218078,
+          "sha256": "719968acea8b2423edad1764d9d5b6d3fc62db72277753427e50fd928ead1dfc"
+        }
+      ],
+      "status": "legacy",
+      "recommended": false,
+      "description": "Historical raster design mockup. Original contact details, spelling and placeholders may be outdated. JPG reference only, not an editable or print-ready template; use current company data for new work.",
+      "preview": "assets/legacy/templates/brochure-outside.jpg"
     },
     {
       "id": "company-contact",
@@ -7912,8 +8192,8 @@
           "path": "assets/ai/brand-context.json",
           "format": "json",
           "label": "brand-context.json",
-          "bytes": 11355,
-          "sha256": "a04cf4035648f36734ecd395c1f8b44c423abfcecdb70077a0643a6b373f8640"
+          "bytes": 11551,
+          "sha256": "3a86a45ac847a975242c2339561ddf67b30e42f5dbd69873c3a45451429ba84e"
         }
       ]
     },
@@ -8056,8 +8336,8 @@
           "path": "assets/ai/resource-index.json",
           "format": "json",
           "label": "resource-index.json",
-          "bytes": 158389,
-          "sha256": "deb749deddb58bb43cde19db3482769d0e423cb5f56649dd439c3a0504cad996"
+          "bytes": 164878,
+          "sha256": "bddb760858b6607146da2c106d75cbf0df4e923c8962f353a48f56b74f0a93c5"
         }
       ]
     },
@@ -8080,8 +8360,8 @@
           "path": "assets/ai/andhub-brand/SKILL.md",
           "format": "md",
           "label": "SKILL.md",
-          "bytes": 2547,
-          "sha256": "193c62f5141181d1196142961daaa349589513aa3a8de000f14c696526947664"
+          "bytes": 2791,
+          "sha256": "d9150f67939388102d680c9d42f20774d7a7141bbc5bd991b6731fd9766d6311"
         }
       ]
     }
@@ -8091,9 +8371,9 @@
       "category": "logos",
       "path": "assets/downloads/logos.zip",
       "label": "Download logos ZIP",
-      "bytes": 22661190,
-      "file_count": 339,
-      "sha256": "e2203133ad0e457e61326e13e4832f878bb7acebfa11331b728eb4a0e2317ef1"
+      "bytes": 22757263,
+      "file_count": 340,
+      "sha256": "b6fbfee38f809e4cb09a01ef76d581cc3a08eb8b84e6287dc48266e78c77275b"
     },
     {
       "category": "icons",
@@ -8107,9 +8387,9 @@
       "category": "images",
       "path": "assets/downloads/images.zip",
       "label": "Download images ZIP",
-      "bytes": 10877946,
-      "file_count": 14,
-      "sha256": "51064f6a649bc23b4c718208d7d04e7b05de96d0bd0a433f0fe36144cec796ec"
+      "bytes": 13799545,
+      "file_count": 16,
+      "sha256": "78d1d9b7e7c33afbc7ea736e2f0927c8edcb2c827ae811623a68736fe4933c6e"
     },
     {
       "category": "fonts",
@@ -8131,17 +8411,17 @@
       "category": "documents",
       "path": "assets/downloads/documents.zip",
       "label": "Download documents ZIP",
-      "bytes": 5286477,
-      "file_count": 15,
-      "sha256": "5b4e328e77b01be4d9fa9d51e0a4c5db0bbd216991aaf8531f2dc26534beb6e9"
+      "bytes": 5297921,
+      "file_count": 17,
+      "sha256": "871b1758e673fb75ff255712edc8ce658e4f33217819e9559419eae48184f1b4"
     },
     {
       "category": "templates",
       "path": "assets/downloads/templates.zip",
       "label": "Download templates ZIP",
-      "bytes": 14512743,
-      "file_count": 59,
-      "sha256": "0849ce78ddd4964a665b0299abe599c7e9db10824274bc91758d7080d9ef46e7"
+      "bytes": 15591518,
+      "file_count": 69,
+      "sha256": "4cc6d7e72d56b0709245faa549a52e59df984d22b12419ea31011f918f988d18"
     },
     {
       "category": "qr",
@@ -8155,12 +8435,20 @@
       "category": "ai",
       "path": "assets/downloads/ai.zip",
       "label": "Download ai ZIP",
-      "bytes": 245911,
+      "bytes": 253029,
       "file_count": 13,
-      "sha256": "1d373d0aef41eaa31a40a5ce3fc4a566161fa9b36c839c65cddee6c6cacc90c0"
+      "sha256": "00c38884ed310a1adacb38540e609fc69101b4347c255840926bc1ce7ee27876"
+    },
+    {
+      "category": "legacy",
+      "path": "assets/downloads/legacy.zip",
+      "label": "Download legacy archive ZIP",
+      "bytes": 4107365,
+      "file_count": 15,
+      "sha256": "0e5fd072c2b4517c04b4f00cbb2d9d341606991895486552e863cfab0b31ddf6"
     }
   ],
-  "total_files": 649,
+  "total_files": 664,
   "contact": {
     "name": "AndHub Engineering PLC",
     "short_name": "AndHub",

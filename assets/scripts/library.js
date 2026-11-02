@@ -162,13 +162,14 @@
     $('#load-more').textContent = `Show more resources (${matches.length - visible.length} remaining)`;
     const totalFiles = matches.reduce((sum, resource) => sum + resource.files.length, 0);
     statusElement.textContent = `${matches.length} ${matches.length === 1 ? 'asset family' : 'asset families'} · ${totalFiles} files${visible.length < matches.length ? ` · showing ${visible.length}` : ''}`;
-    const bundle = state.bundles.find(item => item.category === state.category);
+    const legacySearch=state.query.trim().toLowerCase()==='legacy';
+    const bundle = state.bundles.find(item => item.category === (legacySearch ? 'legacy' : state.category));
     const bundleLink = $('#category-download');
     bundleLink.hidden = !bundle;
     if (bundle) {
       bundleLink.href = bundle.path;
-      bundleLink.textContent = `${state.category === 'all' ? 'All resources' : categoryNames[state.category]} ZIP ↓${bundle.bytes ? ` / ${bytesLabel(bundle.bytes)}` : ''}`;
-      bundleLink.setAttribute('aria-label', `Download all ${state.category === 'all' ? 'resources' : categoryNames[state.category]} as ZIP`);
+      bundleLink.textContent = `${legacySearch ? 'Legacy archive' : state.category === 'all' ? 'All resources' : categoryNames[state.category]} ZIP ↓${bundle.bytes ? ` / ${bytesLabel(bundle.bytes)}` : ''}`;
+      bundleLink.setAttribute('aria-label', `Download ${legacySearch ? 'the legacy archive' : 'all '+(state.category === 'all' ? 'resources' : categoryNames[state.category])} as ZIP`);
     }
     syncControls();
     updateSelection();

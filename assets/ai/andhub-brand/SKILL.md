@@ -13,6 +13,7 @@ Use the [resource catalog](https://brand.1hubengineering.com/assets/catalog.json
 - Use current contact details, leadership and configured social destinations from `assets/brand.json`. Do not invent customers, certifications, performance results, contact details or verified social ownership.
 - Keep the proposed standards and the reconstructed artwork's approval status explicit when relevant. The historical PDF/DOCX predate the current vector pack and font downloads.
 - Use supplied logo files, preserving proportions and clear space. Select the treatment for its actual surface; use a mono file for true single-color output. Do not recreate the custom wordmark with a font.
+- Assets marked `legacy` are historical logos, raster design mockups or boards. Use current artwork and company data for new work; use legacy assets when the task calls for historical material. Original printed contact details may be outdated.
 - For motion, use the primary animation specified in the current brand context. All other video files are tests/experiments retained for reference; do not present them as alternative primary animations.
 - Prefer the supplied navy/blue/green palette and licensed Inter fonts. Test actual text/controls in context; white text on Hub Green is unsuitable for normal text.
 - For copy, sound precise, composed, practical and approachable. Lead with the outcome and substantiate claims.
