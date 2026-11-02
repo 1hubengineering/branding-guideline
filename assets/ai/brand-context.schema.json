@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.schema.json",
+  "title": "AndHub current brand context",
+  "type": "object",
+  "required": ["schema_version", "name", "short_name", "tagline", "content", "services", "contact", "leadership", "socials", "visual_identity", "writing", "accessibility", "source_priority", "approval_status", "entrypoints"],
+  "properties": {
+    "$schema": {"type":"string", "format":"uri"},
+    "schema_version": {"const":"1.0"},
+    "name": {"type":"string", "minLength":1},
+    "short_name": {"type":"string", "minLength":1},
+    "tagline": {"type":"string", "minLength":1},
+    "content": {"type":"object", "required":["headline","description","capabilities","partnership","closing"], "additionalProperties":{"type":"string"}},
+    "services": {"type":"array", "minItems":1, "items":{"type":"string"}},
+    "contact": {
+      "type":"object", "required":["website","email","phones","address"],
+      "properties": {
+        "website":{"type":"string","format":"uri"},
+        "email":{"type":"string","format":"email"},
+        "phones":{"type":"array","items":{"type":"object","required":["display","international"],"properties":{"display":{"type":"string"},"international":{"type":"string","pattern":"^\\+[0-9]+$"}},"additionalProperties":false}},
+        "address":{"type":"object","required":["street","city","country","display"],"additionalProperties":{"type":"string"}}
+      },
+      "additionalProperties":false
+    },
+    "leadership": {"type":"array","items":{"type":"object","required":["name","title","email","phone","international_phone"],"additionalProperties":{"type":"string"}}},
+    "socials": {"type":"object","required":["handle","destinations","source_status"],"properties":{"handle":{"type":"string"},"source_status":{"type":"string"},"destinations":{"type":"array","items":{"type":"object","required":["name","url"],"properties":{"name":{"type":"string"},"url":{"type":"string","format":"uri"}},"additionalProperties":false}}},"additionalProperties":false},
+    "visual_identity": {
+      "type":"object", "required":["palette","working_color_space","logo_status","artwork_version","source","gradient_status","supporting_lettering","svg_font_dependencies","layouts","treatments","usage","typography"],
+      "properties": {
+        "palette":{"type":"object","required":["navy","blue","green","cloud"],"additionalProperties":{"type":"string","pattern":"^#[0-9a-fA-F]{6}$"}},
+        "working_color_space":{"type":"string"}, "logo_status":{"type":"string"}, "artwork_version":{"type":"string"}, "source":{"type":"string"}, "gradient_status":{"type":"string"}, "supporting_lettering":{"type":"string"}, "svg_font_dependencies":{"type":"boolean"},
+        "layouts":{"type":"array","items":{"type":"object","required":["id","width","height","description"],"properties":{"id":{"type":"string"},"width":{"type":"integer","minimum":1},"height":{"type":"integer","minimum":1},"description":{"type":"string"}},"additionalProperties":false}},
+        "treatments":{"type":"array","items":{"type":"object","required":["id","description","dark_surface"],"properties":{"id":{"type":"string"},"description":{"type":"string"},"dark_surface":{"type":"boolean"},"gradient":{"type":"boolean"},"monochrome_fill":{"type":["string","null"]},"jpg_background":{"type":"string"}},"additionalProperties":false}},
+        "usage":{"type":"array","items":{"type":"string"}},
+        "typography":{"type":"object","required":["proposed_headings","proposed_body","fallback","current_distribution","logo_note"],"additionalProperties":{"type":"string"}}
+      },
+      "additionalProperties":false
+    },
+    "writing":{"type":"object","required":["voice","naming","tagline","practice","avoid"],"properties":{"voice":{"type":"array","items":{"type":"string"}},"naming":{"type":"string"},"tagline":{"type":"string"},"practice":{"type":"string"},"avoid":{"type":"array","items":{"type":"string"}}},"additionalProperties":false},
+    "accessibility":{"type":"object","required":["text_contrast","combinations","implementation","scope"],"properties":{"text_contrast":{"type":"string"},"combinations":{"type":"array","items":{"type":"object","required":["foreground","background","ratio","use"],"properties":{"foreground":{"type":"string"},"background":{"type":"string"},"ratio":{"type":"number"},"use":{"type":"string"}},"additionalProperties":false}},"implementation":{"type":"string"},"scope":{"type":"string"}},"additionalProperties":false},
+    "source_priority":{"type":"array","minItems":1,"items":{"type":"string"}},
+    "approval_status":{"type":"string"},
+    "entrypoints":{"type":"object","required":["home","ai_guide","discovery","plain_text","company_data","artwork_spec","catalog","gallery","complete_guidelines","reusable_skill","mcp_adapter"],"additionalProperties":{"type":"string","format":"uri"}}
+  },
+  "additionalProperties": false
+}

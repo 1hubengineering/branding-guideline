@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bekele;Abraham;;Mr.;
+FN:Mr. Abraham Bekele
+ORG:AndHub Engineering PLC
+TITLE:Founder and CEO
+TEL;TYPE=WORK,VOICE:+251922964576
+EMAIL;TYPE=WORK:abraham@1hubengineering.com
+ADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia
+URL:https://1hubengineering.com
+END:VCARD

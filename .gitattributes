@@ -1,2 +1,4 @@
 # Preserve byte-exact SVG artwork for asset-manifest.json checksum validation.
 *.svg -text
+# Catalog hashes and contact vCards must survive checkout without line-ending changes.
+assets/** -text

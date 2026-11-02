@@ -1,0 +1,4592 @@
+{
+  "version": 2,
+  "brand": "AndHub Engineering PLC",
+  "resources": [
+    {
+      "id": "logo-compact-automatic",
+      "name": "Compact / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/compact/andhub-compact-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-compact-auto.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-flat-dark",
+      "name": "Compact / Flat Dark",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-flat-light",
+      "name": "Compact / Flat Light",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-gradient-dark",
+      "name": "Compact / Gradient Dark",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-compact-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-compact-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-gradient-light",
+      "name": "Compact / Gradient Light",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-compact-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-compact-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-mono-black",
+      "name": "Compact / Mono Black",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-mono-navy",
+      "name": "Compact / Mono Navy",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        }
+      ]
+    },
+    {
+      "id": "logo-compact-mono-white",
+      "name": "Compact / Mono White",
+      "category": "logos",
+      "description": "Compact / symbol + ANDHUB, no descriptor. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/compact/andhub-compact-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/compact/andhub-compact-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 825 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/compact/andhub-compact-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 149"
+        },
+        {
+          "path": "assets/logos/png/1024px/compact/andhub-compact-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 298"
+        },
+        {
+          "path": "assets/logos/png/2048px/compact/andhub-compact-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 596"
+        },
+        {
+          "path": "assets/logos/jpg/compact/andhub-compact-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 596"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-automatic",
+      "name": "Horizontal / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-horizontal-auto.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-flat-dark",
+      "name": "Horizontal / Flat Dark",
+      "category": "logos",
+      "description": "Horizontal / full company name. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-flat-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-flat-light",
+      "name": "Horizontal / Flat Light",
+      "category": "logos",
+      "description": "Horizontal / full company name. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-flat-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-gradient-dark",
+      "name": "Horizontal / Gradient Dark",
+      "category": "logos",
+      "description": "Horizontal / full company name. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-gradient-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-horizontal-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-horizontal-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-gradient-light",
+      "name": "Horizontal / Gradient Light",
+      "category": "logos",
+      "description": "Horizontal / full company name. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-gradient-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-horizontal-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-horizontal-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-mono-black",
+      "name": "Horizontal / Mono Black",
+      "category": "logos",
+      "description": "Horizontal / full company name. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-mono-black-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-mono-navy",
+      "name": "Horizontal / Mono Navy",
+      "category": "logos",
+      "description": "Horizontal / full company name. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-mono-navy-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-mono-white",
+      "name": "Horizontal / Mono White",
+      "category": "logos",
+      "description": "Horizontal / full company name. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal/andhub-horizontal-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal/andhub-horizontal-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal/andhub-horizontal-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal/andhub-horizontal-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal/andhub-horizontal-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal/andhub-horizontal-mono-white-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal/andhub-horizontal-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-automatic",
+      "name": "Horizontal Tagline / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-horizontal-tagline-auto.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-flat-dark",
+      "name": "Horizontal Tagline / Flat Dark",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-flat-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-flat-light",
+      "name": "Horizontal Tagline / Flat Light",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-flat-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-gradient-dark",
+      "name": "Horizontal Tagline / Gradient Dark",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-gradient-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-gradient-light",
+      "name": "Horizontal Tagline / Gradient Light",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-gradient-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-mono-black",
+      "name": "Horizontal Tagline / Mono Black",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-mono-black-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-mono-navy",
+      "name": "Horizontal Tagline / Mono Navy",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-mono-navy-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-horizontal-tagline-mono-white",
+      "name": "Horizontal Tagline / Mono White",
+      "category": "logos",
+      "description": "Horizontal / name + tagline. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/horizontal-tagline/andhub-horizontal-tagline-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 1096 × 338"
+        },
+        {
+          "path": "assets/logos/png/512px/horizontal-tagline/andhub-horizontal-tagline-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 158"
+        },
+        {
+          "path": "assets/logos/png/1024px/horizontal-tagline/andhub-horizontal-tagline-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 316"
+        },
+        {
+          "path": "assets/logos/png/2048px/horizontal-tagline/andhub-horizontal-tagline-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 632"
+        },
+        {
+          "path": "assets/logos/png/4096px/horizontal-tagline/andhub-horizontal-tagline-mono-white-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 1263"
+        },
+        {
+          "path": "assets/logos/jpg/horizontal-tagline/andhub-horizontal-tagline-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 632"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-automatic",
+      "name": "Stacked / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-stacked-auto.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-flat-dark",
+      "name": "Stacked / Flat Dark",
+      "category": "logos",
+      "description": "Stacked / full company name. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-flat-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-flat-light",
+      "name": "Stacked / Flat Light",
+      "category": "logos",
+      "description": "Stacked / full company name. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-flat-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-gradient-dark",
+      "name": "Stacked / Gradient Dark",
+      "category": "logos",
+      "description": "Stacked / full company name. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-gradient-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-gradient-light",
+      "name": "Stacked / Gradient Light",
+      "category": "logos",
+      "description": "Stacked / full company name. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-gradient-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-mono-black",
+      "name": "Stacked / Mono Black",
+      "category": "logos",
+      "description": "Stacked / full company name. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-mono-black-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-mono-navy",
+      "name": "Stacked / Mono Navy",
+      "category": "logos",
+      "description": "Stacked / full company name. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-mono-navy-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-mono-white",
+      "name": "Stacked / Mono White",
+      "category": "logos",
+      "description": "Stacked / full company name. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked/andhub-stacked-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked/andhub-stacked-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 613"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked/andhub-stacked-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 392"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked/andhub-stacked-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 784"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked/andhub-stacked-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1569"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked/andhub-stacked-mono-white-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3139"
+        },
+        {
+          "path": "assets/logos/jpg/stacked/andhub-stacked-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1569"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-automatic",
+      "name": "Stacked Tagline / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-stacked-tagline-auto.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-flat-dark",
+      "name": "Stacked Tagline / Flat Dark",
+      "category": "logos",
+      "description": "Stacked / name + tagline. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-flat-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-flat-light",
+      "name": "Stacked Tagline / Flat Light",
+      "category": "logos",
+      "description": "Stacked / name + tagline. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-flat-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-gradient-dark",
+      "name": "Stacked Tagline / Gradient Dark",
+      "category": "logos",
+      "description": "Stacked / name + tagline. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-gradient-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-stacked-tagline-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-stacked-tagline-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-gradient-light",
+      "name": "Stacked Tagline / Gradient Light",
+      "category": "logos",
+      "description": "Stacked / name + tagline. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-gradient-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-stacked-tagline-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-stacked-tagline-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-mono-black",
+      "name": "Stacked Tagline / Mono Black",
+      "category": "logos",
+      "description": "Stacked / name + tagline. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-mono-black-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-mono-navy",
+      "name": "Stacked Tagline / Mono Navy",
+      "category": "logos",
+      "description": "Stacked / name + tagline. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-mono-navy-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        }
+      ]
+    },
+    {
+      "id": "logo-stacked-tagline-mono-white",
+      "name": "Stacked Tagline / Mono White",
+      "category": "logos",
+      "description": "Stacked / name + tagline. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/stacked-tagline/andhub-stacked-tagline-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 704"
+        },
+        {
+          "path": "assets/logos/png/512px/stacked-tagline/andhub-stacked-tagline-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 450"
+        },
+        {
+          "path": "assets/logos/png/1024px/stacked-tagline/andhub-stacked-tagline-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 901"
+        },
+        {
+          "path": "assets/logos/png/2048px/stacked-tagline/andhub-stacked-tagline-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 1802"
+        },
+        {
+          "path": "assets/logos/png/4096px/stacked-tagline/andhub-stacked-tagline-mono-white-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 3604"
+        },
+        {
+          "path": "assets/logos/jpg/stacked-tagline/andhub-stacked-tagline-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 1802"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-automatic",
+      "name": "Symbol / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-symbol-auto.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-flat-dark",
+      "name": "Symbol / Flat Dark",
+      "category": "logos",
+      "description": "Symbol only. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-flat-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-flat-light",
+      "name": "Symbol / Flat Light",
+      "category": "logos",
+      "description": "Symbol only. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-flat-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-gradient-dark",
+      "name": "Symbol / Gradient Dark",
+      "category": "logos",
+      "description": "Symbol only. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-gradient-dark-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-symbol-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-symbol-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-gradient-light",
+      "name": "Symbol / Gradient Light",
+      "category": "logos",
+      "description": "Symbol only. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-gradient-light-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-symbol-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · starter copy"
+        },
+        {
+          "path": "assets/logos/start-here/andhub-symbol-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-mono-black",
+      "name": "Symbol / Mono Black",
+      "category": "logos",
+      "description": "Symbol only. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-mono-black-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-mono-navy",
+      "name": "Symbol / Mono Navy",
+      "category": "logos",
+      "description": "Symbol only. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-mono-navy-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        }
+      ]
+    },
+    {
+      "id": "logo-symbol-mono-white",
+      "name": "Symbol / Mono White",
+      "category": "logos",
+      "description": "Symbol only. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/symbol/andhub-symbol-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/symbol/andhub-symbol-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/512px/symbol/andhub-symbol-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/logos/png/1024px/symbol/andhub-symbol-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/logos/png/2048px/symbol/andhub-symbol-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 2048"
+        },
+        {
+          "path": "assets/logos/png/4096px/symbol/andhub-symbol-mono-white-4096px.png",
+          "format": "png",
+          "label": "PNG · 4096 × 4096"
+        },
+        {
+          "path": "assets/logos/jpg/symbol/andhub-symbol-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 2048"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-automatic",
+      "name": "Wordmark / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-wordmark-auto.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-flat-dark",
+      "name": "Wordmark / Flat Dark",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-flat-light",
+      "name": "Wordmark / Flat Light",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-gradient-dark",
+      "name": "Wordmark / Gradient Dark",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-gradient-light",
+      "name": "Wordmark / Gradient Light",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-mono-black",
+      "name": "Wordmark / Mono Black",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-mono-navy",
+      "name": "Wordmark / Mono Navy",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-mono-white",
+      "name": "Wordmark / Mono White",
+      "category": "logos",
+      "description": "Wordmark / full company name, no symbol. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark/andhub-wordmark-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark/andhub-wordmark-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 240"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark/andhub-wordmark-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 154"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark/andhub-wordmark-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 307"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark/andhub-wordmark-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 614"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark/andhub-wordmark-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 614"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-automatic",
+      "name": "Wordmark Tagline / Automatic theme",
+      "category": "logos",
+      "description": "SVG follows the operating-system color preference. The preview uses the fixed light-surface counterpart.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/web-kit/auto-theme/andhub-wordmark-tagline-auto.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-flat-dark",
+      "name": "Wordmark Tagline / Flat Dark",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. Flat color / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-flat-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-flat-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-flat-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-flat-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-flat-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-flat-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-flat-light",
+      "name": "Wordmark Tagline / Flat Light",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. Flat color / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-flat-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-flat-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-flat-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-flat-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-flat-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-flat-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-gradient-dark",
+      "name": "Wordmark Tagline / Gradient Dark",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. Gradient / dark surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-gradient-dark.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-gradient-dark.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-gradient-dark-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-gradient-dark-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-gradient-dark-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-gradient-dark-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-gradient-light",
+      "name": "Wordmark Tagline / Gradient Light",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. Gradient / light surfaces Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-gradient-light.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-gradient-light.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-gradient-light-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-gradient-light-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-gradient-light-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-gradient-light-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-mono-black",
+      "name": "Wordmark Tagline / Mono Black",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. One color / black Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-black.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-black.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-mono-black-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-mono-black-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-mono-black-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-mono-black-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-mono-navy",
+      "name": "Wordmark Tagline / Mono Navy",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. One color / navy Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-navy.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-navy.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-mono-navy-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-mono-navy-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-mono-navy-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-mono-navy-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "logo-wordmark-tagline-mono-white",
+      "name": "Wordmark Tagline / Mono White",
+      "category": "logos",
+      "description": "Wordmark / name + tagline, no symbol. One color / white reverse Preserve its proportions and clear space.",
+      "preview": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-white.svg",
+      "files": [
+        {
+          "path": "assets/logos/svg/wordmark-tagline/andhub-wordmark-tagline-mono-white.svg",
+          "format": "svg",
+          "label": "SVG · 800 × 328"
+        },
+        {
+          "path": "assets/logos/png/512px/wordmark-tagline/andhub-wordmark-tagline-mono-white-512px.png",
+          "format": "png",
+          "label": "PNG · 512 × 210"
+        },
+        {
+          "path": "assets/logos/png/1024px/wordmark-tagline/andhub-wordmark-tagline-mono-white-1024px.png",
+          "format": "png",
+          "label": "PNG · 1024 × 420"
+        },
+        {
+          "path": "assets/logos/png/2048px/wordmark-tagline/andhub-wordmark-tagline-mono-white-2048px.png",
+          "format": "png",
+          "label": "PNG · 2048 × 840"
+        },
+        {
+          "path": "assets/logos/jpg/wordmark-tagline/andhub-wordmark-tagline-mono-white-2048px.jpg",
+          "format": "jpg",
+          "label": "JPG · 2048 × 840"
+        }
+      ]
+    },
+    {
+      "id": "icons-app-black",
+      "name": "App icon & avatar / Black",
+      "category": "icons",
+      "description": "Square app and avatar artwork with safe space for platform masks.",
+      "preview": "assets/icons/app-and-avatar/black/andhub-app-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-avatar-1024.jpg",
+          "format": "jpg",
+          "label": "JPG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-tile.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/black/andhub-app-icon.icns",
+          "format": "icns",
+          "label": "ICNS · 1024 × 1024"
+        }
+      ]
+    },
+    {
+      "id": "icons-app-green",
+      "name": "App icon & avatar / Green",
+      "category": "icons",
+      "description": "Square app and avatar artwork with safe space for platform masks.",
+      "preview": "assets/icons/app-and-avatar/green/andhub-app-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-avatar-1024.jpg",
+          "format": "jpg",
+          "label": "JPG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-tile.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/green/andhub-app-icon.icns",
+          "format": "icns",
+          "label": "ICNS · 1024 × 1024"
+        }
+      ]
+    },
+    {
+      "id": "icons-app-navy",
+      "name": "App icon & avatar / Navy",
+      "category": "icons",
+      "description": "Square app and avatar artwork with safe space for platform masks.",
+      "preview": "assets/icons/app-and-avatar/navy/andhub-app-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-avatar-1024.jpg",
+          "format": "jpg",
+          "label": "JPG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-tile.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/navy/andhub-app-icon.icns",
+          "format": "icns",
+          "label": "ICNS · 1024 × 1024"
+        }
+      ]
+    },
+    {
+      "id": "icons-app-white",
+      "name": "App icon & avatar / White",
+      "category": "icons",
+      "description": "Square app and avatar artwork with safe space for platform masks.",
+      "preview": "assets/icons/app-and-avatar/white/andhub-app-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-avatar-1024.jpg",
+          "format": "jpg",
+          "label": "JPG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-tile.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        },
+        {
+          "path": "assets/icons/app-and-avatar/white/andhub-app-icon.icns",
+          "format": "icns",
+          "label": "ICNS · 1024 × 1024"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-flat-dark",
+      "name": "Transparent icon / Flat Dark",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/flat-dark/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/flat-dark/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-flat-light",
+      "name": "Transparent icon / Flat Light",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/flat-light/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/flat-light/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-gradient-dark",
+      "name": "Transparent icon / Gradient Dark",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/gradient-dark/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-dark/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-gradient-light",
+      "name": "Transparent icon / Gradient Light",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/gradient-light/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/gradient-light/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-mono-black",
+      "name": "Transparent icon / Mono Black",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/mono-black/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/mono-black/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-mono-navy",
+      "name": "Transparent icon / Mono Navy",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/mono-navy/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/mono-navy/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-transparent-mono-white",
+      "name": "Transparent icon / Mono White",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/icons/transparent/mono-white/andhub-icon.svg",
+      "files": [
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-16.png",
+          "format": "png",
+          "label": "PNG · 16 × 16"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-24.png",
+          "format": "png",
+          "label": "PNG · 24 × 24"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-32.png",
+          "format": "png",
+          "label": "PNG · 32 × 32"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-48.png",
+          "format": "png",
+          "label": "PNG · 48 × 48"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-64.png",
+          "format": "png",
+          "label": "PNG · 64 × 64"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-96.png",
+          "format": "png",
+          "label": "PNG · 96 × 96"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-128.png",
+          "format": "png",
+          "label": "PNG · 128 × 128"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-180.png",
+          "format": "png",
+          "label": "PNG · 180 × 180"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-192.png",
+          "format": "png",
+          "label": "PNG · 192 × 192"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-256.png",
+          "format": "png",
+          "label": "PNG · 256 × 256"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-384.png",
+          "format": "png",
+          "label": "PNG · 384 × 384"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-512.png",
+          "format": "png",
+          "label": "PNG · 512 × 512"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon-1024.png",
+          "format": "png",
+          "label": "PNG · 1024 × 1024"
+        },
+        {
+          "path": "assets/icons/transparent/mono-white/andhub-icon.ico",
+          "format": "ico",
+          "label": "ICO · 256 × 256"
+        }
+      ]
+    },
+    {
+      "id": "icons-web-favicons",
+      "name": "Web favicon & mask kit",
+      "category": "icons",
+      "description": "Symbol artwork and small-size exports. Review tiny sizes in the intended context.",
+      "preview": "assets/web-kit/icon-192.png",
+      "files": [
+        {
+          "path": "assets/icons/andhub-mask-icon.svg",
+          "format": "svg",
+          "label": "SVG · 512 × 512"
+        },
+        {
+          "path": "assets/web-kit/favicon.svg",
+          "format": "svg",
+          "label": "SVG"
+        },
+        {
+          "path": "assets/web-kit/favicon.ico",
+          "format": "ico",
+          "label": "ICO"
+        },
+        {
+          "path": "assets/web-kit/apple-touch-icon.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/web-kit/icon-192.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/web-kit/icon-512.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/web-kit/icon-maskable-192.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/web-kit/icon-maskable-512.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/web-kit/safari-pinned-tab.svg",
+          "format": "svg",
+          "label": "SVG"
+        },
+        {
+          "path": "assets/logos/start-here/favicon.ico",
+          "format": "ico",
+          "label": "ICO · starter copy"
+        }
+      ]
+    },
+    {
+      "id": "image-andhub-asset-preview-png",
+      "name": "AndHub Asset Preview",
+      "category": "images",
+      "description": "Brand reference and animation artwork.",
+      "preview": "assets/reference/AndHub_Asset_Preview.png",
+      "files": [
+        {
+          "path": "assets/reference/AndHub_Asset_Preview.png",
+          "format": "png",
+          "label": "AndHub_Asset_Preview.png"
+        }
+      ]
+    },
+    {
+      "id": "image-andhub-engineering-brand-identity-board-png",
+      "name": "AndHub Engineering Brand Identity Board",
+      "category": "images",
+      "description": "Supplied reference board; use the vector masters for production.",
+      "preview": "assets/images/reference/AndHub Engineering Brand Identity Board.png",
+      "files": [
+        {
+          "path": "assets/images/reference/AndHub Engineering Brand Identity Board.png",
+          "format": "png",
+          "label": "AndHub Engineering Brand Identity Board.png"
+        }
+      ]
+    },
+    {
+      "id": "image-andhub-engineering-logo-concept-board-png",
+      "name": "ANDHUB Engineering Logo Concept Board",
+      "category": "images",
+      "description": "Supplied reference board; use the vector masters for production.",
+      "preview": "assets/images/reference/ANDHUB Engineering Logo Concept Board.png",
+      "files": [
+        {
+          "path": "assets/images/reference/ANDHUB Engineering Logo Concept Board.png",
+          "format": "png",
+          "label": "ANDHUB Engineering Logo Concept Board.png"
+        }
+      ]
+    },
+    {
+      "id": "image-andhub-final-frame-png",
+      "name": "ANDHUB Final Frame",
+      "category": "images",
+      "description": "Brand reference and animation artwork.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/images/motion/ANDHUB_Final_Frame.png",
+          "format": "png",
+          "label": "ANDHUB_Final_Frame.png"
+        }
+      ]
+    },
+    {
+      "id": "image-andhub-logo-animation-preview-gif",
+      "name": "ANDHUB Logo Animation Preview",
+      "category": "images",
+      "description": "Brand reference and animation artwork.",
+      "preview": "assets/images/motion/ANDHUB_Logo_Animation_Preview.gif",
+      "files": [
+        {
+          "path": "assets/images/motion/ANDHUB_Logo_Animation_Preview.gif",
+          "format": "gif",
+          "label": "ANDHUB_Logo_Animation_Preview.gif"
+        }
+      ]
+    },
+    {
+      "id": "image-image1-png",
+      "name": "Image1",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image1.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image1.png",
+          "format": "png",
+          "label": "image1.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image2-png",
+      "name": "Image2",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image2.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image2.png",
+          "format": "png",
+          "label": "image2.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image3-png",
+      "name": "Image3",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image3.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image3.png",
+          "format": "png",
+          "label": "image3.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image4-png",
+      "name": "Image4",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image4.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image4.png",
+          "format": "png",
+          "label": "image4.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image5-png",
+      "name": "Image5",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image5.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image5.png",
+          "format": "png",
+          "label": "image5.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image6-png",
+      "name": "Image6",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image6.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image6.png",
+          "format": "png",
+          "label": "image6.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image7-png",
+      "name": "Image7",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image7.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image7.png",
+          "format": "png",
+          "label": "image7.png"
+        }
+      ]
+    },
+    {
+      "id": "image-image8-png",
+      "name": "Image8",
+      "category": "images",
+      "description": "Illustration retained from the original guideline document.",
+      "preview": "assets/images/guide/image8.png",
+      "files": [
+        {
+          "path": "assets/images/guide/image8.png",
+          "format": "png",
+          "label": "image8.png"
+        }
+      ]
+    },
+    {
+      "id": "image-supplied-brand-identity-board-png",
+      "name": "Supplied Brand Identity Board",
+      "category": "images",
+      "description": "Supplied reference board; use the vector masters for production.",
+      "preview": "assets/reference/Supplied-Brand-Identity-Board.png",
+      "files": [
+        {
+          "path": "assets/reference/Supplied-Brand-Identity-Board.png",
+          "format": "png",
+          "label": "Supplied-Brand-Identity-Board.png"
+        }
+      ]
+    },
+    {
+      "id": "fonts-inter",
+      "name": "Inter variable font family",
+      "category": "fonts",
+      "description": "Official Inter upright and italic web fonts plus desktop TTF. Includes the SIL Open Font License.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/fonts/InterVariable-Italic.woff2",
+          "format": "woff2",
+          "label": "InterVariable-Italic.woff2"
+        },
+        {
+          "path": "assets/fonts/InterVariable.ttf",
+          "format": "ttf",
+          "label": "InterVariable.ttf"
+        },
+        {
+          "path": "assets/fonts/InterVariable.woff2",
+          "format": "woff2",
+          "label": "InterVariable.woff2"
+        },
+        {
+          "path": "assets/fonts/LICENSE.txt",
+          "format": "txt",
+          "label": "LICENSE.txt"
+        },
+        {
+          "path": "assets/fonts/README.md",
+          "format": "md",
+          "label": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-1h-1080p.mp4",
+      "name": "Andhub 1h 1080p",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-1h-1080p.mp4",
+          "format": "mp4",
+          "label": "andhub-1h-1080p.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-1h-1080p-silent.mp4",
+      "name": "Andhub 1h 1080p Silent",
+      "category": "videos",
+      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-1h-1080p-silent.mp4",
+          "format": "mp4",
+          "label": "andhub-1h-1080p-silent.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-1h-square.mp4",
+      "name": "Andhub 1h Square",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-1h-square.mp4",
+          "format": "mp4",
+          "label": "andhub-1h-square.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-intro-1080p.mp4",
+      "name": "Andhub Intro 1080p",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-intro-1080p.mp4",
+          "format": "mp4",
+          "label": "andhub-intro-1080p.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-intro-square.mp4",
+      "name": "Andhub Intro Square",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-intro-square.mp4",
+          "format": "mp4",
+          "label": "andhub-intro-square.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-ANDHUB_Logo_Animation_1080p.mp4",
+      "name": "ANDHUB Logo Animation 1080p",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+          "format": "mp4",
+          "label": "ANDHUB_Logo_Animation_1080p.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-o1-hub-landscape.mp4",
+      "name": "Andhub O1 Hub Landscape",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-o1-hub-landscape.mp4",
+          "format": "mp4",
+          "label": "andhub-o1-hub-landscape.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-o1-hub-landscape-silent.mp4",
+      "name": "Andhub O1 Hub Landscape Silent",
+      "category": "videos",
+      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-o1-hub-landscape-silent.mp4",
+          "format": "mp4",
+          "label": "andhub-o1-hub-landscape-silent.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-o1-hub-portrait.mp4",
+      "name": "Andhub O1 Hub Portrait",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-o1-hub-portrait.mp4",
+          "format": "mp4",
+          "label": "andhub-o1-hub-portrait.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-o1-hub-square.mp4",
+      "name": "Andhub O1 Hub Square",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-o1-hub-square.mp4",
+          "format": "mp4",
+          "label": "andhub-o1-hub-square.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-one-hub-landscape-silent.mp4",
+      "name": "Andhub One Hub Landscape Silent",
+      "category": "videos",
+      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-one-hub-landscape-silent.mp4",
+          "format": "mp4",
+          "label": "andhub-one-hub-landscape-silent.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-one-hub-portrait.mp4",
+      "name": "Andhub One Hub Portrait",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-one-hub-portrait.mp4",
+          "format": "mp4",
+          "label": "andhub-one-hub-portrait.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-one-hub-square.mp4",
+      "name": "Andhub One Hub Square",
+      "category": "videos",
+      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "files": [
+        {
+          "path": "assets/videos/andhub-one-hub-square.mp4",
+          "format": "mp4",
+          "label": "andhub-one-hub-square.mp4"
+        }
+      ]
+    },
+    {
+      "id": "document-AndHub_Brand_Tokens_v1.css",
+      "name": "AndHub Brand Tokens V1",
+      "category": "documents",
+      "description": "Brand documentation, implementation guidance or validation reference.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/documents/AndHub_Brand_Tokens_v1.css",
+          "format": "css",
+          "label": "AndHub_Brand_Tokens_v1.css"
+        }
+      ]
+    },
+    {
+      "id": "document-andhub-logo.css",
+      "name": "Andhub Logo",
+      "category": "documents",
+      "description": "Reusable web integration resource.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/web-kit/andhub-logo.css",
+          "format": "css",
+          "label": "andhub-logo.css"
+        }
+      ]
+    },
+    {
+      "id": "document-asset-manifest.csv",
+      "name": "Artwork inventory / CSV",
+      "category": "documents",
+      "description": "Machine-readable source for the brand resource library.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/asset-manifest.csv",
+          "format": "csv",
+          "label": "asset-manifest.csv"
+        }
+      ]
+    },
+    {
+      "id": "document-asset-manifest.json",
+      "name": "Artwork inventory / JSON",
+      "category": "documents",
+      "description": "Machine-readable source for the brand resource library.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/asset-manifest.json",
+          "format": "json",
+          "label": "asset-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "document-brand.json",
+      "name": "Company profile & contact data",
+      "category": "documents",
+      "description": "Machine-readable source for the brand resource library.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/brand.json",
+          "format": "json",
+          "label": "brand.json"
+        }
+      ]
+    },
+    {
+      "id": "document-integration.html",
+      "name": "Integration",
+      "category": "documents",
+      "description": "Reusable web integration resource.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/web-kit/integration.html",
+          "format": "html",
+          "label": "integration.html"
+        }
+      ]
+    },
+    {
+      "id": "documents-original-guide",
+      "name": "Original brand guidelines / v1.0",
+      "category": "documents",
+      "description": "The original paginated guide and editable Word document. Proposed standards; predates the current asset library.",
+      "preview": "assets/images/reference/AndHub Engineering Brand Identity Board.png",
+      "files": [
+        {
+          "path": "assets/documents/AndHub_Engineering_Brand_Guidelines_v1.docx",
+          "format": "docx",
+          "label": "AndHub_Engineering_Brand_Guidelines_v1.docx"
+        },
+        {
+          "path": "assets/documents/AndHub_Engineering_Brand_Guidelines_v1.pdf",
+          "format": "pdf",
+          "label": "AndHub_Engineering_Brand_Guidelines_v1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "document-QA-REPORT.json",
+      "name": "QA REPORT",
+      "category": "documents",
+      "description": "Brand documentation, implementation guidance or validation reference.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/reference/QA-REPORT.json",
+          "format": "json",
+          "label": "QA-REPORT.json"
+        }
+      ]
+    },
+    {
+      "id": "support-assets/qr/QR-VALIDATION.json",
+      "name": "QR VALIDATION",
+      "category": "documents",
+      "description": "Supporting authoring or QR documentation.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/qr/QR-VALIDATION.json",
+          "format": "json",
+          "label": "QR-VALIDATION.json"
+        }
+      ]
+    },
+    {
+      "id": "support-assets/templates/README.md",
+      "name": "README",
+      "category": "documents",
+      "description": "Supporting authoring or QR documentation.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/templates/README.md",
+          "format": "md",
+          "label": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "support-assets/qr/README.md",
+      "name": "README",
+      "category": "documents",
+      "description": "Supporting authoring or QR documentation.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/qr/README.md",
+          "format": "md",
+          "label": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "document-brand-spec.json",
+      "name": "Reconstructed brand specification",
+      "category": "documents",
+      "description": "Machine-readable source for the brand resource library.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/brand-spec.json",
+          "format": "json",
+          "label": "brand-spec.json"
+        }
+      ]
+    },
+    {
+      "id": "document-RECONSTRUCTION-NOTES.md",
+      "name": "RECONSTRUCTION NOTES",
+      "category": "documents",
+      "description": "Brand documentation, implementation guidance or validation reference.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/reference/RECONSTRUCTION-NOTES.md",
+          "format": "md",
+          "label": "RECONSTRUCTION-NOTES.md"
+        }
+      ]
+    },
+    {
+      "id": "document-site.webmanifest",
+      "name": "Site",
+      "category": "documents",
+      "description": "Reusable web integration resource.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/web-kit/site.webmanifest",
+          "format": "webmanifest",
+          "label": "site.webmanifest"
+        }
+      ]
+    },
+    {
+      "id": "business-card-rehoboth",
+      "name": "Business card / Dr. Rehoboth Bekele",
+      "category": "templates",
+      "description": "Double-sided 85 × 55 mm business card with the AndHub brand face and Dr. Rehoboth Bekele’s supplied role and contact details.",
+      "preview": "assets/templates/business-card-rehoboth-2.png",
+      "files": [
+        {
+          "path": "assets/templates/business-card-rehoboth.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth.pdf",
+          "format": "pdf",
+          "label": "2-page print PDF"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-1.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-1.png",
+          "format": "png",
+          "label": "PNG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-1.jpg",
+          "format": "jpg",
+          "label": "JPG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-2.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 2"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-2.png",
+          "format": "png",
+          "label": "PNG / side 2"
+        },
+        {
+          "path": "assets/templates/business-card-rehoboth-2.jpg",
+          "format": "jpg",
+          "label": "JPG / side 2"
+        }
+      ]
+    },
+    {
+      "id": "business-card-abraham",
+      "name": "Business card / Mr. Abraham Bekele",
+      "category": "templates",
+      "description": "Double-sided 85 × 55 mm business card with the AndHub brand face and Mr. Abraham Bekele’s supplied role and contact details.",
+      "preview": "assets/templates/business-card-abraham-2.png",
+      "files": [
+        {
+          "path": "assets/templates/business-card-abraham.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/business-card-abraham.pdf",
+          "format": "pdf",
+          "label": "2-page print PDF"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-1.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-1.png",
+          "format": "png",
+          "label": "PNG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-1.jpg",
+          "format": "jpg",
+          "label": "JPG / side 1"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-2.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 2"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-2.png",
+          "format": "png",
+          "label": "PNG / side 2"
+        },
+        {
+          "path": "assets/templates/business-card-abraham-2.jpg",
+          "format": "jpg",
+          "label": "JPG / side 2"
+        }
+      ]
+    },
+    {
+      "id": "brochure",
+      "name": "Company brochure / tri-fold",
+      "category": "templates",
+      "description": "Two-sided A4 landscape tri-fold brochure covering the company introduction, services, positioning and contact details.",
+      "preview": "assets/templates/brochure-1.png",
+      "files": [
+        {
+          "path": "assets/templates/brochure.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/brochure.pdf",
+          "format": "pdf",
+          "label": "2-page print PDF"
+        },
+        {
+          "path": "assets/templates/brochure-1.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 1"
+        },
+        {
+          "path": "assets/templates/brochure-1.png",
+          "format": "png",
+          "label": "PNG / side 1"
+        },
+        {
+          "path": "assets/templates/brochure-1.jpg",
+          "format": "jpg",
+          "label": "JPG / side 1"
+        },
+        {
+          "path": "assets/templates/brochure-2.svg",
+          "format": "svg",
+          "label": "Editable SVG / side 2"
+        },
+        {
+          "path": "assets/templates/brochure-2.png",
+          "format": "png",
+          "label": "PNG / side 2"
+        },
+        {
+          "path": "assets/templates/brochure-2.jpg",
+          "format": "jpg",
+          "label": "JPG / side 2"
+        }
+      ]
+    },
+    {
+      "id": "email-signature-rehoboth",
+      "name": "Email signature / Dr. Rehoboth Bekele",
+      "category": "templates",
+      "description": "Live HTML email signature for Dr. Rehoboth Bekele, with selectable contact links and an embedded AndHub logo.",
+      "preview": "assets/templates/email-signature-rehoboth.png",
+      "files": [
+        {
+          "path": "assets/templates/email-signature-rehoboth.html",
+          "format": "html",
+          "label": "Editable HTML signature"
+        },
+        {
+          "path": "assets/templates/email-signature-rehoboth.png",
+          "format": "png",
+          "label": "PNG preview"
+        },
+        {
+          "path": "assets/templates/email-signature-rehoboth.jpg",
+          "format": "jpg",
+          "label": "JPG preview"
+        },
+        {
+          "path": "assets/templates/email-signature-rehoboth.pdf",
+          "format": "pdf",
+          "label": "Reference PDF"
+        }
+      ]
+    },
+    {
+      "id": "email-signature-abraham",
+      "name": "Email signature / Mr. Abraham Bekele",
+      "category": "templates",
+      "description": "Live HTML email signature for Mr. Abraham Bekele, with selectable contact links and an embedded AndHub logo.",
+      "preview": "assets/templates/email-signature-abraham.png",
+      "files": [
+        {
+          "path": "assets/templates/email-signature-abraham.html",
+          "format": "html",
+          "label": "Editable HTML signature"
+        },
+        {
+          "path": "assets/templates/email-signature-abraham.png",
+          "format": "png",
+          "label": "PNG preview"
+        },
+        {
+          "path": "assets/templates/email-signature-abraham.jpg",
+          "format": "jpg",
+          "label": "JPG preview"
+        },
+        {
+          "path": "assets/templates/email-signature-abraham.pdf",
+          "format": "pdf",
+          "label": "Reference PDF"
+        }
+      ]
+    },
+    {
+      "id": "letterhead",
+      "name": "Letterhead / header & footer",
+      "category": "templates",
+      "description": "A4 correspondence template with reusable header and footer artwork, verified company contacts, and editable letter placeholders.",
+      "preview": "assets/templates/letterhead.png",
+      "files": [
+        {
+          "path": "assets/templates/letterhead.docx",
+          "format": "docx",
+          "label": "Editable Word letter / native header & footer"
+        },
+        {
+          "path": "assets/templates/letterhead.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/letterhead.pdf",
+          "format": "pdf",
+          "label": "Print PDF"
+        },
+        {
+          "path": "assets/templates/letterhead.svg",
+          "format": "svg",
+          "label": "Editable SVG"
+        },
+        {
+          "path": "assets/templates/letterhead.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/templates/letterhead.jpg",
+          "format": "jpg",
+          "label": "JPG"
+        },
+        {
+          "path": "assets/templates/letterhead-header.svg",
+          "format": "svg",
+          "label": "Reusable header strip"
+        },
+        {
+          "path": "assets/templates/letterhead-footer.svg",
+          "format": "svg",
+          "label": "Reusable footer strip"
+        }
+      ]
+    },
+    {
+      "id": "proposal-cover",
+      "name": "Proposal & report cover",
+      "category": "templates",
+      "description": "A4 proposal or technical report cover with editable project, client, author, date and version fields.",
+      "preview": "assets/templates/proposal-cover.png",
+      "files": [
+        {
+          "path": "assets/templates/proposal-cover.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/proposal-cover.pdf",
+          "format": "pdf",
+          "label": "Print PDF"
+        },
+        {
+          "path": "assets/templates/proposal-cover.svg",
+          "format": "svg",
+          "label": "Editable SVG"
+        },
+        {
+          "path": "assets/templates/proposal-cover.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/templates/proposal-cover.jpg",
+          "format": "jpg",
+          "label": "JPG"
+        }
+      ]
+    },
+    {
+      "id": "social-square",
+      "name": "Social post / 1080 × 1080",
+      "category": "templates",
+      "description": "Square brand announcement template with the supplied “Different Challenges. Infinite Possibilities. One Hub.” message.",
+      "preview": "assets/templates/social-square.png",
+      "files": [
+        {
+          "path": "assets/templates/social-square.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/social-square.pdf",
+          "format": "pdf",
+          "label": "Print PDF"
+        },
+        {
+          "path": "assets/templates/social-square.svg",
+          "format": "svg",
+          "label": "Editable SVG"
+        },
+        {
+          "path": "assets/templates/social-square.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/templates/social-square.jpg",
+          "format": "jpg",
+          "label": "JPG"
+        }
+      ]
+    },
+    {
+      "id": "web-banner",
+      "name": "Website banner / 1920 × 640",
+      "category": "templates",
+      "description": "Wide digital banner with a clear service statement, approved company website, and editable headline.",
+      "preview": "assets/templates/web-banner.png",
+      "files": [
+        {
+          "path": "assets/templates/web-banner.html",
+          "format": "html",
+          "label": "Offline editable layout / print"
+        },
+        {
+          "path": "assets/templates/web-banner.pdf",
+          "format": "pdf",
+          "label": "Print PDF"
+        },
+        {
+          "path": "assets/templates/web-banner.svg",
+          "format": "svg",
+          "label": "Editable SVG"
+        },
+        {
+          "path": "assets/templates/web-banner.png",
+          "format": "png",
+          "label": "PNG"
+        },
+        {
+          "path": "assets/templates/web-banner.jpg",
+          "format": "jpg",
+          "label": "JPG"
+        }
+      ]
+    },
+    {
+      "id": "company-contact",
+      "name": "Company contact",
+      "category": "qr",
+      "description": "Save AndHub Engineering PLC to contacts.",
+      "preview": "assets/qr/andhub-company-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ]
+    },
+    {
+      "id": "company-email",
+      "name": "Company email QR",
+      "category": "qr",
+      "description": "Compose an email to info@1hubengineering.com.",
+      "preview": "assets/qr/andhub-company-email-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-email-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-email-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-email-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "company-phone-1",
+      "name": "Company phone 1 QR",
+      "category": "qr",
+      "description": "Call 0913231123 / +251913231123.",
+      "preview": "assets/qr/andhub-company-phone-1-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "company-phone-2",
+      "name": "Company phone 2 QR",
+      "category": "qr",
+      "description": "Call 0922964576 / +251922964576.",
+      "preview": "assets/qr/andhub-company-phone-2-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "company-website",
+      "name": "Company website QR",
+      "category": "qr",
+      "description": "Open the AndHub Engineering PLC website.",
+      "preview": "assets/qr/andhub-company-website-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-website-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-website-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-website-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "rehoboth-bekele-contact",
+      "name": "Dr. Rehoboth Bekele contact",
+      "category": "qr",
+      "description": "Save Dr. Rehoboth Bekele, Founder and CTO to contacts.",
+      "preview": "assets/qr/andhub-rehoboth-bekele-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ]
+    },
+    {
+      "id": "social-facebook",
+      "name": "Facebook QR",
+      "category": "qr",
+      "description": "Open Facebook / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-facebook-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "social-github",
+      "name": "GitHub QR",
+      "category": "qr",
+      "description": "Open GitHub / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-github-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-github-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-github-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-github-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "social-instagram",
+      "name": "Instagram QR",
+      "category": "qr",
+      "description": "Open Instagram / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-instagram-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "social-linkedin",
+      "name": "LinkedIn QR",
+      "category": "qr",
+      "description": "Open LinkedIn / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-linkedin-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "abraham-bekele-contact",
+      "name": "Mr. Abraham Bekele contact",
+      "category": "qr",
+      "description": "Save Mr. Abraham Bekele, Founder and CEO to contacts.",
+      "preview": "assets/qr/andhub-abraham-bekele-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ]
+    },
+    {
+      "id": "social-tiktok",
+      "name": "TikTok QR",
+      "category": "qr",
+      "description": "Open TikTok / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-tiktok-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "social-x",
+      "name": "X QR",
+      "category": "qr",
+      "description": "Open X / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-x-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-x-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-x-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-x-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "social-youtube",
+      "name": "YouTube QR",
+      "category": "qr",
+      "description": "Open YouTube / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-youtube-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/brand-context.json",
+      "name": "Brand Context",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/brand-context.json",
+          "format": "json",
+          "label": "brand-context.json"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/brand-context.schema.json",
+      "name": "Brand Context.Schema",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/brand-context.schema.json",
+          "format": "json",
+          "label": "brand-context.schema.json"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/guidelines.md",
+      "name": "Guidelines",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/guidelines.md",
+          "format": "md",
+          "label": "guidelines.md"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/mcp-config.example.json",
+      "name": "Mcp Config.Example",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/mcp-config.example.json",
+          "format": "json",
+          "label": "mcp-config.example.json"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/mcp-server.mjs",
+      "name": "Mcp Server",
+      "category": "ai",
+      "description": "Read-only MCP adapter for local stdio clients. Run from the downloaded toolkit or a repository checkout.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/mcp-server.mjs",
+          "format": "mjs",
+          "label": "mcp-server.mjs"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/organization.jsonld",
+      "name": "Organization",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/organization.jsonld",
+          "format": "jsonld",
+          "label": "organization.jsonld"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/resource-index.json",
+      "name": "Resource Index",
+      "category": "ai",
+      "description": "AI-readable brand context, source data, schemas or integration guidance.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/resource-index.json",
+          "format": "json",
+          "label": "resource-index.json"
+        }
+      ]
+    },
+    {
+      "id": "ai-assets/ai/andhub-brand/SKILL.md",
+      "name": "SKILL",
+      "category": "ai",
+      "description": "Reusable AndHub brand skill for compatible agents. See the AI guide for installation.",
+      "preview": null,
+      "files": [
+        {
+          "path": "assets/ai/andhub-brand/SKILL.md",
+          "format": "md",
+          "label": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

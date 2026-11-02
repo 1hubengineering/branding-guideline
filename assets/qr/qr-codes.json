@@ -1,0 +1,539 @@
+{
+  "brand": "AndHub Engineering PLC",
+  "version": 1,
+  "social_note": "Social URLs are derived from the supplied 1hubengineering handle. Profile ownership and availability have not been independently verified.",
+  "assets": [
+    {
+      "id": "company-website",
+      "name": "Company website QR",
+      "category": "qr",
+      "description": "Open the AndHub Engineering PLC website.",
+      "preview": "assets/qr/andhub-company-website-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-website-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-website-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-website-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "website",
+        "url"
+      ],
+      "payload": "https://1hubengineering.com",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 33,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.12121212121212122
+      }
+    },
+    {
+      "id": "company-contact",
+      "name": "Company contact",
+      "category": "qr",
+      "description": "Save AndHub Engineering PLC to contacts.",
+      "preview": "assets/qr/andhub-company-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-company-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ],
+      "tags": [
+        "contact",
+        "vcard"
+      ],
+      "payload": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:AndHub Engineering PLC;;;;\r\nFN:AndHub Engineering PLC\r\nORG:AndHub Engineering PLC\r\nTEL;TYPE=WORK,VOICE:+251913231123\r\nTEL;TYPE=WORK,VOICE:+251922964576\r\nEMAIL;TYPE=WORK:info@1hubengineering.com\r\nADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia\r\nURL:https://1hubengineering.com\r\nEND:VCARD\r\n",
+      "width": 1515,
+      "height": 1515,
+      "qr": {
+        "error_correction": "H",
+        "modules": 93,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13978494623655913
+      }
+    },
+    {
+      "id": "abraham-bekele-contact",
+      "name": "Mr. Abraham Bekele contact",
+      "category": "qr",
+      "description": "Save Mr. Abraham Bekele, Founder and CEO to contacts.",
+      "preview": "assets/qr/andhub-abraham-bekele-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-abraham-bekele-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ],
+      "tags": [
+        "contact",
+        "vcard"
+      ],
+      "payload": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Bekele;Abraham;;Mr.;\r\nFN:Mr. Abraham Bekele\r\nORG:AndHub Engineering PLC\r\nTITLE:Founder and CEO\r\nTEL;TYPE=WORK,VOICE:+251922964576\r\nEMAIL;TYPE=WORK:abraham@1hubengineering.com\r\nADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia\r\nURL:https://1hubengineering.com\r\nEND:VCARD\r\n",
+      "width": 1455,
+      "height": 1455,
+      "qr": {
+        "error_correction": "H",
+        "modules": 89,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.1348314606741573
+      }
+    },
+    {
+      "id": "rehoboth-bekele-contact",
+      "name": "Dr. Rehoboth Bekele contact",
+      "category": "qr",
+      "description": "Save Dr. Rehoboth Bekele, Founder and CTO to contacts.",
+      "preview": "assets/qr/andhub-rehoboth-bekele-contact-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        },
+        {
+          "path": "assets/qr/andhub-rehoboth-bekele-contact.vcf",
+          "format": "vcf",
+          "label": "Contact vCard"
+        }
+      ],
+      "tags": [
+        "contact",
+        "vcard"
+      ],
+      "payload": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Bekele;Rehoboth;;Dr.;\r\nFN:Dr. Rehoboth Bekele\r\nORG:AndHub Engineering PLC\r\nTITLE:Founder and CTO\r\nTEL;TYPE=WORK,VOICE:+251913231123\r\nEMAIL;TYPE=WORK:rehoboth@1hubengineering.com\r\nADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia\r\nURL:https://1hubengineering.com\r\nEND:VCARD\r\n",
+      "width": 1455,
+      "height": 1455,
+      "qr": {
+        "error_correction": "H",
+        "modules": 89,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.1348314606741573
+      }
+    },
+    {
+      "id": "company-email",
+      "name": "Company email QR",
+      "category": "qr",
+      "description": "Compose an email to info@1hubengineering.com.",
+      "preview": "assets/qr/andhub-company-email-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-email-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-email-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-email-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "email"
+      ],
+      "payload": "mailto:info@1hubengineering.com",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 33,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.12121212121212122
+      }
+    },
+    {
+      "id": "company-phone-1",
+      "name": "Company phone 1 QR",
+      "category": "qr",
+      "description": "Call 0913231123 / +251913231123.",
+      "preview": "assets/qr/andhub-company-phone-1-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-1-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "phone",
+        "contact"
+      ],
+      "payload": "tel:+251913231123",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 29,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13793103448275862
+      }
+    },
+    {
+      "id": "company-phone-2",
+      "name": "Company phone 2 QR",
+      "category": "qr",
+      "description": "Call 0922964576 / +251922964576.",
+      "preview": "assets/qr/andhub-company-phone-2-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-company-phone-2-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "phone",
+        "contact"
+      ],
+      "payload": "tel:+251922964576",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 29,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13793103448275862
+      }
+    },
+    {
+      "id": "social-linkedin",
+      "name": "LinkedIn QR",
+      "category": "qr",
+      "description": "Open LinkedIn / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-linkedin-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-linkedin-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "linkedin"
+      ],
+      "payload": "https://www.linkedin.com/company/1hubengineering/",
+      "width": 1519,
+      "height": 1519,
+      "qr": {
+        "error_correction": "H",
+        "modules": 41,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.12195121951219512
+      }
+    },
+    {
+      "id": "social-facebook",
+      "name": "Facebook QR",
+      "category": "qr",
+      "description": "Open Facebook / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-facebook-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-facebook-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "facebook"
+      ],
+      "payload": "https://facebook.com/1hubengineering",
+      "width": 1530,
+      "height": 1530,
+      "qr": {
+        "error_correction": "H",
+        "modules": 37,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13513513513513514
+      }
+    },
+    {
+      "id": "social-instagram",
+      "name": "Instagram QR",
+      "category": "qr",
+      "description": "Open Instagram / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-instagram-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-instagram-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "instagram"
+      ],
+      "payload": "https://instagram.com/1hubengineering",
+      "width": 1530,
+      "height": 1530,
+      "qr": {
+        "error_correction": "H",
+        "modules": 37,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13513513513513514
+      }
+    },
+    {
+      "id": "social-x",
+      "name": "X QR",
+      "category": "qr",
+      "description": "Open X / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-x-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-x-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-x-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-x-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "x"
+      ],
+      "payload": "https://x.com/1hubengineering",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 33,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.12121212121212122
+      }
+    },
+    {
+      "id": "social-youtube",
+      "name": "YouTube QR",
+      "category": "qr",
+      "description": "Open YouTube / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-youtube-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-youtube-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "youtube"
+      ],
+      "payload": "https://www.youtube.com/@1hubengineering",
+      "width": 1530,
+      "height": 1530,
+      "qr": {
+        "error_correction": "H",
+        "modules": 37,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13513513513513514
+      }
+    },
+    {
+      "id": "social-tiktok",
+      "name": "TikTok QR",
+      "category": "qr",
+      "description": "Open TikTok / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-tiktok-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-tiktok-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "tiktok"
+      ],
+      "payload": "https://www.tiktok.com/@1hubengineering",
+      "width": 1530,
+      "height": 1530,
+      "qr": {
+        "error_correction": "H",
+        "modules": 37,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.13513513513513514
+      }
+    },
+    {
+      "id": "social-github",
+      "name": "GitHub QR",
+      "category": "qr",
+      "description": "Open GitHub / 1hubengineering. URL derived from the supplied handle; profile availability is not independently verified.",
+      "preview": "assets/qr/andhub-social-github-qr.png",
+      "files": [
+        {
+          "path": "assets/qr/andhub-social-github-qr.png",
+          "format": "png",
+          "label": "PNG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-github-qr.jpg",
+          "format": "jpg",
+          "label": "JPG image"
+        },
+        {
+          "path": "assets/qr/andhub-social-github-qr.svg",
+          "format": "svg",
+          "label": "SVG vector"
+        }
+      ],
+      "tags": [
+        "social",
+        "github"
+      ],
+      "payload": "https://github.com/1hubengineering",
+      "width": 1517,
+      "height": 1517,
+      "qr": {
+        "error_correction": "H",
+        "modules": 33,
+        "quiet_zone_modules": 4,
+        "logo_backing_fraction": 0.12121212121212122
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /branding-guideline/
+
+Sitemap: https://1hubengineering.github.io/branding-guideline/sitemap.xml

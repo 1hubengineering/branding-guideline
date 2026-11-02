@@ -52,30 +52,54 @@ for (const file of files) {
     for (const match of (await readFile(file, 'utf8')).matchAll(/\]\(([^)]+)\)/g)) await checkReference(file, match[1]);
   }
 }
-const manifestFile = join(root, '05-web-kit/site.webmanifest');
+const manifestFile = join(root, 'assets/web-kit/site.webmanifest');
 const webManifest = JSON.parse(await readFile(manifestFile, 'utf8'));
 for (const key of ['id', 'start_url', 'scope']) await checkReference(manifestFile, webManifest[key]);
 for (const icon of webManifest.icons) await checkReference(manifestFile, icon.src);
 
-const manifest = JSON.parse(await readFile(join(root, 'asset-manifest.json'), 'utf8'));
+const manifest = JSON.parse(await readFile(join(root, 'assets/asset-manifest.json'), 'utf8'));
 if (manifest.assets.length !== manifest.artwork_file_count) errors.push('Artwork inventory count differs from records.');
 for (const asset of manifest.assets) {
-  await checkReference(join(root, 'asset-manifest.json'), asset.file);
+  await checkReference(join(root, 'index.html'), asset.file);
   const bytes = await readFile(join(root, asset.file));
   if (bytes.length !== asset.bytes) errors.push(`Size mismatch: ${asset.file}`);
   if (createHash('sha256').update(bytes).digest('hex') !== asset.sha256) errors.push(`SHA-256 mismatch: ${asset.file}`);
 }
-const csv = await readFile(join(root, 'asset-manifest.csv'), 'utf8');
+const csv = await readFile(join(root, 'assets/asset-manifest.csv'), 'utf8');
 if (csv.trim().split(/\r?\n/).length - 1 !== manifest.assets.length) errors.push('CSV inventory count differs from JSON.');
 for (const asset of manifest.assets) if (!csv.includes(asset.file) || !csv.includes(asset.sha256)) errors.push(`CSV inventory differs: ${asset.file}`);
 
-// Documents and videos must remain reachable rather than becoming orphaned again.
-const pages = (await Promise.all(files.filter(file => file.endsWith('.html')).map(file => readFile(file, 'utf8')))).join('\n');
-for (const file of await walk(join(root, 'docs'))) {
-  if (/\.(?:docx|pdf|mp4|css|png)$/.test(file) && !file.includes('guide-images')) {
-    const name = file.split(/[\\/]/).at(-1);
-    if (!pages.includes(encodeURIComponent(name)) && !pages.includes(name)) errors.push(`Orphaned document: ${name}`);
+const catalog = JSON.parse(await readFile(join(root, 'assets/catalog.json'), 'utf8'));
+const catalogPaths = new Set();
+const catalogIds = new Set();
+for (const resource of catalog.resources) {
+  if (catalogIds.has(resource.id)) errors.push(`Duplicate catalog ID: ${resource.id}`);
+  catalogIds.add(resource.id);
+  if (resource.preview) await checkReference(join(root, 'index.html'), resource.preview);
+  if (!resource.files.length) errors.push(`No downloadable files: ${resource.id}`);
+  for (const file of resource.files) {
+    if (!file.path.startsWith('assets/')) errors.push(`Resource outside assets/: ${file.path}`);
+    await checkReference(join(root, 'index.html'), file.path);
+    const bytes = await readFile(join(root, file.path));
+    if (bytes.length !== file.bytes || createHash('sha256').update(bytes).digest('hex') !== file.sha256) errors.push(`Stale catalog file record: ${file.path}`);
+    catalogPaths.add(file.path);
   }
+}
+for (const bundle of catalog.bundles) {
+  await checkReference(join(root, 'index.html'), bundle.path);
+  const bytes = await readFile(join(root, bundle.path));
+  if (bytes.length !== bundle.bytes || createHash('sha256').update(bytes).digest('hex') !== bundle.sha256) errors.push(`Stale ZIP bundle: ${bundle.path}`);
+}
+for (const resourceFolder of ['documents', 'images', 'videos', 'fonts', 'logos', 'icons', 'web-kit', 'reference', 'templates', 'qr', 'ai']) {
+  for (const file of await walk(join(root, 'assets', resourceFolder))) {
+    const path = relative(root, file).replaceAll('\\', '/');
+    if (!catalogPaths.has(path) && !/\/(?:templates|qr-codes)\.json$/.test(path)) errors.push(`Resource missing from gallery: ${path}`);
+  }
+}
+for (const file of files.filter(path => path.endsWith('.html'))) {
+  const markup = await readFile(file, 'utf8');
+  const links = [...markup.matchAll(/\bhref="([^"]+)"/g)].map(match => decode(match[1]));
+  if (!links.some(value => !/^(?:https?:|data:|#)/.test(value) && join(dirname(file), value.split(/[?#]/)[0]) === join(root, 'index.html'))) errors.push(`Page missing a back-to-home link: ${relative(root, file)}`);
 }
 const report = {
   status: errors.length ? 'FAIL' : 'PASS',
@@ -83,6 +107,9 @@ const report = {
   html_pages: files.filter(file => file.endsWith('.html')).length,
   local_references_checked: referenceCount,
   artwork_hashes_verified: manifest.assets.length,
+  catalog_resources: catalog.resources.length,
+  catalog_files_verified: catalogPaths.size,
+  category_zip_bundles: catalog.bundles.length,
   external_links_listed: externalLinks.size,
   errors,
 };

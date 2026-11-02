@@ -1,0 +1,290 @@
+{
+  "$schema": "https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.schema.json",
+  "schema_version": "1.0",
+  "name": "AndHub Engineering PLC",
+  "short_name": "AndHub",
+  "tagline": "Ideas. Engineered.",
+  "content": {
+    "headline": "We turn ideas into solutions that make a difference.",
+    "description": "AndHub is a software development, systems engineering, and consultancy company helping businesses of all sizes design, build, and improve the technology and systems they depend on.",
+    "capabilities": "From websites and custom software to large-scale business systems, digital products, and expert consultancy, we bring together experienced software developers and systems engineers to solve challenges, simplify operations, and create lasting value.",
+    "partnership": "Backed by experienced leadership in software and systems engineering, we are more than a technology provider. We aim to be a trusted partner that understands your vision, helps shape your ideas, and brings your plans to life.",
+    "closing": "Different Challenges. Infinite Possibilities. One Hub."
+  },
+  "services": [
+    "Software development",
+    "Systems engineering",
+    "Consultancy"
+  ],
+  "contact": {
+    "website": "https://1hubengineering.com",
+    "email": "info@1hubengineering.com",
+    "phones": [
+      {
+        "display": "0913231123",
+        "international": "+251913231123"
+      },
+      {
+        "display": "0922964576",
+        "international": "+251922964576"
+      }
+    ],
+    "address": {
+      "street": "Lebu",
+      "city": "Addis Ababa",
+      "country": "Ethiopia",
+      "display": "Lebu, Addis Ababa, Ethiopia"
+    }
+  },
+  "leadership": [
+    {
+      "name": "Mr. Abraham Bekele",
+      "title": "Founder and CEO",
+      "email": "abraham@1hubengineering.com",
+      "phone": "0922964576",
+      "international_phone": "+251922964576"
+    },
+    {
+      "name": "Dr. Rehoboth Bekele",
+      "title": "Founder and CTO",
+      "email": "rehoboth@1hubengineering.com",
+      "phone": "0913231123",
+      "international_phone": "+251913231123"
+    }
+  ],
+  "socials": {
+    "handle": "1hubengineering",
+    "destinations": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/company/1hubengineering/"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/1hubengineering"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/1hubengineering"
+      },
+      {
+        "name": "X",
+        "url": "https://x.com/1hubengineering"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@1hubengineering"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@1hubengineering"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/1hubengineering"
+      }
+    ],
+    "source_status": "Destinations use the user-supplied handle; account ownership and availability have not been independently verified."
+  },
+  "visual_identity": {
+    "palette": {
+      "navy": "#0B1F3B",
+      "blue": "#2563EB",
+      "green": "#10B981",
+      "cloud": "#E5E7EB"
+    },
+    "working_color_space": "RGB",
+    "logo_status": "Reconstructed artwork for review and approval",
+    "artwork_version": "1.0-reconstructed",
+    "source": "User-supplied raster brand identity board",
+    "gradient_status": "Visually approximated from source presentation; not recovered original specifications",
+    "supporting_lettering": "Inter Display, outlined and fitted; not identified as the original font",
+    "svg_font_dependencies": false,
+    "layouts": [
+      {
+        "id": "symbol",
+        "width": 512,
+        "height": 512,
+        "description": "Symbol only"
+      },
+      {
+        "id": "horizontal",
+        "width": 1096,
+        "height": 338,
+        "description": "Horizontal / full company name"
+      },
+      {
+        "id": "horizontal-tagline",
+        "width": 1096,
+        "height": 338,
+        "description": "Horizontal / name + tagline"
+      },
+      {
+        "id": "stacked",
+        "width": 800,
+        "height": 613,
+        "description": "Stacked / full company name"
+      },
+      {
+        "id": "stacked-tagline",
+        "width": 800,
+        "height": 704,
+        "description": "Stacked / name + tagline"
+      },
+      {
+        "id": "wordmark",
+        "width": 800,
+        "height": 240,
+        "description": "Wordmark / full company name, no symbol"
+      },
+      {
+        "id": "wordmark-tagline",
+        "width": 800,
+        "height": 328,
+        "description": "Wordmark / name + tagline, no symbol"
+      },
+      {
+        "id": "compact",
+        "width": 825,
+        "height": 240,
+        "description": "Compact / symbol + ANDHUB, no descriptor"
+      }
+    ],
+    "treatments": [
+      {
+        "id": "gradient-light",
+        "description": "Gradient / light surfaces",
+        "gradient": true,
+        "dark_surface": false,
+        "monochrome_fill": null,
+        "jpg_background": "#FFFFFF"
+      },
+      {
+        "id": "gradient-dark",
+        "description": "Gradient / dark surfaces",
+        "gradient": true,
+        "dark_surface": true,
+        "monochrome_fill": null,
+        "jpg_background": "#0B1F3B"
+      },
+      {
+        "id": "flat-light",
+        "description": "Flat color / light surfaces",
+        "gradient": false,
+        "dark_surface": false,
+        "monochrome_fill": null,
+        "jpg_background": "#FFFFFF"
+      },
+      {
+        "id": "flat-dark",
+        "description": "Flat color / dark surfaces",
+        "gradient": false,
+        "dark_surface": true,
+        "monochrome_fill": null,
+        "jpg_background": "#0B1F3B"
+      },
+      {
+        "id": "mono-navy",
+        "description": "One color / navy",
+        "gradient": false,
+        "dark_surface": false,
+        "monochrome_fill": "#0B1F3B",
+        "jpg_background": "#FFFFFF"
+      },
+      {
+        "id": "mono-black",
+        "description": "One color / black",
+        "gradient": false,
+        "dark_surface": false,
+        "monochrome_fill": "#111111",
+        "jpg_background": "#FFFFFF"
+      },
+      {
+        "id": "mono-white",
+        "description": "One color / white reverse",
+        "gradient": false,
+        "dark_surface": true,
+        "monochrome_fill": "#FFFFFF",
+        "jpg_background": "#0B1F3B"
+      }
+    ],
+    "usage": [
+      "Use the supplied logo artwork. Keep its proportions, color order and internal negative spaces intact.",
+      "Choose light/dark artwork for the actual surrounding surface; use a mono treatment for true one-color output.",
+      "Clear space of one quarter of the visible symbol height is a proposed starting standard; verify the chosen reconstructed master.",
+      "Choose compact or symbol-only artwork when the descriptor or tagline becomes unreadable.",
+      "Raster size labels denote the longest artboard edge, including built-in margins.",
+      "Artwork is RGB. Agree print conversions, materials and proofs with the production supplier."
+    ],
+    "typography": {
+      "proposed_headings": "Inter Display",
+      "proposed_body": "Inter",
+      "fallback": "Arial, sans-serif",
+      "current_distribution": "Inter variable font files are provided in assets/fonts/ with their SIL Open Font License. The historical logo spec records that fonts were not distributed in the original reconstructed pack.",
+      "logo_note": "The custom ANDHUB lettering is outlined artwork, not a live-text font. Inter is supporting typography, not an identification of the original wordmark font."
+    }
+  },
+  "writing": {
+    "voice": [
+      "Precise",
+      "Composed",
+      "Practical",
+      "Approachable"
+    ],
+    "naming": "Use AndHub Engineering PLC in formal documents and first mentions; use AndHub thereafter. ANDHUB is the artwork treatment.",
+    "tagline": "Preserve both full stops in Ideas. Engineered.",
+    "practice": "Lead with the problem or outcome, explain the approach, and use specific evidence for capability claims.",
+    "avoid": [
+      "Invented customers or partnerships",
+      "Unverified certifications or rankings",
+      "Unsupported performance or uptime promises",
+      "Invented social profile verification"
+    ]
+  },
+  "accessibility": {
+    "text_contrast": "Test normal text at 4.5:1 minimum and large text at 3:1 minimum in context.",
+    "combinations": [
+      {
+        "foreground": "#FFFFFF",
+        "background": "#2563EB",
+        "ratio": 5.17,
+        "use": "Normal text"
+      },
+      {
+        "foreground": "#0B1F3B",
+        "background": "#10B981",
+        "ratio": 6.5,
+        "use": "Normal text"
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#10B981",
+        "ratio": 2.54,
+        "use": "Do not use for normal text"
+      }
+    ],
+    "implementation": "Keep keyboard focus visible, label controls and communicate status beyond color. Test actual components and printed QR codes in their final context.",
+    "scope": "These recommendations and solid-color ratios do not certify a complete design as accessible."
+  },
+  "source_priority": [
+    "The current user instruction and authorized task scope take precedence.",
+    "assets/brand.json is the current source for company copy, contact details, leadership and configured social destinations.",
+    "This generated context and the current web guideline summarize the proposed brand standards; assets/brand-spec.json describes the reconstructed artwork.",
+    "The original guideline PDF/DOCX are historical source documents. Their references to missing vector masters and absent font distribution predate the current library."
+  ],
+  "approval_status": "The original artwork remains a reconstruction for review. Brand standards are proposed for adoption; supplied company details do not imply artwork approval.",
+  "entrypoints": {
+    "home": "https://1hubengineering.github.io/branding-guideline/",
+    "ai_guide": "https://1hubengineering.github.io/branding-guideline/docs/ai.html",
+    "discovery": "https://1hubengineering.github.io/branding-guideline/llms.txt",
+    "plain_text": "https://1hubengineering.github.io/branding-guideline/llms-full.txt",
+    "company_data": "https://1hubengineering.github.io/branding-guideline/assets/brand.json",
+    "artwork_spec": "https://1hubengineering.github.io/branding-guideline/assets/brand-spec.json",
+    "catalog": "https://1hubengineering.github.io/branding-guideline/assets/catalog.json",
+    "gallery": "https://1hubengineering.github.io/branding-guideline/assets.html",
+    "complete_guidelines": "https://1hubengineering.github.io/branding-guideline/docs/guidelines.html",
+    "complete_guidelines_text": "https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md",
+    "reusable_skill": "https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md",
+    "mcp_adapter": "https://1hubengineering.github.io/branding-guideline/assets/ai/mcp-server.mjs"
+  }
+}

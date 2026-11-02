@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bekele;Rehoboth;;Dr.;
+FN:Dr. Rehoboth Bekele
+ORG:AndHub Engineering PLC
+TITLE:Founder and CTO
+TEL;TYPE=WORK,VOICE:+251913231123
+EMAIL;TYPE=WORK:rehoboth@1hubengineering.com
+ADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia
+URL:https://1hubengineering.com
+END:VCARD

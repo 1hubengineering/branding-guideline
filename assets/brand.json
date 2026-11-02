@@ -1,0 +1,33 @@
+{
+  "name": "AndHub Engineering PLC",
+  "short_name": "AndHub",
+  "tagline": "Ideas. Engineered.",
+  "headline": "We turn ideas into solutions that make a difference.",
+  "description": "AndHub is a software development, systems engineering, and consultancy company helping businesses of all sizes design, build, and improve the technology and systems they depend on.",
+  "capabilities": "From websites and custom software to large-scale business systems, digital products, and expert consultancy, we bring together experienced software developers and systems engineers to solve challenges, simplify operations, and create lasting value.",
+  "partnership": "Backed by experienced leadership in software and systems engineering, we are more than a technology provider. We aim to be a trusted partner that understands your vision, helps shape your ideas, and brings your plans to life.",
+  "closing": "Different Challenges. Infinite Possibilities. One Hub.",
+  "website": "https://1hubengineering.com",
+  "email": "info@1hubengineering.com",
+  "phones": [
+    { "display": "0913231123", "international": "+251913231123" },
+    { "display": "0922964576", "international": "+251922964576" }
+  ],
+  "address": { "street": "Lebu", "city": "Addis Ababa", "country": "Ethiopia", "display": "Lebu, Addis Ababa, Ethiopia" },
+  "leadership": [
+    { "name": "Mr. Abraham Bekele", "title": "Founder and CEO", "email": "abraham@1hubengineering.com", "phone": "0922964576", "international_phone": "+251922964576" },
+    { "name": "Dr. Rehoboth Bekele", "title": "Founder and CTO", "email": "rehoboth@1hubengineering.com", "phone": "0913231123", "international_phone": "+251913231123" }
+  ],
+  "social_handle": "1hubengineering",
+  "socials": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/1hubengineering/" },
+    { "name": "Facebook", "url": "https://facebook.com/1hubengineering" },
+    { "name": "Instagram", "url": "https://instagram.com/1hubengineering" },
+    { "name": "X", "url": "https://x.com/1hubengineering" },
+    { "name": "YouTube", "url": "https://www.youtube.com/@1hubengineering" },
+    { "name": "TikTok", "url": "https://www.tiktok.com/@1hubengineering" },
+    { "name": "GitHub", "url": "https://github.com/1hubengineering" }
+  ],
+  "social_source": "Destinations use the user-supplied handle; account ownership and availability have not been independently verified.",
+  "palette": { "navy": "#0B1F3B", "blue": "#2563EB", "green": "#10B981", "cloud": "#E5E7EB" }
+}

@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "encoder": "qrcode-generator 2.0.4",
+  "decoder": "jsQR 1.4.0",
+  "decoded_images": 28,
+  "checks": [
+    {
+      "id": "company-website",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-website",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-contact",
+      "format": "png",
+      "status": "PASS",
+      "width": 1515,
+      "height": 1515
+    },
+    {
+      "id": "company-contact",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1515,
+      "height": 1515
+    },
+    {
+      "id": "abraham-bekele-contact",
+      "format": "png",
+      "status": "PASS",
+      "width": 1455,
+      "height": 1455
+    },
+    {
+      "id": "abraham-bekele-contact",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1455,
+      "height": 1455
+    },
+    {
+      "id": "rehoboth-bekele-contact",
+      "format": "png",
+      "status": "PASS",
+      "width": 1455,
+      "height": 1455
+    },
+    {
+      "id": "rehoboth-bekele-contact",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1455,
+      "height": 1455
+    },
+    {
+      "id": "company-email",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-email",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-phone-1",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-phone-1",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-phone-2",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "company-phone-2",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "social-linkedin",
+      "format": "png",
+      "status": "PASS",
+      "width": 1519,
+      "height": 1519
+    },
+    {
+      "id": "social-linkedin",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1519,
+      "height": 1519
+    },
+    {
+      "id": "social-facebook",
+      "format": "png",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-facebook",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-instagram",
+      "format": "png",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-instagram",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-x",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "social-x",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "social-youtube",
+      "format": "png",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-youtube",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-tiktok",
+      "format": "png",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-tiktok",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1530,
+      "height": 1530
+    },
+    {
+      "id": "social-github",
+      "format": "png",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    },
+    {
+      "id": "social-github",
+      "format": "jpg",
+      "status": "PASS",
+      "width": 1517,
+      "height": 1517
+    }
+  ],
+  "scope": "Exact payload decoding of every generated PNG and JPG, including all vCard fields. This is a software decode check; test the final printed size and intended scanning devices."
+}

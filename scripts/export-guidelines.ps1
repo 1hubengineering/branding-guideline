@@ -2,8 +2,8 @@
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$documentPath = Join-Path $repoRoot 'docs/AndHub_Engineering_Brand_Guidelines_v1.docx'
-$imageDirectory = Join-Path $repoRoot 'docs/guide-images'
+$documentPath = Join-Path $repoRoot 'assets/documents/AndHub_Engineering_Brand_Guidelines_v1.docx'
+$imageDirectory = Join-Path $repoRoot 'assets/images/guide'
 [IO.Directory]::CreateDirectory($imageDirectory) | Out-Null
 $archive = [IO.Compression.ZipFile]::OpenRead($documentPath)
 try {
@@ -46,7 +46,7 @@ try {
         $html = ''
         foreach ($blip in $images) {
             $imageName = [IO.Path]::GetFileName($targets[$blip.GetAttribute('embed', $ns.LookupNamespace('r'))])
-            $html += '<figure><img src="guide-images/' + (Encode $imageName) + '" loading="lazy" alt="Illustration from the original brand guide; explained in the adjacent text"></figure>'
+            $html += '<figure><img src="../assets/images/guide/' + (Encode $imageName) + '" loading="lazy" alt="Illustration from the original brand guide; explained in the adjacent text"></figure>'
         }
         if (-not ($content -replace '<[^>]*>', '').Trim()) { return $html }
         $styleNode = $paragraph.SelectSingleNode('w:pPr/w:pStyle', $ns)
@@ -90,14 +90,14 @@ try {
     }
     $body = $blocks -join "`n"
     # The document's visual source was a plain-text reference; make it navigable.
-    $body = $body.Replace('“AndHub Engineering Brand Identity Board.png,”', '<a href="AndHub%20Engineering%20Brand%20Identity%20Board.png">“AndHub Engineering Brand Identity Board.png,”</a>')
+    $body = $body.Replace('“AndHub Engineering Brand Identity Board.png,”', '<a href="../assets/images/reference/AndHub%20Engineering%20Brand%20Identity%20Board.png">“AndHub Engineering Brand Identity Board.png,”</a>')
     $tocHtml = $toc -join "`n"
     $html = @"
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Complete Brand Guidelines — AndHub Engineering PLC</title><meta name="description" content="The complete AndHub brand guide, including foundation, voice, logos, colors, typography, applications, governance and references."><link rel="icon" href="../05-web-kit/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../site/site.css"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Complete Brand Guidelines — AndHub Engineering PLC</title><meta name="description" content="The complete AndHub brand guide, including foundation, voice, logos, colors, typography, applications, governance and references."><link rel="icon" href="../assets/web-kit/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/styles/site.css"></head>
 <body><a class="skip-link" href="#main">Skip to content</a><main class="document-shell" id="main">
-<nav class="document-nav" aria-label="Page navigation"><a href="../index.html">← Brand guidelines home</a><a href="index.html">Documentation index</a><a href="AndHub_Engineering_Brand_Guidelines_v1.pdf">Original PDF ↗</a></nav>
-<aside class="document-intro"><strong>Web edition / Version 1.0.</strong> This is a readable transcription of the original proposed guide. Its references to vector masters describe the requirements when it was written. Reconstructed SVG, PNG and icon assets are now in the <a href="../assets.html">logo library</a>; they still require approval. Original <a href="AndHub_Engineering_Brand_Guidelines_v1.docx" download>DOCX</a> and <a href="AndHub_Engineering_Brand_Guidelines_v1.pdf">PDF</a> remain available. Companion <a href="AndHub_Brand_Tokens_v1.css" download>CSS tokens</a> implement the proposed defaults.</aside>
+<nav class="document-nav" aria-label="Page navigation"><a href="../index.html">← Brand guidelines home</a><a href="index.html">Documentation index</a><a href="../assets/documents/AndHub_Engineering_Brand_Guidelines_v1.pdf">Original PDF ↗</a></nav>
+<aside class="document-intro"><strong>Web edition / Version 1.0.</strong> This is a readable transcription of the original proposed guide. Its references to vector masters describe the requirements when it was written. Reconstructed SVG, PNG and icon assets are now in the <a href="../assets.html">logo library</a>; they still require approval. Original <a href="../assets/documents/AndHub_Engineering_Brand_Guidelines_v1.docx" download>DOCX</a> and <a href="../assets/documents/AndHub_Engineering_Brand_Guidelines_v1.pdf">PDF</a> remain available. Companion <a href="../assets/documents/AndHub_Brand_Tokens_v1.css" download>CSS tokens</a> implement the proposed defaults. The expanded library now includes <a href="../assets.html?category=fonts">licensed fonts</a>, <a href="../assets.html?category=templates">editable templates</a> and <a href="../assets.html?category=qr">branded QR downloads</a>. Current company contacts are in the <a href="company.html">company profile</a>.</aside>
 <nav class="document-toc" aria-label="On this page"><strong>In this guide</strong><ol>$tocHtml</ol></nav>
 <article class="document-body">$body</article>
 <footer class="footer"><p>AndHub Engineering PLC · Proposed standards for adoption</p><a href="../index.html">Return to the brand guide →</a></footer>

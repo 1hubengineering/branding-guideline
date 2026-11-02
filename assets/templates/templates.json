@@ -1,0 +1,464 @@
+[
+  {
+    "id": "letterhead",
+    "name": "Letterhead / header & footer",
+    "category": "templates",
+    "description": "A4 correspondence template with reusable header and footer artwork, verified company contacts, and editable letter placeholders.",
+    "preview": "assets/templates/letterhead.png",
+    "files": [
+      {
+        "path": "assets/templates/letterhead.docx",
+        "format": "docx",
+        "label": "Editable Word letter / native header & footer"
+      },
+      {
+        "path": "assets/templates/letterhead.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/letterhead.pdf",
+        "format": "pdf",
+        "label": "Print PDF"
+      },
+      {
+        "path": "assets/templates/letterhead.svg",
+        "format": "svg",
+        "label": "Editable SVG"
+      },
+      {
+        "path": "assets/templates/letterhead.png",
+        "format": "png",
+        "label": "PNG"
+      },
+      {
+        "path": "assets/templates/letterhead.jpg",
+        "format": "jpg",
+        "label": "JPG"
+      },
+      {
+        "path": "assets/templates/letterhead-header.svg",
+        "format": "svg",
+        "label": "Reusable header strip"
+      },
+      {
+        "path": "assets/templates/letterhead-footer.svg",
+        "format": "svg",
+        "label": "Reusable footer strip"
+      }
+    ],
+    "tags": [
+      "stationery",
+      "letter",
+      "header",
+      "footer",
+      "A4"
+    ],
+    "dimensions": {
+      "width": 794,
+      "height": 1123,
+      "mmWidth": 210,
+      "mmHeight": 297
+    }
+  },
+  {
+    "id": "brochure",
+    "name": "Company brochure / tri-fold",
+    "category": "templates",
+    "description": "Two-sided A4 landscape tri-fold brochure covering the company introduction, services, positioning and contact details.",
+    "preview": "assets/templates/brochure-1.png",
+    "files": [
+      {
+        "path": "assets/templates/brochure.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/brochure.pdf",
+        "format": "pdf",
+        "label": "2-page print PDF"
+      },
+      {
+        "path": "assets/templates/brochure-1.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 1"
+      },
+      {
+        "path": "assets/templates/brochure-1.png",
+        "format": "png",
+        "label": "PNG / side 1"
+      },
+      {
+        "path": "assets/templates/brochure-1.jpg",
+        "format": "jpg",
+        "label": "JPG / side 1"
+      },
+      {
+        "path": "assets/templates/brochure-2.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 2"
+      },
+      {
+        "path": "assets/templates/brochure-2.png",
+        "format": "png",
+        "label": "PNG / side 2"
+      },
+      {
+        "path": "assets/templates/brochure-2.jpg",
+        "format": "jpg",
+        "label": "JPG / side 2"
+      }
+    ],
+    "tags": [
+      "brochure",
+      "company",
+      "services",
+      "tri-fold",
+      "A4"
+    ],
+    "dimensions": {
+      "width": 1123,
+      "height": 794,
+      "mmWidth": 297,
+      "mmHeight": 210
+    }
+  },
+  {
+    "id": "business-card-abraham",
+    "name": "Business card / Mr. Abraham Bekele",
+    "category": "templates",
+    "description": "Double-sided 85 × 55 mm business card with the AndHub brand face and Mr. Abraham Bekele’s supplied role and contact details.",
+    "preview": "assets/templates/business-card-abraham-2.png",
+    "files": [
+      {
+        "path": "assets/templates/business-card-abraham.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/business-card-abraham.pdf",
+        "format": "pdf",
+        "label": "2-page print PDF"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-1.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-1.png",
+        "format": "png",
+        "label": "PNG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-1.jpg",
+        "format": "jpg",
+        "label": "JPG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-2.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 2"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-2.png",
+        "format": "png",
+        "label": "PNG / side 2"
+      },
+      {
+        "path": "assets/templates/business-card-abraham-2.jpg",
+        "format": "jpg",
+        "label": "JPG / side 2"
+      }
+    ],
+    "tags": [
+      "business card",
+      "stationery",
+      "abraham",
+      "Founder and CEO"
+    ],
+    "dimensions": {
+      "width": 1004,
+      "height": 650,
+      "mmWidth": 85,
+      "mmHeight": 55
+    }
+  },
+  {
+    "id": "business-card-rehoboth",
+    "name": "Business card / Dr. Rehoboth Bekele",
+    "category": "templates",
+    "description": "Double-sided 85 × 55 mm business card with the AndHub brand face and Dr. Rehoboth Bekele’s supplied role and contact details.",
+    "preview": "assets/templates/business-card-rehoboth-2.png",
+    "files": [
+      {
+        "path": "assets/templates/business-card-rehoboth.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth.pdf",
+        "format": "pdf",
+        "label": "2-page print PDF"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-1.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-1.png",
+        "format": "png",
+        "label": "PNG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-1.jpg",
+        "format": "jpg",
+        "label": "JPG / side 1"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-2.svg",
+        "format": "svg",
+        "label": "Editable SVG / side 2"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-2.png",
+        "format": "png",
+        "label": "PNG / side 2"
+      },
+      {
+        "path": "assets/templates/business-card-rehoboth-2.jpg",
+        "format": "jpg",
+        "label": "JPG / side 2"
+      }
+    ],
+    "tags": [
+      "business card",
+      "stationery",
+      "rehoboth",
+      "Founder and CTO"
+    ],
+    "dimensions": {
+      "width": 1004,
+      "height": 650,
+      "mmWidth": 85,
+      "mmHeight": 55
+    }
+  },
+  {
+    "id": "web-banner",
+    "name": "Website banner / 1920 × 640",
+    "category": "templates",
+    "description": "Wide digital banner with a clear service statement, approved company website, and editable headline.",
+    "preview": "assets/templates/web-banner.png",
+    "files": [
+      {
+        "path": "assets/templates/web-banner.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/web-banner.pdf",
+        "format": "pdf",
+        "label": "Print PDF"
+      },
+      {
+        "path": "assets/templates/web-banner.svg",
+        "format": "svg",
+        "label": "Editable SVG"
+      },
+      {
+        "path": "assets/templates/web-banner.png",
+        "format": "png",
+        "label": "PNG"
+      },
+      {
+        "path": "assets/templates/web-banner.jpg",
+        "format": "jpg",
+        "label": "JPG"
+      }
+    ],
+    "tags": [
+      "banner",
+      "website",
+      "digital",
+      "1920x640"
+    ],
+    "dimensions": {
+      "width": 1920,
+      "height": 640,
+      "mmWidth": 508,
+      "mmHeight": 169.333
+    }
+  },
+  {
+    "id": "social-square",
+    "name": "Social post / 1080 × 1080",
+    "category": "templates",
+    "description": "Square brand announcement template with the supplied “Different Challenges. Infinite Possibilities. One Hub.” message.",
+    "preview": "assets/templates/social-square.png",
+    "files": [
+      {
+        "path": "assets/templates/social-square.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/social-square.pdf",
+        "format": "pdf",
+        "label": "Print PDF"
+      },
+      {
+        "path": "assets/templates/social-square.svg",
+        "format": "svg",
+        "label": "Editable SVG"
+      },
+      {
+        "path": "assets/templates/social-square.png",
+        "format": "png",
+        "label": "PNG"
+      },
+      {
+        "path": "assets/templates/social-square.jpg",
+        "format": "jpg",
+        "label": "JPG"
+      }
+    ],
+    "tags": [
+      "social",
+      "post",
+      "square",
+      "1080x1080"
+    ],
+    "dimensions": {
+      "width": 1080,
+      "height": 1080,
+      "mmWidth": 285.75,
+      "mmHeight": 285.75
+    }
+  },
+  {
+    "id": "proposal-cover",
+    "name": "Proposal & report cover",
+    "category": "templates",
+    "description": "A4 proposal or technical report cover with editable project, client, author, date and version fields.",
+    "preview": "assets/templates/proposal-cover.png",
+    "files": [
+      {
+        "path": "assets/templates/proposal-cover.html",
+        "format": "html",
+        "label": "Offline editable layout / print"
+      },
+      {
+        "path": "assets/templates/proposal-cover.pdf",
+        "format": "pdf",
+        "label": "Print PDF"
+      },
+      {
+        "path": "assets/templates/proposal-cover.svg",
+        "format": "svg",
+        "label": "Editable SVG"
+      },
+      {
+        "path": "assets/templates/proposal-cover.png",
+        "format": "png",
+        "label": "PNG"
+      },
+      {
+        "path": "assets/templates/proposal-cover.jpg",
+        "format": "jpg",
+        "label": "JPG"
+      }
+    ],
+    "tags": [
+      "proposal",
+      "report",
+      "cover",
+      "A4"
+    ],
+    "dimensions": {
+      "width": 794,
+      "height": 1123,
+      "mmWidth": 210,
+      "mmHeight": 297
+    }
+  },
+  {
+    "id": "email-signature-abraham",
+    "name": "Email signature / Mr. Abraham Bekele",
+    "category": "templates",
+    "description": "Live HTML email signature for Mr. Abraham Bekele, with selectable contact links and an embedded AndHub logo.",
+    "preview": "assets/templates/email-signature-abraham.png",
+    "files": [
+      {
+        "path": "assets/templates/email-signature-abraham.html",
+        "format": "html",
+        "label": "Editable HTML signature"
+      },
+      {
+        "path": "assets/templates/email-signature-abraham.png",
+        "format": "png",
+        "label": "PNG preview"
+      },
+      {
+        "path": "assets/templates/email-signature-abraham.jpg",
+        "format": "jpg",
+        "label": "JPG preview"
+      },
+      {
+        "path": "assets/templates/email-signature-abraham.pdf",
+        "format": "pdf",
+        "label": "Reference PDF"
+      }
+    ],
+    "tags": [
+      "email",
+      "signature",
+      "abraham",
+      "Founder and CEO"
+    ],
+    "dimensions": {
+      "width": 720,
+      "height": 310
+    }
+  },
+  {
+    "id": "email-signature-rehoboth",
+    "name": "Email signature / Dr. Rehoboth Bekele",
+    "category": "templates",
+    "description": "Live HTML email signature for Dr. Rehoboth Bekele, with selectable contact links and an embedded AndHub logo.",
+    "preview": "assets/templates/email-signature-rehoboth.png",
+    "files": [
+      {
+        "path": "assets/templates/email-signature-rehoboth.html",
+        "format": "html",
+        "label": "Editable HTML signature"
+      },
+      {
+        "path": "assets/templates/email-signature-rehoboth.png",
+        "format": "png",
+        "label": "PNG preview"
+      },
+      {
+        "path": "assets/templates/email-signature-rehoboth.jpg",
+        "format": "jpg",
+        "label": "JPG preview"
+      },
+      {
+        "path": "assets/templates/email-signature-rehoboth.pdf",
+        "format": "pdf",
+        "label": "Reference PDF"
+      }
+    ],
+    "tags": [
+      "email",
+      "signature",
+      "rehoboth",
+      "Founder and CTO"
+    ],
+    "dimensions": {
+      "width": 720,
+      "height": 310
+    }
+  }
+]

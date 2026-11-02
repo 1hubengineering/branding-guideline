@@ -4,9 +4,8 @@ import { resolve, join } from 'node:path';
 export const root = resolve(import.meta.dirname, '..');
 export const entries = [
   'index.html', 'assets.html', '.nojekyll', 'README.md',
-  'brand-spec.json', 'asset-manifest.csv', 'asset-manifest.json',
-  '00-start-here', '01-svg', '02-png-transparent', '03-jpg-background',
-  '04-icons', '05-web-kit', '06-reference', 'docs', 'site',
+  'AGENTS.md', 'llms.txt', 'llms-full.txt', 'robots.txt', 'sitemap.xml',
+  'assets', 'docs',
 ];
 
 export async function walk(directory) {

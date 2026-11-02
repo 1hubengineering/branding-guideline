@@ -1,0 +1,295 @@
+{
+  "status": "PASS",
+  "review_date": "2026-11-02",
+  "indexed_artwork_files": 494,
+  "original_asset_pack_report": {
+    "status": "PASS",
+    "indexed_artwork_files": 494,
+    "all_file_extensions": {
+      ".json": 3,
+      ".csv": 1,
+      ".md": 2,
+      ".html": 2,
+      ".svg": 86,
+      ".png": 333,
+      ".ico": 13,
+      ".webmanifest": 1,
+      ".css": 1,
+      ".jpg": 60,
+      ".icns": 4
+    },
+    "errors": [],
+    "warnings": [],
+    "visual_review": "Representative primary, horizontal, monochrome, app-icon and 16 px exports inspected separately.",
+    "not_verified": [
+      "Brand-owner approval of the reconstruction",
+      "All target browser and app-store behavior",
+      "Press-specific print separations and proofs"
+    ]
+  },
+  "static_site_validation": {
+    "status": "PASS",
+    "public_files": 681,
+    "html_pages": 16,
+    "local_references_checked": 1576,
+    "artwork_hashes_verified": 494,
+    "catalog_resources": 149,
+    "catalog_files_verified": 649,
+    "category_zip_bundles": 9,
+    "external_links_listed": 37,
+    "errors": []
+  },
+  "browser_review": {
+    "status": "PASS",
+    "browser": "Chromium 1248",
+    "checks": [
+      "Home navigation, palette copy, logo switching and Organization structured data",
+      "All main/document/integration routes fit 320, 390 and 1440 px after fonts load",
+      "AI page copies current structured company/brand data",
+      "All nine resource categories render and their ZIP bundles download",
+      "Resource gallery and AI category fit 320, 390, 768 and 1440 px",
+      "Custom social QR creator exports PNG/JPG locally",
+      "AI discovery files, full Markdown guide, Word letterhead and font are served"
+    ],
+    "errors": []
+  },
+  "qr_validation": {
+    "status": "PASS",
+    "encoder": "qrcode-generator 2.0.4",
+    "decoder": "jsQR 1.4.0",
+    "decoded_images": 28,
+    "checks": [
+      {
+        "id": "company-website",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-website",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-contact",
+        "format": "png",
+        "status": "PASS",
+        "width": 1515,
+        "height": 1515
+      },
+      {
+        "id": "company-contact",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1515,
+        "height": 1515
+      },
+      {
+        "id": "abraham-bekele-contact",
+        "format": "png",
+        "status": "PASS",
+        "width": 1455,
+        "height": 1455
+      },
+      {
+        "id": "abraham-bekele-contact",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1455,
+        "height": 1455
+      },
+      {
+        "id": "rehoboth-bekele-contact",
+        "format": "png",
+        "status": "PASS",
+        "width": 1455,
+        "height": 1455
+      },
+      {
+        "id": "rehoboth-bekele-contact",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1455,
+        "height": 1455
+      },
+      {
+        "id": "company-email",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-email",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-phone-1",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-phone-1",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-phone-2",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "company-phone-2",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "social-linkedin",
+        "format": "png",
+        "status": "PASS",
+        "width": 1519,
+        "height": 1519
+      },
+      {
+        "id": "social-linkedin",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1519,
+        "height": 1519
+      },
+      {
+        "id": "social-facebook",
+        "format": "png",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-facebook",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-instagram",
+        "format": "png",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-instagram",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-x",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "social-x",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "social-youtube",
+        "format": "png",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-youtube",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-tiktok",
+        "format": "png",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-tiktok",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1530,
+        "height": 1530
+      },
+      {
+        "id": "social-github",
+        "format": "png",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      },
+      {
+        "id": "social-github",
+        "format": "jpg",
+        "status": "PASS",
+        "width": 1517,
+        "height": 1517
+      }
+    ],
+    "scope": "Exact payload decoding of every generated PNG and JPG, including all vCard fields. This is a software decode check; test the final printed size and intended scanning devices."
+  },
+  "mcp_validation": {
+    "status": "PASS",
+    "transport": "stdio",
+    "protocol": "2025-11-25",
+    "checks": [
+      "Initializes and negotiates MCP 2025-11-25, requires ready notification, responds to ping",
+      "Lists fixed resources and reads current contact data plus the full source guideline",
+      "Searches and filters the live catalog, returns exact records and absolute published download URLs",
+      "Rejects unknown tools/methods, unlisted resources, traversal-like IDs and invalid limits",
+      "Provides a scoped reusable prompt with current brand context",
+      "Runs from a portable AI bundle using resource-index.json when the full catalog is absent"
+    ]
+  },
+  "template_review": {
+    "status": "PASS",
+    "families": 9,
+    "checks": [
+      "SVG/HTML, PDF and PNG/JPG outputs reviewed against company data",
+      "All nine HTML layouts fit 320 and 390 px; signature uses a labeled scroll region",
+      "Native letterhead DOCX has real header/footer parts and embedded logo relationship",
+      "Complete Inter license embedded with font artwork and included in template ZIP"
+    ],
+    "limits": [
+      "Word application rendering was not tested",
+      "Physical print proofs and final placed QR scanning remain production checks"
+    ]
+  },
+  "not_verified": [
+    "Brand-owner approval of reconstructed artwork and proposed standards",
+    "Social profile ownership and availability beyond the supplied handle",
+    "Every browser, operating system, assistive technology and app-store behavior",
+    "Word application rendering and physical print/press proofs"
+  ],
+  "maintenance": "Dated validation snapshot. Run npm run refresh and npm run build for current reference, file-hash, ZIP and MCP checks. Browser and physical-output reviews cover the stated scope only."
+}

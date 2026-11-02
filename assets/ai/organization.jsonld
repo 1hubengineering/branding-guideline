@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://1hubengineering.com/#organization",
+  "name": "AndHub Engineering PLC",
+  "alternateName": "AndHub",
+  "slogan": "Ideas. Engineered.",
+  "description": "AndHub is a software development, systems engineering, and consultancy company helping businesses of all sizes design, build, and improve the technology and systems they depend on.",
+  "url": "https://1hubengineering.com",
+  "email": "info@1hubengineering.com",
+  "telephone": [
+    "+251913231123",
+    "+251922964576"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lebu",
+    "addressLocality": "Addis Ababa",
+    "addressCountry": "Ethiopia"
+  },
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Mr. Abraham Bekele",
+      "jobTitle": "Founder and CEO",
+      "email": "abraham@1hubengineering.com",
+      "telephone": "+251922964576"
+    },
+    {
+      "@type": "Person",
+      "name": "Dr. Rehoboth Bekele",
+      "jobTitle": "Founder and CTO",
+      "email": "rehoboth@1hubengineering.com",
+      "telephone": "+251913231123"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/1hubengineering/",
+    "https://facebook.com/1hubengineering",
+    "https://instagram.com/1hubengineering",
+    "https://x.com/1hubengineering",
+    "https://www.youtube.com/@1hubengineering",
+    "https://www.tiktok.com/@1hubengineering",
+    "https://github.com/1hubengineering"
+  ]
+}

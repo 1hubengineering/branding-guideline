@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:AndHub Engineering PLC;;;;
+FN:AndHub Engineering PLC
+ORG:AndHub Engineering PLC
+TEL;TYPE=WORK,VOICE:+251913231123
+TEL;TYPE=WORK,VOICE:+251922964576
+EMAIL;TYPE=WORK:info@1hubengineering.com
+ADR;TYPE=WORK:;;Lebu;Addis Ababa;;;Ethiopia
+URL:https://1hubengineering.com
+END:VCARD

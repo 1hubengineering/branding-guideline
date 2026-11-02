@@ -5,7 +5,7 @@ import { resolve, sep, extname } from 'node:path';
 
 const root = resolve(import.meta.dirname, '../_site');
 const prefix = '/branding-guideline';
-const types = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.ico':'image/x-icon', '.json':'application/json', '.webmanifest':'application/manifest+json', '.pdf':'application/pdf', '.mp4':'video/mp4', '.csv':'text/csv', '.md':'text/plain; charset=utf-8' };
+const types = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.mjs':'text/javascript', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.gif':'image/gif', '.ico':'image/x-icon', '.json':'application/json', '.jsonld':'application/ld+json', '.webmanifest':'application/manifest+json', '.pdf':'application/pdf', '.mp4':'video/mp4', '.csv':'text/csv', '.md':'text/plain; charset=utf-8', '.txt':'text/plain; charset=utf-8', '.xml':'application/xml', '.woff2':'font/woff2', '.ttf':'font/ttf', '.vcf':'text/vcard; charset=utf-8', '.zip':'application/zip' };
 const server = createServer(async (req, res) => {
   try {
     let pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);

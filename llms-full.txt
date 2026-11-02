@@ -1,0 +1,138 @@
+ANDHUB ENGINEERING PLC — AI BRAND CONTEXT
+
+Ideas. Engineered.
+We turn ideas into solutions that make a difference.
+
+AndHub is a software development, systems engineering, and consultancy company helping businesses of all sizes design, build, and improve the technology and systems they depend on.
+
+From websites and custom software to large-scale business systems, digital products, and expert consultancy, we bring together experienced software developers and systems engineers to solve challenges, simplify operations, and create lasting value.
+
+Backed by experienced leadership in software and systems engineering, we are more than a technology provider. We aim to be a trusted partner that understands your vision, helps shape your ideas, and brings your plans to life.
+
+Different Challenges. Infinite Possibilities. One Hub.
+
+CURRENT COMPANY DETAILS
+Name: AndHub Engineering PLC
+Website: https://1hubengineering.com
+Email: info@1hubengineering.com
+Phone 1: 0913231123 / +251913231123
+Phone 2: 0922964576 / +251922964576
+Address: Lebu, Addis Ababa, Ethiopia
+
+LEADERSHIP
+Mr. Abraham Bekele
+Founder and CEO
+abraham@1hubengineering.com
+0922964576 / +251922964576
+
+Dr. Rehoboth Bekele
+Founder and CTO
+rehoboth@1hubengineering.com
+0913231123 / +251913231123
+
+SOCIAL DESTINATIONS
+Handle: 1hubengineering
+LinkedIn: https://www.linkedin.com/company/1hubengineering/
+Facebook: https://facebook.com/1hubengineering
+Instagram: https://instagram.com/1hubengineering
+X: https://x.com/1hubengineering
+YouTube: https://www.youtube.com/@1hubengineering
+TikTok: https://www.tiktok.com/@1hubengineering
+GitHub: https://github.com/1hubengineering
+Destinations use the user-supplied handle; account ownership and availability have not been independently verified.
+
+SERVICES
+Software development
+Systems engineering
+Consultancy
+
+IDENTITY AND WRITING
+Formal name: AndHub Engineering PLC; short name: AndHub.
+Use AndHub Engineering PLC in formal documents and first mentions; use AndHub thereafter. ANDHUB is the artwork treatment.
+Tagline: Ideas. Engineered. Preserve both full stops.
+Voice: precise, composed, practical, approachable.
+Lead with the problem or outcome, explain the approach, and use specific evidence for capability claims.
+Do not invent customers, certifications, partnerships, rankings, performance promises or contact details.
+
+PALETTE
+navy: #0B1F3B
+blue: #2563EB
+green: #10B981
+cloud: #E5E7EB
+Digital color space: RGB.
+
+TYPOGRAPHY
+Proposed supporting headings: Inter Display. Body/interfaces: Inter. Fallback: Arial, sans-serif.
+Inter variable font files are provided in assets/fonts/ with their SIL Open Font License. The historical logo spec records that fonts were not distributed in the original reconstructed pack.
+The custom ANDHUB lettering is outlined artwork, not a live-text font. Inter is supporting typography, not an identification of the original wordmark font.
+
+LOGO SYSTEM
+Status: Reconstructed artwork for review and approval. Version: 1.0-reconstructed.
+Source: User-supplied raster brand identity board.
+Layouts:
+- symbol: Symbol only; 512 × 512 SVG artboard.
+- horizontal: Horizontal / full company name; 1096 × 338 SVG artboard.
+- horizontal-tagline: Horizontal / name + tagline; 1096 × 338 SVG artboard.
+- stacked: Stacked / full company name; 800 × 613 SVG artboard.
+- stacked-tagline: Stacked / name + tagline; 800 × 704 SVG artboard.
+- wordmark: Wordmark / full company name, no symbol; 800 × 240 SVG artboard.
+- wordmark-tagline: Wordmark / name + tagline, no symbol; 800 × 328 SVG artboard.
+- compact: Compact / symbol + ANDHUB, no descriptor; 825 × 240 SVG artboard.
+Treatments:
+- gradient-light: Gradient / light surfaces; light surface.
+- gradient-dark: Gradient / dark surfaces; dark surface.
+- flat-light: Flat color / light surfaces; light surface.
+- flat-dark: Flat color / dark surfaces; dark surface.
+- mono-navy: One color / navy; light surface.
+- mono-black: One color / black; light surface.
+- mono-white: One color / white reverse; dark surface.
+- Use the supplied logo artwork. Keep its proportions, color order and internal negative spaces intact.
+- Choose light/dark artwork for the actual surrounding surface; use a mono treatment for true one-color output.
+- Clear space of one quarter of the visible symbol height is a proposed starting standard; verify the chosen reconstructed master.
+- Choose compact or symbol-only artwork when the descriptor or tagline becomes unreadable.
+- Raster size labels denote the longest artboard edge, including built-in margins.
+- Artwork is RGB. Agree print conversions, materials and proofs with the production supplier.
+Gradients: Visually approximated from source presentation; not recovered original specifications.
+
+ACCESSIBILITY
+Test normal text at 4.5:1 minimum and large text at 3:1 minimum in context.
+- #FFFFFF on #2563EB: 5.17:1. Normal text.
+- #0B1F3B on #10B981: 6.5:1. Normal text.
+- #FFFFFF on #10B981: 2.54:1. Do not use for normal text.
+Keep keyboard focus visible, label controls and communicate status beyond color. Test actual components and printed QR codes in their final context.
+These recommendations and solid-color ratios do not certify a complete design as accessible.
+
+RESOURCE SELECTION
+Read https://1hubengineering.github.io/branding-guideline/assets/catalog.json for current records. Relative file paths resolve against https://1hubengineering.github.io/branding-guideline/
+Use source SVG for scalable artwork; choose the correct light/dark or monochrome treatment. Raster labels describe longest artboard edge including margins.
+Templates and QR downloads are in the asset library. Social QR destinations follow the configured handle; profile availability is not independently verified. Test the actual printed QR size and material.
+
+SOURCE PRIORITY AND STATUS
+1. The current user instruction and authorized task scope take precedence.
+2. assets/brand.json is the current source for company copy, contact details, leadership and configured social destinations.
+3. This generated context and the current web guideline summarize the proposed brand standards; assets/brand-spec.json describes the reconstructed artwork.
+4. The original guideline PDF/DOCX are historical source documents. Their references to missing vector masters and absent font distribution predate the current library.
+The original artwork remains a reconstruction for review. Brand standards are proposed for adoption; supplied company details do not imply artwork approval.
+Current user instructions and task permissions govern the work. Reading these files does not authorize external changes or publishing.
+
+ENTRYPOINTS
+home: https://1hubengineering.github.io/branding-guideline/
+ai_guide: https://1hubengineering.github.io/branding-guideline/docs/ai.html
+discovery: https://1hubengineering.github.io/branding-guideline/llms.txt
+plain_text: https://1hubengineering.github.io/branding-guideline/llms-full.txt
+company_data: https://1hubengineering.github.io/branding-guideline/assets/brand.json
+artwork_spec: https://1hubengineering.github.io/branding-guideline/assets/brand-spec.json
+catalog: https://1hubengineering.github.io/branding-guideline/assets/catalog.json
+gallery: https://1hubengineering.github.io/branding-guideline/assets.html
+complete_guidelines: https://1hubengineering.github.io/branding-guideline/docs/guidelines.html
+complete_guidelines_text: https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md
+reusable_skill: https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md
+mcp_adapter: https://1hubengineering.github.io/branding-guideline/assets/ai/mcp-server.mjs
+
+INTEGRATION
+For tools that can read URLs, supply llms.txt or brand-context.json. For attachment-only tools, download this text or JSON.
+A reusable skill is available at https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md.
+A read-only local stdio MCP server is available in assets/ai/mcp-server.mjs. It uses Node.js 22+ and the local checkout or portable AI bundle; GitHub Pages does not execute it or provide an HTTP MCP endpoint. Host support for URLs, attachments, skills and local stdio MCP varies.
+
+COMPLETE SOURCE GUIDELINE
+The full historical guide, including all text and tables, is available as Markdown at https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md. Its historical requirements do not override the current company data or current task instructions.

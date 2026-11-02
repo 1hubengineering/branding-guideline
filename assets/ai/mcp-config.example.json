@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "andhub-brand": {
+      "command": "node",
+      "args": ["/PATH/TO/branding-guideline/assets/ai/mcp-server.mjs"]
+    }
+  }
+}
