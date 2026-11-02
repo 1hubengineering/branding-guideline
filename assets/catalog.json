@@ -6086,14 +6086,42 @@
       ]
     },
     {
-      "id": "video-andhub-1h-1080p.mp4",
-      "name": "Andhub 1h 1080p",
+      "id": "video-ANDHUB_Logo_Animation_1080p.mp4",
+      "name": "AndHub primary logo animation / 1080p",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "The primary AndHub logo animation, designated by the brand owner. Use this video for brand communication.",
+      "status": "primary",
+      "recommended": true,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "primary main logo animation",
+        "animation",
+        "landscape"
+      ],
+      "files": [
+        {
+          "path": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+          "format": "mp4",
+          "label": "ANDHUB_Logo_Animation_1080p.mp4",
+          "bytes": 486805,
+          "sha256": "4f782af661a36f4c4fe786c8152e187330389cfc2b7514cab7b7527a18d0d363"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-1h-1080p.mp4",
+      "name": "Experiment / Andhub 1h 1080p",
+      "category": "videos",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "tags": [
+        "video",
+        "motion",
+        "experimental test",
         "animation",
         "landscape"
       ],
@@ -6109,13 +6137,16 @@
     },
     {
       "id": "video-andhub-1h-1080p-silent.mp4",
-      "name": "Andhub 1h 1080p Silent",
+      "name": "Experiment / Andhub 1h 1080p Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "silent",
         "landscape"
       ],
@@ -6131,13 +6162,16 @@
     },
     {
       "id": "video-andhub-1h-square.mp4",
-      "name": "Andhub 1h Square",
+      "name": "Experiment / Andhub 1h Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "square"
       ],
@@ -6153,13 +6187,16 @@
     },
     {
       "id": "video-andhub-intro-1080p.mp4",
-      "name": "Andhub Intro 1080p",
+      "name": "Experiment / Andhub Intro 1080p",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "landscape"
       ],
@@ -6175,13 +6212,16 @@
     },
     {
       "id": "video-andhub-intro-square.mp4",
-      "name": "Andhub Intro Square",
+      "name": "Experiment / Andhub Intro Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "square"
       ],
@@ -6196,36 +6236,17 @@
       ]
     },
     {
-      "id": "video-ANDHUB_Logo_Animation_1080p.mp4",
-      "name": "ANDHUB Logo Animation 1080p",
-      "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
-      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
-      "tags": [
-        "video",
-        "motion",
-        "animation",
-        "landscape"
-      ],
-      "files": [
-        {
-          "path": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
-          "format": "mp4",
-          "label": "ANDHUB_Logo_Animation_1080p.mp4",
-          "bytes": 486805,
-          "sha256": "4f782af661a36f4c4fe786c8152e187330389cfc2b7514cab7b7527a18d0d363"
-        }
-      ]
-    },
-    {
       "id": "video-andhub-o1-hub-landscape.mp4",
-      "name": "Andhub O1 Hub Landscape",
+      "name": "Experiment / Andhub O1 Hub Landscape",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "landscape"
       ],
@@ -6241,13 +6262,16 @@
     },
     {
       "id": "video-andhub-o1-hub-landscape-silent.mp4",
-      "name": "Andhub O1 Hub Landscape Silent",
+      "name": "Experiment / Andhub O1 Hub Landscape Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "silent",
         "landscape"
       ],
@@ -6263,13 +6287,16 @@
     },
     {
       "id": "video-andhub-o1-hub-portrait.mp4",
-      "name": "Andhub O1 Hub Portrait",
+      "name": "Experiment / Andhub O1 Hub Portrait",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "portrait"
       ],
@@ -6285,13 +6312,16 @@
     },
     {
       "id": "video-andhub-o1-hub-square.mp4",
-      "name": "Andhub O1 Hub Square",
+      "name": "Experiment / Andhub O1 Hub Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "square"
       ],
@@ -6307,13 +6337,16 @@
     },
     {
       "id": "video-andhub-one-hub-landscape-silent.mp4",
-      "name": "Andhub One Hub Landscape Silent",
+      "name": "Experiment / Andhub One Hub Landscape Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "silent",
         "landscape"
       ],
@@ -6329,13 +6362,16 @@
     },
     {
       "id": "video-andhub-one-hub-portrait.mp4",
-      "name": "Andhub One Hub Portrait",
+      "name": "Experiment / Andhub One Hub Portrait",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "portrait"
       ],
@@ -6351,13 +6387,16 @@
     },
     {
       "id": "video-andhub-one-hub-square.mp4",
-      "name": "Andhub One Hub Square",
+      "name": "Experiment / Andhub One Hub Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "status": "experimental",
+      "recommended": false,
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
       "tags": [
         "video",
         "motion",
+        "experimental test",
         "animation",
         "square"
       ],
@@ -6466,8 +6505,8 @@
           "path": "assets/brand.json",
           "format": "json",
           "label": "brand.json",
-          "bytes": 2494,
-          "sha256": "744405b1556a2cd06fd73f1e4192fc4bb20e0bb5acbbfd84285cb99f7f2f3ed5"
+          "bytes": 2948,
+          "sha256": "9325776f521523abc0c9c69779ffdc2eb3c8cbba09c1b586583934c38d2aeb18"
         }
       ]
     },
@@ -6535,8 +6574,8 @@
           "path": "assets/reference/QA-REPORT.json",
           "format": "json",
           "label": "QA-REPORT.json",
-          "bytes": 8021,
-          "sha256": "64910885c8c8117115ab922daad5899b5173cef67e6a87276f0be5b339a70b3f"
+          "bytes": 8417,
+          "sha256": "17c4b194ee716cc6289c91252dcb888de87d2c3d7b3e92417494291ba29c3757"
         }
       ]
     },
@@ -7873,8 +7912,8 @@
           "path": "assets/ai/brand-context.json",
           "format": "json",
           "label": "brand-context.json",
-          "bytes": 11036,
-          "sha256": "dac21454030fefad48c47ce4d3848b64e95e71b13595a207873adff7730b4ae7"
+          "bytes": 11621,
+          "sha256": "ef308f9cb5ebcafd8d1071c637cfc5fff6663b2fd8f91fb81c85a87d05d761e4"
         }
       ]
     },
@@ -7897,8 +7936,8 @@
           "path": "assets/ai/brand-context.schema.json",
           "format": "json",
           "label": "brand-context.schema.json",
-          "bytes": 4976,
-          "sha256": "67f599757cb2e12e140b75efef61ddbbba70e7d6bb7e47e4615a72073e37e736"
+          "bytes": 5475,
+          "sha256": "5e955328ea89543d762d0b372592577f44cc2d28e993f297e113fc1f7a45c63f"
         }
       ]
     },
@@ -7921,8 +7960,8 @@
           "path": "assets/ai/guidelines.md",
           "format": "md",
           "label": "guidelines.md",
-          "bytes": 31223,
-          "sha256": "eb5c247b18e9ff931131c473cdb6d40bfe9eb9cc86da455958fbc49c30027f2f"
+          "bytes": 31489,
+          "sha256": "14e582e64d8865273d373ce60e4a354363491479c3ad94b659bf9bf076c246c9"
         }
       ]
     },
@@ -7969,8 +8008,8 @@
           "path": "assets/ai/mcp-server.mjs",
           "format": "mjs",
           "label": "mcp-server.mjs",
-          "bytes": 13068,
-          "sha256": "ef0457f4ef02f5681c072c3fc6e9b5320c610fe9386ff8ab738956a22df86c60"
+          "bytes": 13160,
+          "sha256": "470d8d1165550ab3554fdf2d217608c7c0a0dc68568e7c1a722ee7a37b9afece"
         }
       ]
     },
@@ -8017,8 +8056,8 @@
           "path": "assets/ai/resource-index.json",
           "format": "json",
           "label": "resource-index.json",
-          "bytes": 156719,
-          "sha256": "b53d89440bae6e618d1a710a307efa4f15c2ec6c96fb3d278e30cdf82ce5aab4"
+          "bytes": 158389,
+          "sha256": "deb749deddb58bb43cde19db3482769d0e423cb5f56649dd439c3a0504cad996"
         }
       ]
     },
@@ -8041,8 +8080,8 @@
           "path": "assets/ai/andhub-brand/SKILL.md",
           "format": "md",
           "label": "SKILL.md",
-          "bytes": 2439,
-          "sha256": "3ad09e79bc9dfb947fd9cbda0fa2422feb373498e267bf605a97b9f1128e2078"
+          "bytes": 2642,
+          "sha256": "c7f974af025cafad340947a894007fe47e0ceddfd72e3b2451c3210b3d97a3e7"
         }
       ]
     }
@@ -8086,15 +8125,15 @@
       "label": "Download videos ZIP",
       "bytes": 21205592,
       "file_count": 13,
-      "sha256": "1eb71d2743d25447fa812a20e0d1a2e98c6716da4784e47e02ebe5752916c4f3"
+      "sha256": "f93ebb5b103173f1000aef8672997a84f70e8711750aa2d1830d7073444147fa"
     },
     {
       "category": "documents",
       "path": "assets/downloads/documents.zip",
       "label": "Download documents ZIP",
-      "bytes": 5285575,
+      "bytes": 5286425,
       "file_count": 15,
-      "sha256": "b6eb179ab665a11b3396c6a2ceb512fb27aa59568013f793f62aae753c196744"
+      "sha256": "f08a21fa7f09671ac00898de935f4d901e81fd7a0f0cdd358895cb09b251a95b"
     },
     {
       "category": "templates",
@@ -8116,9 +8155,9 @@
       "category": "ai",
       "path": "assets/downloads/ai.zip",
       "label": "Download ai ZIP",
-      "bytes": 242498,
+      "bytes": 247056,
       "file_count": 13,
-      "sha256": "e011c1ab8b56d4dc4bfd456ce9be76f1f52f7ee96b6e71ecc933522d7211046b"
+      "sha256": "6c4d47497217f11daedbabfc21f65960ae7ccc95fbefc8c1f5f45c32483a3f5a"
     }
   ],
   "total_files": 649,
@@ -8197,6 +8236,13 @@
       }
     ],
     "social_source": "Destinations use the user-supplied handle; account ownership and availability have not been independently verified.",
+    "motion": {
+      "primary_animation": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+      "primary_animation_name": "AndHub primary logo animation / 1080p",
+      "primary_poster": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "other_videos_status": "experimental",
+      "usage": "Use the primary logo animation for brand communication. All other video files are tests or experiments retained for reference, not alternative primary animations."
+    },
     "palette": {
       "navy": "#0B1F3B",
       "blue": "#2563EB",

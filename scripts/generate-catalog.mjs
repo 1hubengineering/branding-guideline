@@ -74,9 +74,11 @@ for (const folder of ['assets/images', 'assets/reference', 'assets/documents', '
       resource = group('fonts-inter', { name: 'Inter variable font family', category: 'fonts',
         description: 'Official Inter upright and italic web fonts plus desktop TTF. Includes the SIL Open Font License.', preview: null, tags: ['font', 'Inter', 'typography', 'woff2', 'ttf', 'license'] });
     } else if (format === 'mp4') {
-      resource = group(`video-${name}`, { name: human(basename(path, '.mp4')), category: 'videos',
-        description: `${name.includes('silent') ? 'Silent brand animation' : 'Brand animation'} / MP4. Preview playback is opt-in.`,
-        preview: 'assets/images/motion/ANDHUB_Final_Frame.png', tags: ['video', 'motion', name.includes('silent') ? 'silent' : 'animation', name.includes('square') ? 'square' : name.includes('portrait') ? 'portrait' : 'landscape'] });
+      const primary = path === brand.motion.primary_animation;
+      resource = group(`video-${name}`, { name: primary ? brand.motion.primary_animation_name : `Experiment / ${human(basename(path, '.mp4'))}`, category: 'videos',
+        description: primary ? 'The primary AndHub logo animation, designated by the brand owner. Use this video for brand communication.' : 'Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.',
+        status: primary ? 'primary' : brand.motion.other_videos_status, recommended: primary,
+        preview: brand.motion.primary_poster, tags: ['video', 'motion', primary ? 'primary main logo animation' : 'experimental test', name.includes('silent') ? 'silent' : 'animation', name.includes('square') ? 'square' : name.includes('portrait') ? 'portrait' : 'landscape'] });
     } else if (/Brand_Guidelines.*\.(pdf|docx)$/.test(name)) {
       resource = group('documents-original-guide', { name: 'Original brand guidelines / v1.0', category: 'documents',
         description: 'The original paginated guide and editable Word document. Proposed standards; predates the current asset library.', preview: 'assets/images/reference/AndHub Engineering Brand Identity Board.png', tags: ['guidelines', 'pdf', 'docx', 'brand'] });
@@ -116,8 +118,8 @@ for (const path of await walk('assets/ai')) {
   await addFile(resource, path, basename(path));
 }
 const order = ['logos', 'icons', 'images', 'fonts', 'videos', 'documents', 'templates', 'qr', 'ai'];
-resources.sort((a, b) => order.indexOf(a.category) - order.indexOf(b.category) || a.name.localeCompare(b.name));
-const resourceIndex = { version: 2, brand: brand.name, resources: resources.map(({ id, name, category, description, preview, files }) => ({ id, name, category, description, preview, files: files.map(({ path, format, label }) => ({ path, format, label })) })) };
+resources.sort((a, b) => order.indexOf(a.category) - order.indexOf(b.category) || Number(!!b.recommended) - Number(!!a.recommended) || a.name.localeCompare(b.name));
+const resourceIndex = { version: 2, brand: brand.name, resources: resources.map(({ id, name, category, description, preview, status, recommended, files }) => ({ id, name, category, description, preview, ...(status ? { status, recommended } : {}), files: files.map(({ path, format, label }) => ({ path, format, label })) })) };
 await writeFile('assets/ai/resource-index.json', JSON.stringify(resourceIndex, null, 2) + '\n');
 const indexResource = resources.find(resource => resource.files.some(file => file.path === 'assets/ai/resource-index.json'));
 indexResource.files = [await fileRecord('assets/ai/resource-index.json', 'resource-index.json')];

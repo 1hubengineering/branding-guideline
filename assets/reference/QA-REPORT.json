@@ -31,12 +31,12 @@
     "status": "PASS",
     "public_files": 681,
     "html_pages": 16,
-    "local_references_checked": 1576,
+    "local_references_checked": 1571,
     "artwork_hashes_verified": 494,
     "catalog_resources": 149,
     "catalog_files_verified": 649,
     "category_zip_bundles": 9,
-    "external_links_listed": 37,
+    "external_links_listed": 38,
     "errors": []
   },
   "browser_review": {
@@ -291,5 +291,19 @@
     "Every browser, operating system, assistive technology and app-store behavior",
     "Word application rendering and physical print/press proofs"
   ],
-  "maintenance": "Dated validation snapshot. Run npm run refresh and npm run build for current reference, file-hash, ZIP and MCP checks. Browser and physical-output reviews cover the stated scope only."
+  "maintenance": "Dated validation snapshot. Run npm run refresh and npm run build for current reference, file-hash, ZIP and MCP checks. Browser and physical-output reviews cover the stated scope only.",
+  "motion_review": {
+    "status": "PASS",
+    "primary_animation": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 5
+    },
+    "catalog": {
+      "primary": 1,
+      "experimental": 12
+    },
+    "ai_context": "Primary animation and experimental status verified in structured context and MCP results"
+  }
 }

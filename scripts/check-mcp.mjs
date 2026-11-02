@@ -63,6 +63,8 @@ try {
   assert.equal(context.name,'AndHub Engineering PLC');
   assert.equal(context.contact.email,'info@1hubengineering.com');
   assert.equal(context.leadership.length,2);
+  assert.equal(context.motion.primary_animation,'assets/videos/ANDHUB_Logo_Animation_1080p.mp4');
+  assert.equal(context.motion.other_videos_status,'experimental');
   const guideline=(await api.send('resources/read',{uri:'andhub://guidelines'})).result.contents[0];
   assert.match(guideline.text,/One identity\. A usable system\./);
   assert.match(guideline.text,/Basis and references/);
@@ -83,6 +85,10 @@ try {
   assert.equal(found.structuredContent.id,first.id);
   const categories=(await api.send('tools/call',{name:'list_asset_categories',arguments:{}})).result.structuredContent;
   assert.ok(categories.categories.some(item=>item.category==='logos'));
+  const videos=(await api.send('tools/call',{name:'search_assets',arguments:{category:'videos',limit:25}})).result.structuredContent.resources;
+  assert.equal(videos.filter(record=>record.status==='primary').length,1);
+  assert.ok(videos.find(record=>record.status==='primary').files.some(file=>file.path===context.motion.primary_animation));
+  assert.ok(videos.filter(record=>record.status!=='primary').every(record=>record.status==='experimental' && record.recommended===false));
   checks.push('Searches and filters the live catalog, returns exact records and absolute published download URLs');
   assert.equal((await api.send('tools/call',{name:'search_assets',arguments:{limit:200}})).result.isError,true);
   assert.equal((await api.send('tools/call',{name:'get_asset',arguments:{id:'../../not-a-resource'}})).result.isError,true);

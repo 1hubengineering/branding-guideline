@@ -29,5 +29,12 @@
     { "name": "GitHub", "url": "https://github.com/1hubengineering" }
   ],
   "social_source": "Destinations use the user-supplied handle; account ownership and availability have not been independently verified.",
+  "motion": {
+    "primary_animation": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+    "primary_animation_name": "AndHub primary logo animation / 1080p",
+    "primary_poster": "assets/images/motion/ANDHUB_Final_Frame.png",
+    "other_videos_status": "experimental",
+    "usage": "Use the primary logo animation for brand communication. All other video files are tests or experiments retained for reference, not alternative primary animations."
+  },
   "palette": { "navy": "#0B1F3B", "blue": "#2563EB", "green": "#10B981", "cloud": "#E5E7EB" }
 }

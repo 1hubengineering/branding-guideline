@@ -56,6 +56,7 @@ function resourceRecord(record) {
     ...(record.preview ? {preview:publicUrl(record.preview)} : {}),
     ...(record.layout ? {layout:record.layout} : {}),
     ...(record.theme ? {theme:record.theme} : {}),
+    ...(record.status ? {status:record.status,recommended:record.recommended===true} : {}),
     tags:Array.isArray(record.tags)?record.tags:[],
     files:(record.files || []).map(file=>({path:file.path,url:publicUrl(file.path),format:file.format,label:file.label || file.format,...(Number.isInteger(file.bytes)?{bytes:file.bytes}:{})})).filter(file=>file.url),
   };

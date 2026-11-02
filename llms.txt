@@ -33,3 +33,8 @@ Current company data and proposed brand standards for assistants creating AndHub
 - Use supplied facts and catalog files. Do not invent client names, certifications, contact details, rankings or verified social ownership.
 - Social destinations use the supplied 1hubengineering handle; availability and ownership have not been independently verified.
 - The original PDF/DOCX predate the reconstructed vector pack and current font downloads. Preserve their historical context.
+
+## Motion selection
+
+- [AndHub primary logo animation / 1080p](https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4): Primary logo animation.
+- All other video files are tests/experiments retained for reference, not alternative primary animations.

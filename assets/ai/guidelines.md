@@ -6,6 +6,8 @@ Source: [web edition](https://1hubengineering.github.io/branding-guideline/docs/
 
 ---
 
+Current motion selection: [AndHub primary logo animation / 1080p](https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4) is the primary logo animation. All other video files are tests/experiments retained for reference.
+
 ANDHUB / BRAND SYSTEM
 
 # Brand guidelines

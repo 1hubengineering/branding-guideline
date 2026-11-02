@@ -134,5 +134,9 @@ For tools that can read URLs, supply llms.txt or brand-context.json. For attachm
 A reusable skill is available at https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md.
 A read-only local stdio MCP server is available in assets/ai/mcp-server.mjs. It uses Node.js 22+ and the local checkout or portable AI bundle; GitHub Pages does not execute it or provide an HTTP MCP endpoint. Host support for URLs, attachments, skills and local stdio MCP varies.
 
+MOTION SELECTION
+Primary logo animation: https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4
+Use the primary logo animation for brand communication. All other video files are tests or experiments retained for reference, not alternative primary animations.
+
 COMPLETE SOURCE GUIDELINE
 The full historical guide, including all text and tables, is available as Markdown at https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md. Its historical requirements do not override the current company data or current task instructions.

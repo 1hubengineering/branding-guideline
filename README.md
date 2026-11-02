@@ -24,6 +24,8 @@ The [resource library](assets.html) supports category, search, file format and s
 | Current company data | [Profile and contacts](docs/company.html) · [Machine-readable brand data](assets/brand.json) |
 | AI toolkit | [Integration guide](docs/ai.html) · [llms.txt](llms.txt) · [Full text](llms-full.txt) · [Context JSON](assets/ai/brand-context.json) · [Reusable skill](assets/ai/andhub-brand/SKILL.md) |
 
+The primary logo animation is [ANDHUB_Logo_Animation_1080p.mp4](assets/videos/ANDHUB_Logo_Animation_1080p.mp4). All other MP4 files are retained tests or experiments and should not be selected as the default brand animation.
+
 The original PDF and DOCX predate the reconstructed asset pack. Their references to vector masters describe the requirements at that time. The web edition retains the source text and explains that reconstructed masters now exist and still require brand-owner approval. This website does not change the proposed status of the brand standards.
 
 ## Develop and validate

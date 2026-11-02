@@ -3,8 +3,9 @@
   "$id": "https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.schema.json",
   "title": "AndHub current brand context",
   "type": "object",
-  "required": ["schema_version", "name", "short_name", "tagline", "content", "services", "contact", "leadership", "socials", "visual_identity", "writing", "accessibility", "source_priority", "approval_status", "entrypoints"],
+  "required": ["schema_version", "name", "short_name", "tagline", "content", "services", "contact", "leadership", "motion", "socials", "visual_identity", "writing", "accessibility", "source_priority", "approval_status", "entrypoints"],
   "properties": {
+    "motion": {"type":"object","required":["primary_animation","primary_animation_name","primary_poster","other_videos_status","usage","primary_animation_url"],"properties":{"primary_animation":{"type":"string","pattern":"^assets/videos/.*\\.mp4$"},"primary_animation_name":{"type":"string"},"primary_poster":{"type":"string"},"other_videos_status":{"const":"experimental"},"usage":{"type":"string"},"primary_animation_url":{"type":"string","format":"uri"}},"additionalProperties":false},
     "$schema": {"type":"string", "format":"uri"},
     "schema_version": {"const":"1.0"},
     "name": {"type":"string", "minLength":1},

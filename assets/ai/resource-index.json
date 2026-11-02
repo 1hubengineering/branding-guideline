@@ -3387,11 +3387,29 @@
       ]
     },
     {
-      "id": "video-andhub-1h-1080p.mp4",
-      "name": "Andhub 1h 1080p",
+      "id": "video-ANDHUB_Logo_Animation_1080p.mp4",
+      "name": "AndHub primary logo animation / 1080p",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "The primary AndHub logo animation, designated by the brand owner. Use this video for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "primary",
+      "recommended": true,
+      "files": [
+        {
+          "path": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
+          "format": "mp4",
+          "label": "ANDHUB_Logo_Animation_1080p.mp4"
+        }
+      ]
+    },
+    {
+      "id": "video-andhub-1h-1080p.mp4",
+      "name": "Experiment / Andhub 1h 1080p",
+      "category": "videos",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
+      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-1h-1080p.mp4",
@@ -3402,10 +3420,12 @@
     },
     {
       "id": "video-andhub-1h-1080p-silent.mp4",
-      "name": "Andhub 1h 1080p Silent",
+      "name": "Experiment / Andhub 1h 1080p Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-1h-1080p-silent.mp4",
@@ -3416,10 +3436,12 @@
     },
     {
       "id": "video-andhub-1h-square.mp4",
-      "name": "Andhub 1h Square",
+      "name": "Experiment / Andhub 1h Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-1h-square.mp4",
@@ -3430,10 +3452,12 @@
     },
     {
       "id": "video-andhub-intro-1080p.mp4",
-      "name": "Andhub Intro 1080p",
+      "name": "Experiment / Andhub Intro 1080p",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-intro-1080p.mp4",
@@ -3444,10 +3468,12 @@
     },
     {
       "id": "video-andhub-intro-square.mp4",
-      "name": "Andhub Intro Square",
+      "name": "Experiment / Andhub Intro Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-intro-square.mp4",
@@ -3457,25 +3483,13 @@
       ]
     },
     {
-      "id": "video-ANDHUB_Logo_Animation_1080p.mp4",
-      "name": "ANDHUB Logo Animation 1080p",
-      "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
-      "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
-      "files": [
-        {
-          "path": "assets/videos/ANDHUB_Logo_Animation_1080p.mp4",
-          "format": "mp4",
-          "label": "ANDHUB_Logo_Animation_1080p.mp4"
-        }
-      ]
-    },
-    {
       "id": "video-andhub-o1-hub-landscape.mp4",
-      "name": "Andhub O1 Hub Landscape",
+      "name": "Experiment / Andhub O1 Hub Landscape",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-o1-hub-landscape.mp4",
@@ -3486,10 +3500,12 @@
     },
     {
       "id": "video-andhub-o1-hub-landscape-silent.mp4",
-      "name": "Andhub O1 Hub Landscape Silent",
+      "name": "Experiment / Andhub O1 Hub Landscape Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-o1-hub-landscape-silent.mp4",
@@ -3500,10 +3516,12 @@
     },
     {
       "id": "video-andhub-o1-hub-portrait.mp4",
-      "name": "Andhub O1 Hub Portrait",
+      "name": "Experiment / Andhub O1 Hub Portrait",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-o1-hub-portrait.mp4",
@@ -3514,10 +3532,12 @@
     },
     {
       "id": "video-andhub-o1-hub-square.mp4",
-      "name": "Andhub O1 Hub Square",
+      "name": "Experiment / Andhub O1 Hub Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-o1-hub-square.mp4",
@@ -3528,10 +3548,12 @@
     },
     {
       "id": "video-andhub-one-hub-landscape-silent.mp4",
-      "name": "Andhub One Hub Landscape Silent",
+      "name": "Experiment / Andhub One Hub Landscape Silent",
       "category": "videos",
-      "description": "Silent brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-one-hub-landscape-silent.mp4",
@@ -3542,10 +3564,12 @@
     },
     {
       "id": "video-andhub-one-hub-portrait.mp4",
-      "name": "Andhub One Hub Portrait",
+      "name": "Experiment / Andhub One Hub Portrait",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-one-hub-portrait.mp4",
@@ -3556,10 +3580,12 @@
     },
     {
       "id": "video-andhub-one-hub-square.mp4",
-      "name": "Andhub One Hub Square",
+      "name": "Experiment / Andhub One Hub Square",
       "category": "videos",
-      "description": "Brand animation / MP4. Preview playback is opt-in.",
+      "description": "Test/experimental animation, retained for reference. Use the primary logo animation for brand communication.",
       "preview": "assets/images/motion/ANDHUB_Final_Frame.png",
+      "status": "experimental",
+      "recommended": false,
       "files": [
         {
           "path": "assets/videos/andhub-one-hub-square.mp4",
