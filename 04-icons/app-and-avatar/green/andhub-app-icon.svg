@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+<title id="title">AndHub Engineering PLC — green app icon</title>
+<rect width="512" height="512" fill="#10B981"/><g id="app-symbol" transform="translate(123.15543 106.00000) scale(0.87976540)"><path id="app-symbol-left" d="M113 9 L10 82 Q0 89 0 98 V341 H26 Q29 341 32 338 L70 311 Q76 307 76 301 V155 Q76 149 82 145 L113 122 Z" fill="#FFFFFF"/><path id="app-symbol-center" d="M102 163 Q102 157 108 154 L112 152.5 Q116 150.5 122 154 L203 200.5 Q210 204.5 210 211 V341 H185 V277 Q185 272 180 269 L107 226 Q102 223 102 217 Z" fill="#FFFFFF"/><path id="app-symbol-right" d="M193 0 L293 67 Q302 73 302 83 V341 H236 V194 Q236 189 231 185 L199 164 Q193 160 193 153 Z" fill="#FFFFFF"/></g>
+</svg>

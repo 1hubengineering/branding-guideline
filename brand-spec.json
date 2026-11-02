@@ -1,0 +1,151 @@
+{
+  "brand": "AndHub Engineering PLC",
+  "tagline": "Ideas. Engineered.",
+  "version": "1.0-reconstructed",
+  "date": "2026-11-02",
+  "source": "User-supplied raster brand identity board",
+  "status": "Reconstructed artwork for review and approval",
+  "core_palette": {
+    "navy": "#0B1F3B",
+    "blue": "#2563EB",
+    "green": "#10B981",
+    "cloud": "#E5E7EB"
+  },
+  "working_color_space": "RGB",
+  "font_dependencies_in_svg": false,
+  "font_files_distributed": false,
+  "supporting_lettering": "Inter Display, outlined and fitted; not identified as the original font",
+  "raster_dimension_convention": "Longest artboard edge, including clear space",
+  "layouts": {
+    "symbol": {
+      "width": 512,
+      "height": 512,
+      "description": "Symbol only"
+    },
+    "horizontal": {
+      "width": 1096,
+      "height": 338,
+      "description": "Horizontal / full company name"
+    },
+    "horizontal-tagline": {
+      "width": 1096,
+      "height": 338,
+      "description": "Horizontal / name + tagline"
+    },
+    "stacked": {
+      "width": 800,
+      "height": 613,
+      "description": "Stacked / full company name"
+    },
+    "stacked-tagline": {
+      "width": 800,
+      "height": 704,
+      "description": "Stacked / name + tagline"
+    },
+    "wordmark": {
+      "width": 800,
+      "height": 240,
+      "description": "Wordmark / full company name, no symbol"
+    },
+    "wordmark-tagline": {
+      "width": 800,
+      "height": 328,
+      "description": "Wordmark / name + tagline, no symbol"
+    },
+    "compact": {
+      "width": 825,
+      "height": 240,
+      "description": "Compact / symbol + ANDHUB, no descriptor"
+    }
+  },
+  "themes": {
+    "gradient-light": {
+      "description": "Gradient / light surfaces",
+      "gradient": true,
+      "dark_surface": false,
+      "monochrome_fill": null,
+      "jpg_background": "#FFFFFF"
+    },
+    "gradient-dark": {
+      "description": "Gradient / dark surfaces",
+      "gradient": true,
+      "dark_surface": true,
+      "monochrome_fill": null,
+      "jpg_background": "#0B1F3B"
+    },
+    "flat-light": {
+      "description": "Flat color / light surfaces",
+      "gradient": false,
+      "dark_surface": false,
+      "monochrome_fill": null,
+      "jpg_background": "#FFFFFF"
+    },
+    "flat-dark": {
+      "description": "Flat color / dark surfaces",
+      "gradient": false,
+      "dark_surface": true,
+      "monochrome_fill": null,
+      "jpg_background": "#0B1F3B"
+    },
+    "mono-navy": {
+      "description": "One color / navy",
+      "gradient": false,
+      "dark_surface": false,
+      "monochrome_fill": "#0B1F3B",
+      "jpg_background": "#FFFFFF"
+    },
+    "mono-black": {
+      "description": "One color / black",
+      "gradient": false,
+      "dark_surface": false,
+      "monochrome_fill": "#111111",
+      "jpg_background": "#FFFFFF"
+    },
+    "mono-white": {
+      "description": "One color / white reverse",
+      "gradient": false,
+      "dark_surface": true,
+      "monochrome_fill": "#FFFFFF",
+      "jpg_background": "#0B1F3B"
+    }
+  },
+  "gradients": "Visually approximated from source presentation; not recovered original specifications",
+  "png_sizes": [
+    512,
+    1024,
+    2048
+  ],
+  "high_resolution_size": 4096,
+  "high_resolution_layouts": [
+    "symbol",
+    "horizontal",
+    "horizontal-tagline",
+    "stacked",
+    "stacked-tagline"
+  ],
+  "icon_sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    180,
+    192,
+    256,
+    384,
+    512,
+    1024
+  ],
+  "ico_embedded_sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "app_icon_safe_circle_diameter_fraction": 0.8
+}

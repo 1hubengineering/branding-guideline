@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "indexed_artwork_files": 494,
+  "all_file_extensions": {
+    ".json": 3,
+    ".csv": 1,
+    ".md": 2,
+    ".html": 2,
+    ".svg": 86,
+    ".png": 333,
+    ".ico": 13,
+    ".webmanifest": 1,
+    ".css": 1,
+    ".jpg": 60,
+    ".icns": 4
+  },
+  "errors": [],
+  "warnings": [],
+  "visual_review": "Representative primary, horizontal, monochrome, app-icon and 16 px exports inspected separately.",
+  "not_verified": [
+    "Brand-owner approval of the reconstruction",
+    "All target browser and app-store behavior",
+    "Press-specific print separations and proofs"
+  ]
+}

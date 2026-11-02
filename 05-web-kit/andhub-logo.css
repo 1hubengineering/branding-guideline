@@ -1,0 +1,12 @@
+/* AndHub logo integration. No fonts or external services required. */
+.ah-brand-logo { display: block; inline-size: min(100%, 32rem); block-size: auto; }
+.ah-logo-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ah-logo-light { display: none; }
+  :root:not([data-theme="light"]) .ah-logo-dark { display: block; }
+}
+:root[data-theme="dark"] .ah-logo-light { display: none; }
+:root[data-theme="dark"] .ah-logo-dark { display: block; }
+:root[data-theme="light"] .ah-logo-light { display: block; }
+:root[data-theme="light"] .ah-logo-dark { display: none; }
+/* Switch both the container surface and the artwork theme together. */

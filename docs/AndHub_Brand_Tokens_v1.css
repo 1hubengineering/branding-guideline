@@ -1,0 +1,220 @@
+/*
+ * AndHub Engineering PLC — Brand starter tokens, version 1.0
+ * 2 November 2026
+ *
+ * Proposed implementation of the companion brand guide.
+ * Core colors come from the printed HEX labels on the supplied logo board.
+ * Supporting colors, type choices and component rules are recommendations.
+ *
+ * This file does not load or distribute fonts or logo assets.
+ * Obtain Inter/Inter Display through the official Inter distribution and
+ * provide approved logo masters separately. Test actual pages, all component
+ * states and user settings; these tokens do not establish WCAG conformance.
+ * Class-based styles avoid resetting an existing application's global UI.
+ */
+
+:root {
+  /* Core identity */
+  --ah-navy: #0b1f3b;
+  --ah-blue: #2563eb;
+  --ah-green: #10b981;
+  --ah-cloud: #e5e7eb;
+
+  /* Proposed supporting colors */
+  --ah-white: #ffffff;
+  --ah-surface: #f8fafc;
+  --ah-slate: #475569;
+  --ah-control-gray: #64748b;
+  --ah-deep-green: #047857;
+
+  /* Semantic roles: keep decorative separators distinct from controls. */
+  --ah-background: var(--ah-white);
+  --ah-background-muted: var(--ah-surface);
+  --ah-text: var(--ah-navy);
+  --ah-text-secondary: var(--ah-slate);
+  --ah-border-decorative: var(--ah-cloud);
+  --ah-border-control: var(--ah-control-gray);
+  --ah-action: var(--ah-blue);
+  --ah-on-action: var(--ah-white);
+  --ah-link: var(--ah-blue);
+
+  /* Supply the font files separately; retain appropriate license notices. */
+  --ah-font-heading: "Inter Display", "Inter", Arial, sans-serif;
+  --ah-font-body: "Inter", Arial, sans-serif;
+  --ah-font-code: ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
+
+  /* Body / line-height values. Display sizes may be scaled responsively. */
+  --ah-text-small: 0.875rem;
+  --ah-text-body: 1rem;
+  --ah-text-h3: 1.5rem;
+  --ah-text-h2: 2rem;
+  --ah-text-h1: 3rem;
+  --ah-leading-body: 1.5;
+
+  /* Spacing: 8 px base at a 16 px root. Do not lock the user's root size. */
+  --ah-space-1: 0.5rem;
+  --ah-space-2: 1rem;
+  --ah-space-3: 1.5rem;
+  --ah-space-4: 2rem;
+  --ah-space-6: 3rem;
+  --ah-space-8: 4rem;
+  --ah-radius-control: 0.375rem;
+  --ah-radius-card: 0.75rem;
+
+  /* Decorative only. Not a reconstruction of the original logo gradient. */
+  --ah-gradient-decorative: linear-gradient(135deg, #2563eb, #10b981);
+}
+
+.ah-brand {
+  background: var(--ah-background);
+  color: var(--ah-text);
+  font-family: var(--ah-font-body);
+  font-size: var(--ah-text-body);
+  line-height: var(--ah-leading-body);
+}
+
+.ah-h1,
+.ah-h2,
+.ah-h3 {
+  color: var(--ah-text);
+  font-family: var(--ah-font-heading);
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.ah-h1 { font-size: var(--ah-text-h1); line-height: 1.167; }
+.ah-h2 { font-size: var(--ah-text-h2); line-height: 1.25; }
+.ah-h3 { font-size: var(--ah-text-h3); line-height: 1.333; }
+.ah-copy { max-width: 68ch; }
+.ah-small { font-size: var(--ah-text-small); line-height: 1.429; }
+.ah-secondary { color: var(--ah-text-secondary); }
+
+.ah-link {
+  color: var(--ah-link);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.08em;
+}
+
+.ah-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
+  padding: 0.625rem 1rem;
+  border: 2px solid var(--ah-blue);
+  border-radius: var(--ah-radius-control);
+  background: var(--ah-blue);
+  color: var(--ah-white); /* 5.17:1 on solid brand blue */
+  font: 600 1rem/1.5 var(--ah-font-body);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ah-button--deep-green {
+  border-color: var(--ah-deep-green);
+  background: var(--ah-deep-green);
+  color: var(--ah-white); /* 5.48:1 */
+}
+
+.ah-button--brand-green {
+  /* The navy outline identifies the control on a white surface. */
+  border-color: var(--ah-navy);
+  background: var(--ah-green);
+  color: var(--ah-navy); /* 6.50:1; do not replace with white */
+}
+
+.ah-button--secondary {
+  border-color: var(--ah-navy);
+  background: var(--ah-white);
+  color: var(--ah-navy);
+}
+
+.ah-button:not(:disabled):hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.ah-button:disabled {
+  cursor: not-allowed;
+  border-color: var(--ah-control-gray);
+  background: var(--ah-cloud);
+  color: var(--ah-slate);
+}
+
+.ah-control {
+  box-sizing: border-box;
+  min-block-size: 2.75rem;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid var(--ah-border-control);
+  border-radius: var(--ah-radius-control);
+  background: var(--ah-white);
+  color: var(--ah-navy);
+  font: inherit;
+}
+
+.ah-card {
+  padding: var(--ah-space-3);
+  border: 1px solid var(--ah-border-decorative);
+  border-radius: var(--ah-radius-card);
+  background: var(--ah-white);
+  color: var(--ah-navy);
+}
+
+.ah-dark {
+  --ah-text: var(--ah-white);
+  --ah-text-secondary: var(--ah-cloud);
+  --ah-link: var(--ah-white);
+  background: var(--ah-navy);
+  color: var(--ah-white);
+}
+
+.ah-dark .ah-button--brand-green {
+  border-color: var(--ah-green);
+}
+
+/* Dual-color focus cue; ensure no ancestor clips it. */
+.ah-link:focus-visible,
+.ah-button:focus-visible,
+.ah-control:focus-visible {
+  outline: 3px solid var(--ah-navy);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--ah-white);
+}
+
+@media (max-width: 40rem) {
+  .ah-brand {
+    --ah-text-h1: 2.25rem;
+    --ah-text-h2: 1.75rem;
+    --ah-text-h3: 1.375rem;
+  }
+  .ah-h1 { line-height: 1.222; }
+  .ah-h2 { line-height: 1.286; }
+  .ah-h3 { line-height: 1.364; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ah-brand,
+  .ah-brand *,
+  .ah-brand *::before,
+  .ah-brand *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .ah-button,
+  .ah-control,
+  .ah-card { border-color: ButtonText; }
+
+  .ah-link:focus-visible,
+  .ah-button:focus-visible,
+  .ah-control:focus-visible {
+    outline: 3px solid Highlight;
+    box-shadow: none;
+  }
+}
