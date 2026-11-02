@@ -79,7 +79,7 @@ try {
   assert.equal(search.isError,false);
   assert.equal(search.structuredContent.returned,2);
   assert.ok(search.structuredContent.total_matches>=2);
-  assert.ok(search.structuredContent.resources.every(record=>record.files.some(file=>file.url.startsWith('https://1hubengineering.github.io/branding-guideline/assets/'))));
+  assert.ok(search.structuredContent.resources.every(record=>record.files.some(file=>file.url.startsWith('https://brand.1hubengineering.com/assets/'))));
   const first=search.structuredContent.resources[0];
   const found=(await api.send('tools/call',{name:'get_asset',arguments:{id:first.id}})).result;
   assert.equal(found.structuredContent.id,first.id);
@@ -117,7 +117,7 @@ try {
     await initialize(bundled);
     const matches=(await bundled.send('tools/call',{name:'search_assets',arguments:{limit:25}})).result.structuredContent;
     assert.equal(matches.total_matches,2);
-    assert.ok(matches.resources.every(record=>record.files.every(file=>file.url.startsWith('https://1hubengineering.github.io/branding-guideline/assets/'))));
+    assert.ok(matches.resources.every(record=>record.files.every(file=>file.url.startsWith('https://brand.1hubengineering.com/assets/'))));
     const source=JSON.parse((await bundled.send('resources/read',{uri:'andhub://catalog'})).result.contents[0].text);
     assert.equal(source.resources.length,2);
   } finally {await bundled.close();}

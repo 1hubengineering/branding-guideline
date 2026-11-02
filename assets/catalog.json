@@ -6505,8 +6505,8 @@
           "path": "assets/brand.json",
           "format": "json",
           "label": "brand.json",
-          "bytes": 2948,
-          "sha256": "9325776f521523abc0c9c69779ffdc2eb3c8cbba09c1b586583934c38d2aeb18"
+          "bytes": 3000,
+          "sha256": "b6ca79dff6684427cd16a6d219f947b0e1f7484c678b177cba590018406adc08"
         }
       ]
     },
@@ -7912,8 +7912,8 @@
           "path": "assets/ai/brand-context.json",
           "format": "json",
           "label": "brand-context.json",
-          "bytes": 11621,
-          "sha256": "ef308f9cb5ebcafd8d1071c637cfc5fff6663b2fd8f91fb81c85a87d05d761e4"
+          "bytes": 11355,
+          "sha256": "a04cf4035648f36734ecd395c1f8b44c423abfcecdb70077a0643a6b373f8640"
         }
       ]
     },
@@ -7936,8 +7936,8 @@
           "path": "assets/ai/brand-context.schema.json",
           "format": "json",
           "label": "brand-context.schema.json",
-          "bytes": 5475,
-          "sha256": "5e955328ea89543d762d0b372592577f44cc2d28e993f297e113fc1f7a45c63f"
+          "bytes": 5456,
+          "sha256": "dd1b0a0579f55795507bd8404e87e65d79599f793311932b18abab1f4983ecbe"
         }
       ]
     },
@@ -7960,8 +7960,8 @@
           "path": "assets/ai/guidelines.md",
           "format": "md",
           "label": "guidelines.md",
-          "bytes": 31489,
-          "sha256": "14e582e64d8865273d373ce60e4a354363491479c3ad94b659bf9bf076c246c9"
+          "bytes": 31223,
+          "sha256": "60c8e9def88c2a8858afb811bd59680c1ecce6e1b026ceaa276345b7f363ac0a"
         }
       ]
     },
@@ -8008,8 +8008,8 @@
           "path": "assets/ai/mcp-server.mjs",
           "format": "mjs",
           "label": "mcp-server.mjs",
-          "bytes": 13160,
-          "sha256": "470d8d1165550ab3554fdf2d217608c7c0a0dc68568e7c1a722ee7a37b9afece"
+          "bytes": 13179,
+          "sha256": "10bddc6c3718356fe26d9cb9cee4f81926c9c2b2bec3008c53fdff0c98e4e82b"
         }
       ]
     },
@@ -8080,8 +8080,8 @@
           "path": "assets/ai/andhub-brand/SKILL.md",
           "format": "md",
           "label": "SKILL.md",
-          "bytes": 2642,
-          "sha256": "c7f974af025cafad340947a894007fe47e0ceddfd72e3b2451c3210b3d97a3e7"
+          "bytes": 2547,
+          "sha256": "193c62f5141181d1196142961daaa349589513aa3a8de000f14c696526947664"
         }
       ]
     }
@@ -8131,9 +8131,9 @@
       "category": "documents",
       "path": "assets/downloads/documents.zip",
       "label": "Download documents ZIP",
-      "bytes": 5286425,
+      "bytes": 5286477,
       "file_count": 15,
-      "sha256": "f08a21fa7f09671ac00898de935f4d901e81fd7a0f0cdd358895cb09b251a95b"
+      "sha256": "5b4e328e77b01be4d9fa9d51e0a4c5db0bbd216991aaf8531f2dc26534beb6e9"
     },
     {
       "category": "templates",
@@ -8155,15 +8155,16 @@
       "category": "ai",
       "path": "assets/downloads/ai.zip",
       "label": "Download ai ZIP",
-      "bytes": 247056,
+      "bytes": 245911,
       "file_count": 13,
-      "sha256": "6c4d47497217f11daedbabfc21f65960ae7ccc95fbefc8c1f5f45c32483a3f5a"
+      "sha256": "1d373d0aef41eaa31a40a5ce3fc4a566161fa9b36c839c65cddee6c6cacc90c0"
     }
   ],
   "total_files": 649,
   "contact": {
     "name": "AndHub Engineering PLC",
     "short_name": "AndHub",
+    "site_url": "https://brand.1hubengineering.com/",
     "tagline": "Ideas. Engineered.",
     "headline": "We turn ideas into solutions that make a difference.",
     "description": "AndHub is a software development, systems engineering, and consultancy company helping businesses of all sizes design, build, and improve the technology and systems they depend on.",

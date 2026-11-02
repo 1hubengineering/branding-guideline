@@ -8,24 +8,24 @@ Current company data and proposed brand standards for assistants creating AndHub
 
 ## Primary context
 
-- [Structured brand context](https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.json): Current copy, contact details, leadership, palette, usage rules and source status.
-- [Full plain-text context](https://1hubengineering.github.io/branding-guideline/llms-full.txt): Human-readable brand summary for attachment or retrieval.
-- [Company data](https://1hubengineering.github.io/branding-guideline/assets/brand.json): Source for current company facts and configured social URLs.
-- [Complete guidelines](https://1hubengineering.github.io/branding-guideline/docs/guidelines.html): Proposed brand standards, illustrations and historical-source notes.
+- [Structured brand context](https://brand.1hubengineering.com/assets/ai/brand-context.json): Current copy, contact details, leadership, palette, usage rules and source status.
+- [Full plain-text context](https://brand.1hubengineering.com/llms-full.txt): Human-readable brand summary for attachment or retrieval.
+- [Company data](https://brand.1hubengineering.com/assets/brand.json): Source for current company facts and configured social URLs.
+- [Complete guidelines](https://brand.1hubengineering.com/docs/guidelines.html): Proposed brand standards, illustrations and historical-source notes.
 
-- [Full source guide as Markdown](https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md): All original guideline text, tables and illustration links with a current-status preface.
+- [Full source guide as Markdown](https://brand.1hubengineering.com/assets/ai/guidelines.md): All original guideline text, tables and illustration links with a current-status preface.
 
 ## Find resources
 
-- [Asset catalog](https://1hubengineering.github.io/branding-guideline/assets/catalog.json): Searchable resource records with file paths, formats, previews and checksums. Resolve relative paths against https://1hubengineering.github.io/branding-guideline/
-- [Asset library](https://1hubengineering.github.io/branding-guideline/assets.html): Browse, preview and download logos, images, fonts, motion, templates, QR codes and AI resources.
-- [Reconstructed artwork spec](https://1hubengineering.github.io/branding-guideline/assets/brand-spec.json): Layouts, treatments, RGB colors and source limitations.
+- [Asset catalog](https://brand.1hubengineering.com/assets/catalog.json): Searchable resource records with file paths, formats, previews and checksums. Resolve relative paths against https://brand.1hubengineering.com/
+- [Asset library](https://brand.1hubengineering.com/assets.html): Browse, preview and download logos, images, fonts, motion, templates, QR codes and AI resources.
+- [Reconstructed artwork spec](https://brand.1hubengineering.com/assets/brand-spec.json): Layouts, treatments, RGB colors and source limitations.
 
 ## Optional workflows
 
-- [AI integration guide](https://1hubengineering.github.io/branding-guideline/docs/ai.html): Use URLs or attachments, a reusable skill, or the local read-only MCP adapter.
-- [Reusable AndHub brand skill](https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md): Scoped instructions for AndHub brand work.
-- [Local stdio MCP adapter](https://1hubengineering.github.io/branding-guideline/assets/ai/mcp-server.mjs): Run with Node.js 22+ from a downloaded checkout or portable AI bundle. This is not a hosted HTTP MCP endpoint.
+- [AI integration guide](https://brand.1hubengineering.com/docs/ai.html): Use URLs or attachments, a reusable skill, or the local read-only MCP adapter.
+- [Reusable AndHub brand skill](https://brand.1hubengineering.com/assets/ai/andhub-brand/SKILL.md): Scoped instructions for AndHub brand work.
+- [Local stdio MCP adapter](https://brand.1hubengineering.com/assets/ai/mcp-server.mjs): Run with Node.js 22+ from a downloaded checkout or portable AI bundle. This is not a hosted HTTP MCP endpoint.
 
 ## Scope and provenance
 
@@ -36,5 +36,5 @@ Current company data and proposed brand standards for assistants creating AndHub
 
 ## Motion selection
 
-- [AndHub primary logo animation / 1080p](https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4): Primary logo animation.
+- [AndHub primary logo animation / 1080p](https://brand.1hubengineering.com/assets/videos/ANDHUB_Logo_Animation_1080p.mp4): Primary logo animation.
 - All other video files are tests/experiments retained for reference, not alternative primary animations.

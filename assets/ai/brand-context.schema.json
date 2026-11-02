@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.schema.json",
+  "$id": "https://brand.1hubengineering.com/assets/ai/brand-context.schema.json",
   "title": "AndHub current brand context",
   "type": "object",
   "required": ["schema_version", "name", "short_name", "tagline", "content", "services", "contact", "leadership", "motion", "socials", "visual_identity", "writing", "accessibility", "source_priority", "approval_status", "entrypoints"],

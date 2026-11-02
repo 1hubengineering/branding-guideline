@@ -1,12 +1,12 @@
 # Complete AndHub guideline — source transcription
 
-This is the full original proposed guide, including its cover, 17 chapters, tables and illustration links. The historical text is preserved; references to vector masters or missing font files describe the situation when it was written. Reconstructed artwork and licensed font downloads now exist, and the artwork still requires approval. Current company copy, contact details and configured social destinations are in [brand.json](https://1hubengineering.github.io/branding-guideline/assets/brand.json) and [brand-context.json](https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.json). The current user request takes precedence.
+This is the full original proposed guide, including its cover, 17 chapters, tables and illustration links. The historical text is preserved; references to vector masters or missing font files describe the situation when it was written. Reconstructed artwork and licensed font downloads now exist, and the artwork still requires approval. Current company copy, contact details and configured social destinations are in [brand.json](https://brand.1hubengineering.com/assets/brand.json) and [brand-context.json](https://brand.1hubengineering.com/assets/ai/brand-context.json). The current user request takes precedence.
 
-Source: [web edition](https://1hubengineering.github.io/branding-guideline/docs/guidelines.html) and [original PDF](https://1hubengineering.github.io/branding-guideline/assets/documents/AndHub_Engineering_Brand_Guidelines_v1.pdf).
+Source: [web edition](https://brand.1hubengineering.com/docs/guidelines.html) and [original PDF](https://brand.1hubengineering.com/assets/documents/AndHub_Engineering_Brand_Guidelines_v1.pdf).
 
 ---
 
-Current motion selection: [AndHub primary logo animation / 1080p](https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4) is the primary logo animation. All other video files are tests/experiments retained for reference.
+Current motion selection: [AndHub primary logo animation / 1080p](https://brand.1hubengineering.com/assets/videos/ANDHUB_Logo_Animation_1080p.mp4) is the primary logo animation. All other video files are tests/experiments retained for reference.
 
 ANDHUB / BRAND SYSTEM
 
@@ -14,7 +14,7 @@ ANDHUB / BRAND SYSTEM
 
 Software development. Systems engineering. Consultancy.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image1.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image1.png)
 
 | **IDEAS. ENGINEERED.**<br>A consistent identity for clear thinking, connected systems and practical technology. |
 | --- |
@@ -29,7 +29,7 @@ Prepared for AndHub Engineering PLC. Strategy, usage rules and application examp
 
 This guide translates the supplied logo board into everyday decisions for design, communication and delivery.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image2.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image2.png)
 
 Source reference: the original identity board. Its gradients, lighting and backgrounds are presentation treatments, not separately supplied production assets. [1]
 
@@ -122,7 +122,7 @@ Lead with the problem or outcome, then explain the approach. Use active sentence
 
 Use the existing identity consistently before adding new variants.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image3.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image3.png)
 
 Reference crops from the supplied board. The illustrations are not transparent or vector logo exports. [1]
 
@@ -141,7 +141,7 @@ For small navigation bars and signatures, prepare a compact horizontal master co
 
 The minimums below are starting standards; verify legibility again once the vector master exists.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image4.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image4.png)
 
 H = visible monogram height. Minimum clear space x = H ÷ 4 on all sides of the complete lockup, including its tagline.
 
@@ -296,7 +296,7 @@ Inter is distributed under the SIL Open Font License. Obtain font files from the
 
 Use the logo’s sense of connection and precision without turning every layout into a technical diagram.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image5.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image5.png)
 
 Layout schematic: one main message, aligned modules, restrained accents and clear information hierarchy.
 
@@ -323,7 +323,7 @@ Prefer relevant software screens, real working environments, useful system diagr
 
 A suggested website direction—not a claim that this website or delivery process already exists.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image6.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image6.png)
 
 Illustrative homepage layout using the provided logo reference. “Define / Design / Deliver” is a proposed messaging structure, not an asserted company process.
 
@@ -347,7 +347,7 @@ The companion CSS token file implements this guide’s proposed palette, spacing
 
 Keep the brand recognizable while leaving room for the client, project and technical content.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image7.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image7.png)
 
 Illustrative proposal and contact-card direction. All bracketed details are placeholders; no contact information or client relationship is asserted.
 
@@ -367,7 +367,7 @@ For forms and transactional documents, accuracy outranks decoration. Do not plac
 
 Build recognition through useful technical communication—not visual noise or unsupported claims.
 
-![Illustration from the original brand guide; explained in the adjacent text](https://1hubengineering.github.io/branding-guideline/assets/images/guide/image8.png)
+![Illustration from the original brand guide; explained in the adjacent text](https://brand.1hubengineering.com/assets/images/guide/image8.png)
 
 Illustrative presentation opening and content categories. The project-story card deliberately requires a verified outcome.
 
@@ -514,7 +514,7 @@ Keep this page close when briefing designers, developers, writers and print supp
 
 ### Basis and references
 
-[1] Company-supplied visual source: [“AndHub Engineering Brand Identity Board.png,”](https://1hubengineering.github.io/branding-guideline/assets/images/reference/AndHub%20Engineering%20Brand%20Identity%20Board.png) 1536 × 1024 pixels. Supplies the logo references, displayed tagline and printed palette labels.
+[1] Company-supplied visual source: [“AndHub Engineering Brand Identity Board.png,”](https://brand.1hubengineering.com/assets/images/reference/AndHub%20Engineering%20Brand%20Identity%20Board.png) 1536 × 1024 pixels. Supplies the logo references, displayed tagline and printed palette labels.
 
 [2] Company description supplied in the brief: AndHub Engineering PLC is a software development, system engineering and consultancy company/firm. “Systems engineering” is the recommended editorial service label in this guide.
 

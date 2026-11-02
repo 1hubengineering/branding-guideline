@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
-const canonical = 'https://1hubengineering.github.io/branding-guideline/';
+const canonical = JSON.parse(await readFile(join(root,'assets/brand.json'),'utf8')).site_url;
 const protocolVersion = '2025-11-25';
 let initialized = false;
 let ready = false;

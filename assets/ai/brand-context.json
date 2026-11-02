@@ -1,5 +1,5 @@
 {
-  "$schema": "https://1hubengineering.github.io/branding-guideline/assets/ai/brand-context.schema.json",
+  "$schema": "https://brand.1hubengineering.com/assets/ai/brand-context.schema.json",
   "schema_version": "1.0",
   "name": "AndHub Engineering PLC",
   "short_name": "AndHub",
@@ -58,7 +58,7 @@
     "primary_poster": "assets/images/motion/ANDHUB_Final_Frame.png",
     "other_videos_status": "experimental",
     "usage": "Use the primary logo animation for brand communication. All other video files are tests or experiments retained for reference, not alternative primary animations.",
-    "primary_animation_url": "https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4"
+    "primary_animation_url": "https://brand.1hubengineering.com/assets/videos/ANDHUB_Logo_Animation_1080p.mp4"
   },
   "socials": {
     "handle": "1hubengineering",
@@ -282,17 +282,17 @@
   ],
   "approval_status": "The original artwork remains a reconstruction for review. Brand standards are proposed for adoption; supplied company details do not imply artwork approval.",
   "entrypoints": {
-    "home": "https://1hubengineering.github.io/branding-guideline/",
-    "ai_guide": "https://1hubengineering.github.io/branding-guideline/docs/ai.html",
-    "discovery": "https://1hubengineering.github.io/branding-guideline/llms.txt",
-    "plain_text": "https://1hubengineering.github.io/branding-guideline/llms-full.txt",
-    "company_data": "https://1hubengineering.github.io/branding-guideline/assets/brand.json",
-    "artwork_spec": "https://1hubengineering.github.io/branding-guideline/assets/brand-spec.json",
-    "catalog": "https://1hubengineering.github.io/branding-guideline/assets/catalog.json",
-    "gallery": "https://1hubengineering.github.io/branding-guideline/assets.html",
-    "complete_guidelines": "https://1hubengineering.github.io/branding-guideline/docs/guidelines.html",
-    "complete_guidelines_text": "https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md",
-    "reusable_skill": "https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md",
-    "mcp_adapter": "https://1hubengineering.github.io/branding-guideline/assets/ai/mcp-server.mjs"
+    "home": "https://brand.1hubengineering.com/",
+    "ai_guide": "https://brand.1hubengineering.com/docs/ai.html",
+    "discovery": "https://brand.1hubengineering.com/llms.txt",
+    "plain_text": "https://brand.1hubengineering.com/llms-full.txt",
+    "company_data": "https://brand.1hubengineering.com/assets/brand.json",
+    "artwork_spec": "https://brand.1hubengineering.com/assets/brand-spec.json",
+    "catalog": "https://brand.1hubengineering.com/assets/catalog.json",
+    "gallery": "https://brand.1hubengineering.com/assets.html",
+    "complete_guidelines": "https://brand.1hubengineering.com/docs/guidelines.html",
+    "complete_guidelines_text": "https://brand.1hubengineering.com/assets/ai/guidelines.md",
+    "reusable_skill": "https://brand.1hubengineering.com/assets/ai/andhub-brand/SKILL.md",
+    "mcp_adapter": "https://brand.1hubengineering.com/assets/ai/mcp-server.mjs"
   }
 }

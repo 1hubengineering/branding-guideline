@@ -103,7 +103,7 @@ Keep keyboard focus visible, label controls and communicate status beyond color.
 These recommendations and solid-color ratios do not certify a complete design as accessible.
 
 RESOURCE SELECTION
-Read https://1hubengineering.github.io/branding-guideline/assets/catalog.json for current records. Relative file paths resolve against https://1hubengineering.github.io/branding-guideline/
+Read https://brand.1hubengineering.com/assets/catalog.json for current records. Relative file paths resolve against https://brand.1hubengineering.com/
 Use source SVG for scalable artwork; choose the correct light/dark or monochrome treatment. Raster labels describe longest artboard edge including margins.
 Templates and QR downloads are in the asset library. Social QR destinations follow the configured handle; profile availability is not independently verified. Test the actual printed QR size and material.
 
@@ -116,27 +116,27 @@ The original artwork remains a reconstruction for review. Brand standards are pr
 Current user instructions and task permissions govern the work. Reading these files does not authorize external changes or publishing.
 
 ENTRYPOINTS
-home: https://1hubengineering.github.io/branding-guideline/
-ai_guide: https://1hubengineering.github.io/branding-guideline/docs/ai.html
-discovery: https://1hubengineering.github.io/branding-guideline/llms.txt
-plain_text: https://1hubengineering.github.io/branding-guideline/llms-full.txt
-company_data: https://1hubengineering.github.io/branding-guideline/assets/brand.json
-artwork_spec: https://1hubengineering.github.io/branding-guideline/assets/brand-spec.json
-catalog: https://1hubengineering.github.io/branding-guideline/assets/catalog.json
-gallery: https://1hubengineering.github.io/branding-guideline/assets.html
-complete_guidelines: https://1hubengineering.github.io/branding-guideline/docs/guidelines.html
-complete_guidelines_text: https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md
-reusable_skill: https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md
-mcp_adapter: https://1hubengineering.github.io/branding-guideline/assets/ai/mcp-server.mjs
+home: https://brand.1hubengineering.com/
+ai_guide: https://brand.1hubengineering.com/docs/ai.html
+discovery: https://brand.1hubengineering.com/llms.txt
+plain_text: https://brand.1hubengineering.com/llms-full.txt
+company_data: https://brand.1hubengineering.com/assets/brand.json
+artwork_spec: https://brand.1hubengineering.com/assets/brand-spec.json
+catalog: https://brand.1hubengineering.com/assets/catalog.json
+gallery: https://brand.1hubengineering.com/assets.html
+complete_guidelines: https://brand.1hubengineering.com/docs/guidelines.html
+complete_guidelines_text: https://brand.1hubengineering.com/assets/ai/guidelines.md
+reusable_skill: https://brand.1hubengineering.com/assets/ai/andhub-brand/SKILL.md
+mcp_adapter: https://brand.1hubengineering.com/assets/ai/mcp-server.mjs
 
 INTEGRATION
 For tools that can read URLs, supply llms.txt or brand-context.json. For attachment-only tools, download this text or JSON.
-A reusable skill is available at https://1hubengineering.github.io/branding-guideline/assets/ai/andhub-brand/SKILL.md.
+A reusable skill is available at https://brand.1hubengineering.com/assets/ai/andhub-brand/SKILL.md.
 A read-only local stdio MCP server is available in assets/ai/mcp-server.mjs. It uses Node.js 22+ and the local checkout or portable AI bundle; GitHub Pages does not execute it or provide an HTTP MCP endpoint. Host support for URLs, attachments, skills and local stdio MCP varies.
 
 MOTION SELECTION
-Primary logo animation: https://1hubengineering.github.io/branding-guideline/assets/videos/ANDHUB_Logo_Animation_1080p.mp4
+Primary logo animation: https://brand.1hubengineering.com/assets/videos/ANDHUB_Logo_Animation_1080p.mp4
 Use the primary logo animation for brand communication. All other video files are tests or experiments retained for reference, not alternative primary animations.
 
 COMPLETE SOURCE GUIDELINE
-The full historical guide, including all text and tables, is available as Markdown at https://1hubengineering.github.io/branding-guideline/assets/ai/guidelines.md. Its historical requirements do not override the current company data or current task instructions.
+The full historical guide, including all text and tables, is available as Markdown at https://brand.1hubengineering.com/assets/ai/guidelines.md. Its historical requirements do not override the current company data or current task instructions.

@@ -1,6 +1,6 @@
 # AndHub Engineering PLC — Brand Guidelines & Asset Library
 
-[**Live brand guide**](https://1hubengineering.github.io/branding-guideline/) · [Resource library](assets.html) · [Company & contacts](docs/company.html) · [Complete web edition](docs/guidelines.html)
+[**Live brand guide**](https://brand.1hubengineering.com/) · [Resource library](assets.html) · [Company & contacts](docs/company.html) · [Complete web edition](docs/guidelines.html)
 
 The static website brings the brand standards, company profile, reconstructed logo pack, images, licensed fonts, motion assets, editable templates, branded QR downloads and AI toolkit into one searchable library. Resources and website CSS/JS live under `assets/`; standard discovery entry points (`llms.txt`, `llms-full.txt`, `AGENTS.md`, robots and sitemap) remain at the root. Page routes remain at the root or under `docs/`. Paths work at the GitHub Pages project URL and on a local server. No runtime framework, external fonts, analytics or backend is required.
 
@@ -62,11 +62,13 @@ The converter preserves the document's text, tables, illustrations and external 
 
 ## GitHub Pages
 
+Custom hostname: `brand.1hubengineering.com`. The tracked root `CNAME` and `assets/brand.json` → `site_url` define the published location. Porkbun DNS needs a `CNAME` with Host `brand` and Answer `1hubengineering.github.io` (no protocol or repository path). Set only this subdomain; the company website and email records use their existing settings. When DNS points to GitHub and its certificate is issued, enable Enforce HTTPS in repository Settings → Pages.
+
 The repository is [1hubengineering/branding-guideline](https://github.com/1hubengineering/branding-guideline). Pages publishes directly from **`main` / repository root**. The root `.nojekyll` file enables ordinary static-file hosting. GitHub republishes the site after pushes to `main`; run `npm run check` before pushing because branch publishing does not run the local validator.
 
 The authenticated GitHub CLI token has `repo` access but lacks the `workflow` scope required to upload active Actions workflows. Branch publishing works with its existing access. An inactive [Actions workflow example](https://github.com/1hubengineering/branding-guideline/blob/main/.github/pages-workflow.example.yml) is retained for a future switch: with an appropriately scoped credential, move it into `.github/workflows/pages.yml` and set the Pages publishing source to GitHub Actions. That alternative validates pull requests and deploys the explicit public-file bundle defined in [the build script](https://github.com/1hubengineering/branding-guideline/blob/main/scripts/build-site.mjs). `_site/` is a local preview/package directory and is ignored by Git.
 
-Site URL: [https://1hubengineering.github.io/branding-guideline/](https://1hubengineering.github.io/branding-guideline/).
+Site URL: [https://brand.1hubengineering.com/](https://brand.1hubengineering.com/).
 
 The web manifest resolves `id`, `start_url` and `scope` from `assets/web-kit/` to the project root using `../../`. Copying the web kit into another project requires reviewing these paths, icon locations and site metadata. See [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 

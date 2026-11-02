@@ -4,6 +4,8 @@ import { join, dirname, relative } from 'node:path';
 import { entries, root, walk } from './build-site.mjs';
 
 const errors = [];
+const siteBrand = JSON.parse(await readFile(join(root, 'assets/brand.json'), 'utf8'));
+if ((await readFile(join(root, 'CNAME'), 'utf8')).trim() !== new URL(siteBrand.site_url).hostname) errors.push('CNAME differs from the configured brand site URL.');
 const files = [];
 for (const entry of entries) {
   const path = join(root, entry);

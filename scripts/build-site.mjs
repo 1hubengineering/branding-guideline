@@ -3,7 +3,7 @@ import { resolve, join } from 'node:path';
 
 export const root = resolve(import.meta.dirname, '..');
 export const entries = [
-  'index.html', 'assets.html', '.nojekyll', 'README.md',
+  'index.html', 'assets.html', '.nojekyll', 'CNAME', 'README.md',
   'AGENTS.md', 'llms.txt', 'llms-full.txt', 'robots.txt', 'sitemap.xml',
   'assets', 'docs',
 ];
